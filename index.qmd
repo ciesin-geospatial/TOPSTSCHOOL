@@ -14,5 +14,5 @@ Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [
 
 Learn about our recent work: [Blog Posts](/about.qmd#blog) • [Presentations](/about.qmd#slides) • [Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs) 
 
-Please connect with us at [TOPSTSCHOOL@gmail.com](mailto:TOPSTSCHOOL@gmail.com)
+Please connect with us at [TOPSTSCHOOL@gmail.com](mailto:TOPSTSCHOOL@gmail.com) 
  
