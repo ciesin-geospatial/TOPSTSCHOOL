@@ -30,18 +30,18 @@ website:
       href: https://github.com/NASA-Openscapes
     - icon: twitter
       href: https://twitter.com/openscapes
-sidebar:
-    title: "NASA Earthdata Cloud Cookbook"
-    logo: images/nasa-openscapes.png
-    pinned: true
-    align: center
-    tools: 
-      - icon: globe
-        href: https://nasa-openscapes.github.io
-        text: "NASA-Openscapes website"
-      - icon: github
-        href: https://github.com/nasa-openscapes/earthdata-cloud-cookbook
-        text: "Earthdata Cloud Cookbook repo"
+  sidebar:
+      title: "NASA Earthdata Cloud Cookbook"
+      logo: images/nasa-openscapes.png
+      pinned: true
+      align: center
+      tools: 
+        - icon: globe
+          href: https://nasa-openscapes.github.io
+          text: "NASA-Openscapes website"
+        - icon: github
+          href: https://github.com/nasa-openscapes/earthdata-cloud-cookbook
+          text: "Earthdata Cloud Cookbook repo"
 format:
   html:
     theme: [sandstone, custom.scss]
