@@ -2,17 +2,17 @@ project:
   type: website
 
 website:
-  title: "NASA-Openscapes"
-  site-url: https://nasa-openscapes.github.io/
-  favicon: images/openscapes_hex.png  
+  title: "TOPSTSCHOOL"
+  site-url: https://ciesin-geospatial.github.io/TOPSTSCHOOL/
+  favicon: images/TOPTSCHOOL-logo02.hi-res.png  
   
   page-footer: 
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
-    left: "&copy; CC-By NASA Openscapes"
+    right: "This page is built with ❤️ help from [NASA Openscapes](https://nasa-openscapes.github.io/), and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
+    left: "&copy; CC-By TOPSTSCHOOL Development Team"
  
   navbar:
-    logo: images/openscapes_hex.png
-    href: https://openscapes.org
+    logo: images/TOPTSCHOOL-logo02.hi-res.png
+    href: https://ciesin-geospatial.github.io/TOPSTSCHOOL/
     right:
     # - text: "Home"
     #   href: index.html
@@ -27,9 +27,9 @@ website:
     - text: "Events"
       href: events.qmd
     - icon: github
-      href: https://github.com/NASA-Openscapes
-    - icon: twitter
-      href: https://twitter.com/openscapes
+      href: https://github.com/ciesin-geospatial/TOPSTSCHOOL
+    - icon: YouTube
+      href: https://www.youtube.com/channel/UCOIrczFd7_ht2bNUQ3qnM8w
   sidebar:
       title: "NASA Earthdata Cloud Cookbook"
       logo: images/nasa-openscapes.png
