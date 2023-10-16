@@ -28,7 +28,7 @@ website:
       href: events.qmd
     - icon: github
       href: https://github.com/ciesin-geospatial/TOPSTSCHOOL
-    - icon: YouTube
+    - icon: youtube
       href: https://www.youtube.com/channel/UCOIrczFd7_ht2bNUQ3qnM8w
   sidebar:
       title: "NASA Earthdata Cloud Cookbook"
