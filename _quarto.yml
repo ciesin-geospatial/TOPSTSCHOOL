@@ -31,17 +31,17 @@ website:
     - icon: youtube
       href: https://www.youtube.com/channel/UCOIrczFd7_ht2bNUQ3qnM8w
   sidebar:
-      title: "NASA Earthdata Cloud Cookbook"
-      logo: images/nasa-openscapes.png
+      title: "TOPSTSCHOOL"
+      logo: images/TOPTSCHOOL-logo02.hi-res.png
       pinned: true
       align: center
       tools: 
         - icon: globe
-          href: https://nasa-openscapes.github.io
-          text: "NASA-Openscapes website"
+          href: https://ciesin-geospatial.github.io/TOPSTSCHOOL/
+          text: "TOPSTSCHOOL GitHub io"
         - icon: github
-          href: https://github.com/nasa-openscapes/earthdata-cloud-cookbook
-          text: "Earthdata Cloud Cookbook repo"
+          href: https://github.com/ciesin-geospatial/TOPSTSCHOOL
+          text: "TOPSTSCHOOL GitHub repo"
 format:
   html:
     theme: [sandstone, custom.scss]
