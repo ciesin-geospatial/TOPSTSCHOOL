@@ -33,7 +33,7 @@ website:
   sidebar:
       title: "TOPSTSCHOOL"
       logo: images/TOPTSCHOOL-logo02.hi-res.png
-      pinned: true
+      pinned: false
       align: center
       tools: 
         - icon: globe
