@@ -1,4 +1,4 @@
-<center><a><img src="images/nasa-openscapes.png" alt="NASA logo to left of Openscapes logo" width="300px"/></a></center>
+<center><a><img src="images/TOPTSCHOOL-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center>
 
 <center><h1>TOPSTSCHOOL</h1><br>
 <h2>Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative<br>
@@ -16,9 +16,10 @@ Project announcements: [TOPSTSCHOOL](https://ciesin-geospatial.github.io/TOPSTSC
 Learn about our recent work: 
 [Blog Posts](/about.qmd#blog) • 
 [Presentations](/about.qmd#slides) • 
-[Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • 
-[Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • 
-[White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs) 
+[SEDAC](https://sedac.ciesin.columbia.edu/) • 
+[CIESIN](https://www.ciesin.columbia.edu/index.html) • 
+[iSciences](https://www.isciences.com/) •
+[Baruch College](https://www.baruch.cuny.edu/)
 
 Please connect with us at [TOPSTSCHOOL@gmail.com](mailto:TOPSTSCHOOL@gmail.com) 
  
