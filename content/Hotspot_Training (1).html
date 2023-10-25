@@ -235,6 +235,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: <span class="st">"HOTSPOT VULNERABILITY ANALYSIS"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">format</span>: </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  html:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    code<span class="op">-</span>fold: true</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>jupyter: python3</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>Entrenamiento provedido en Español <br> Training offered in English</p>
 <p><img src="https://www.ciesin.columbia.edu/images/logo_sm.png"></p>
 <section id="hotspot-vulnerability-analysis---i-guide-workshop-2023-new-york" class="level1">
@@ -246,24 +255,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="start-below-install-libraries-required-for-this-tutorial" class="level3">
 <h3 class="anchored" data-anchor-id="start-below-install-libraries-required-for-this-tutorial">Start Below: Install libraries required for this tutorial</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install geopandas rasterio matplotlib numpy pandas rasterstats scipy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pip install geopandas rasterio matplotlib numpy pandas rasterstats scipy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><font color="green">importar bibliotecas requeridas para este tutorial<br></font> import libraries required for this tutorial</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Image</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rasterio</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio <span class="im">import</span> mask</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.plot <span class="im">import</span> show</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.plot <span class="im">import</span> show_hist</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterstats <span class="im">import</span> zonal_stats</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> boxcox</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Image</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rasterio</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio <span class="im">import</span> mask</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.plot <span class="im">import</span> show</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.plot <span class="im">import</span> show_hist</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterstats <span class="im">import</span> zonal_stats</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> boxcox</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="la-capacitación-sobre-vulnerabilidad-de-hotspot-proporcionará-una-capacitación-integral-en-el-marco-los-datos-y-los-métodos-utilizados-para-desarrollar-una-evaluación-de-vulnerabilidad-espacial.-este-módulo-de-capacitación-le-enseña-al-usuario-cómo-identificar-las-áreas-que-se-consideran-más-vulnerables-dentro-de-un-conjunto-determinado-de-métricas-o-indicadores.-la-capacitación-utilizará-software-y-datos-de-acceso-abierto-para-demostrar-cómo-desarrollar-un-producto-final-de-análisis-de-puntos-críticos-utilizando-diferentes-fuentes-y-formatos-de-datos.-la-formación-tendrá-tres-etapas" class="level3">
@@ -332,101 +341,101 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h4 class="anchored" data-anchor-id="importar-archivos-shapefile-tabla-y-tres-geotiffs."><font color="green">Importar archivos –shapefile, tabla, y tres geoTiffs.</font></h4>
 <p><font color="green">Zonas utilizadas para delimitar zonas. Los valores de zona deben ser números enteros:<br><br></font> #### Import files –shapefile, table, and three geoTiffs. Zones used to delineate zones. Zone Values should be integers:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#assing shapefile to zones</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>zones <span class="op">=</span> gpd.read_file(<span class="st">"/vsicurl/https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/Col_CAUCA_municip.shp"</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#vista previa de las primeras cinco filas</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#preview first five rows</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>zones.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#assing shapefile to zones</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>zones <span class="op">=</span> gpd.read_file(<span class="st">"/vsicurl/https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/Col_CAUCA_municip.shp"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#vista previa de las primeras cinco filas</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#preview first five rows</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>zones.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Importar tabla índice de pobreza multidimensional (IPM)</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Import multidimensional poverty index table (IPM)</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>IPM <span class="op">=</span> pd.read_csv(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/cauca_IPM.csv"</span>, index_col<span class="op">=</span><span class="va">False</span>, decimal<span class="op">=</span><span class="st">","</span>)</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>IPM.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Importar tabla índice de pobreza multidimensional (IPM)</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Import multidimensional poverty index table (IPM)</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>IPM <span class="op">=</span> pd.read_csv(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/cauca_IPM.csv"</span>, index_col<span class="op">=</span><span class="va">False</span>, decimal<span class="op">=</span><span class="st">","</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>IPM.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#lista de columnas</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#column list</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>IPM.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#lista de columnas</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#column list</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>IPM.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Ver los variables unicos en la columna 'clase'</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#View the unique variables in column 'clase' (class)</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>IPM[<span class="st">"clase"</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Ver los variables unicos en la columna 'clase'</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#View the unique variables in column 'clase' (class)</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>IPM[<span class="st">"clase"</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#tabla de subconjuntos para incluir solo filas con 'Total' en la columna 'clase'</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#subset table to include only rows with 'Total' in the 'class' column</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>IPM  <span class="op">=</span> IPM[IPM[<span class="st">"clase"</span>] <span class="op">==</span> <span class="st">"Total"</span>]</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>IPM.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#tabla de subconjuntos para incluir solo filas con 'Total' en la columna 'clase'</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#subset table to include only rows with 'Total' in the 'class' column</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>IPM  <span class="op">=</span> IPM[IPM[<span class="st">"clase"</span>] <span class="op">==</span> <span class="st">"Total"</span>]</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>IPM.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#seleccione solo las columnas de código municipal, nombre e IPM</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#select only the columns for municipal code, name and IPM</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>IPM <span class="op">=</span> IPM[[<span class="st">"cod_municipio"</span>, <span class="st">"municipio"</span>, <span class="st">"ipm"</span>]]</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co">#cambiar el nombre de la columna del código municipal a 'MID'</span></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co">#rename municipal code column to 'MID'</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>IPM <span class="op">=</span> IPM.rename(columns<span class="op">=</span>{<span class="st">"cod_municipio"</span>: <span class="st">"MID"</span>})</span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>IPM.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#seleccione solo las columnas de código municipal, nombre e IPM</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">#select only the columns for municipal code, name and IPM</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>IPM <span class="op">=</span> IPM[[<span class="st">"cod_municipio"</span>, <span class="st">"municipio"</span>, <span class="st">"ipm"</span>]]</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co">#cambiar el nombre de la columna del código municipal a 'MID'</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co">#rename municipal code column to 'MID'</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>IPM <span class="op">=</span> IPM.rename(columns<span class="op">=</span>{<span class="st">"cod_municipio"</span>: <span class="st">"MID"</span>})</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>IPM.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#archivos de datos utilizados para realizar estadísticas zonales</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">#files of data used to perform zonal statistics</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Temperatura de la superficie terrestre (LST)</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Land Surface Temperature (LST)</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>LST <span class="op">=</span> rasterio.<span class="bu">open</span>(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/summer_LST.tif"</span>)</span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co">#disponibilidad de agua dulce (agua)</span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co">#freshwater availability (water)</span></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>water <span class="op">=</span> rasterio.<span class="bu">open</span>(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/freshwater.tif"</span>)</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co">#partículas de ozono 2.5 (PM25)</span></span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co">#ozone particulate matter 2.5 (PM25)</span></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>PM25 <span class="op">=</span> rasterio.<span class="bu">open</span>(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/PM25.tif"</span>)</span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="co">#leer banda 1 del ráster LST</span></span>
-<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="co">#read LST raster band 1</span></span>
-<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>LST_data <span class="op">=</span> LST.read(<span class="dv">1</span>, masked<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="co">#leer banda 1 del ráster water</span></span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="co">#read water raster band 1</span></span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>water_data <span class="op">=</span> water.read(<span class="dv">1</span>, masked<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="co">#leer banda 1 del ráster PM25</span></span>
-<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a><span class="co">#read PM25 raster band 1</span></span>
-<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>PM25_data <span class="op">=</span> PM25.read(<span class="dv">1</span>, masked<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#archivos de datos utilizados para realizar estadísticas zonales</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#files of data used to perform zonal statistics</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Temperatura de la superficie terrestre (LST)</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Land Surface Temperature (LST)</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>LST <span class="op">=</span> rasterio.<span class="bu">open</span>(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/summer_LST.tif"</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co">#disponibilidad de agua dulce (agua)</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co">#freshwater availability (water)</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>water <span class="op">=</span> rasterio.<span class="bu">open</span>(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/freshwater.tif"</span>)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co">#partículas de ozono 2.5 (PM25)</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="co">#ozone particulate matter 2.5 (PM25)</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>PM25 <span class="op">=</span> rasterio.<span class="bu">open</span>(<span class="st">"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/PM25.tif"</span>)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="co">#leer banda 1 del ráster LST</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="co">#read LST raster band 1</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>LST_data <span class="op">=</span> LST.read(<span class="dv">1</span>, masked<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="co">#leer banda 1 del ráster water</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a><span class="co">#read water raster band 1</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>water_data <span class="op">=</span> water.read(<span class="dv">1</span>, masked<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="co">#leer banda 1 del ráster PM25</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a><span class="co">#read PM25 raster band 1</span></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>PM25_data <span class="op">=</span> PM25.read(<span class="dv">1</span>, masked<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#create a plot with 1 row and 4 columns limiting size to 20 by 5</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">4</span>, figsize <span class="op">=</span> (<span class="dv">20</span>,<span class="dv">5</span>))</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">#traza el archivo de forma de zonas en la primera columna llamada ax[0]</span></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the zones shapefile in the first column named ax[0]</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>zones.plot(cmap <span class="op">=</span> <span class="st">'rainbow'</span>, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co">#trazar rásteres en el resto de las columnas</span></span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="co">#plot rasters in the rest of the columns</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>im1 <span class="op">=</span> ax[<span class="dv">1</span>].imshow(LST_data, cmap<span class="op">=</span><span class="st">'plasma'</span>)</span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>im2 <span class="op">=</span> ax[<span class="dv">2</span>].imshow(water_data, cmap<span class="op">=</span><span class="st">'GnBu'</span>)</span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>im3 <span class="op">=</span> ax[<span class="dv">3</span>].imshow(PM25_data, cmap<span class="op">=</span><span class="st">'viridis'</span>)</span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="co">#establecer títulos para gráficos</span></span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="co">#set titles for graphs</span></span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">'Cauca - Municipalidades'</span>, wrap<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">'Cauca - Temperatura de la</span><span class="ch">\n</span><span class="st">superficie terrestre de verano'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">'Cauca - Disponibilidad de</span><span class="ch">\n</span><span class="st">agua dulce'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">'Cauca - Material particulado 2.5</span><span class="ch">\n</span><span class="st">(PM2.5)'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a><span class="co">#barra de colores para rásteres</span></span>
-<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a><span class="co">#color bar for rasters</span></span>
-<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im1, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
-<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im2, ax<span class="op">=</span>ax[<span class="dv">2</span>])</span>
-<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im3, ax<span class="op">=</span>ax[<span class="dv">3</span>])</span>
-<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co">#create a plot with 1 row and 4 columns limiting size to 20 by 5</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">4</span>, figsize <span class="op">=</span> (<span class="dv">20</span>,<span class="dv">5</span>))</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co">#traza el archivo de forma de zonas en la primera columna llamada ax[0]</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the zones shapefile in the first column named ax[0]</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>zones.plot(cmap <span class="op">=</span> <span class="st">'rainbow'</span>, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co">#trazar rásteres en el resto de las columnas</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="co">#plot rasters in the rest of the columns</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>im1 <span class="op">=</span> ax[<span class="dv">1</span>].imshow(LST_data, cmap<span class="op">=</span><span class="st">'plasma'</span>)</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>im2 <span class="op">=</span> ax[<span class="dv">2</span>].imshow(water_data, cmap<span class="op">=</span><span class="st">'GnBu'</span>)</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>im3 <span class="op">=</span> ax[<span class="dv">3</span>].imshow(PM25_data, cmap<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a><span class="co">#establecer títulos para gráficos</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="co">#set titles for graphs</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">'Cauca - Municipalidades'</span>, wrap<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">'Cauca - Temperatura de la</span><span class="ch">\n</span><span class="st">superficie terrestre de verano'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">'Cauca - Disponibilidad de</span><span class="ch">\n</span><span class="st">agua dulce'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">'Cauca - Material particulado 2.5</span><span class="ch">\n</span><span class="st">(PM2.5)'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a><span class="co">#barra de colores para rásteres</span></span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a><span class="co">#color bar for rasters</span></span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im1, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im2, ax<span class="op">=</span>ax[<span class="dv">2</span>])</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>fig.colorbar(im3, ax<span class="op">=</span>ax[<span class="dv">3</span>])</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="ejemplo-de-una-municipalidad" class="level5">
 <h5 class="anchored" data-anchor-id="ejemplo-de-una-municipalidad"><font color="green">Ejemplo de una municipalidad:</font></h5>
@@ -434,58 +443,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="example-of-one-municipality" class="level5">
 <h5 class="anchored" data-anchor-id="example-of-one-municipality">Example of one Municipality:</h5>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#recorra IDs de zona (MID)</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co">#loop through zone IDs (MID)</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> zones[<span class="st">'MID'</span>][:<span class="dv">1</span>]:</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Printear MID</span></span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Print MID</span></span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"MID:"</span>, i)</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">#obtener forma única de shapefile</span></span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">#get single shape from shapefile</span></span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    roi <span class="op">=</span> zones[zones.MID <span class="op">==</span> i]</span>
-<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">#enmáscarar los rásteres y establezca nodata en -9999</span></span>
-<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    <span class="co">#mask rasters and set nodata to -9999</span></span>
-<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    LST_arr, LSTbound <span class="op">=</span> mask.mask(LST, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
-<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>    water_arr, waterbound <span class="op">=</span> mask.mask(water, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
-<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    PM25_arr, PM25bound <span class="op">=</span> mask.mask(PM25, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
-<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#establezca nodata (-9999) a None</span></span>
-<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Set nodata value (-9999) to None</span></span>
-<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>    LST_arr[LST_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>    water_arr[water_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    PM25_arr[PM25_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="co">#trazar el gráfico</span></span>
-<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the arrays</span></span>
-<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>show(LST_arr)</span>
-<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>show(water_arr)</span>
-<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>show(PM25_arr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-</section>
-<section id="recorra-todos-los-municipios" class="level4">
-<h4 class="anchored" data-anchor-id="recorra-todos-los-municipios"><font color="green">Recorra todos los municipios:</font></h4>
-</section>
-<section id="loop-through-all-municipalities" class="level4">
-<h4 class="anchored" data-anchor-id="loop-through-all-municipalities">Loop through all municipalities:</h4>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Crear marco de datos en blanco para almacenar estadísticas zonales</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Create blank dataframe to store zonal statistics</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(columns <span class="op">=</span>[<span class="st">'MID'</span>,<span class="st">'LST'</span>,<span class="st">'water'</span>,<span class="st">'PM25'</span>])</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co">#recorra IDs de zona (MID)</span></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co">#loop through zone IDs (MID)</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> zones[<span class="st">'MID'</span>]:</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">#obtener fila de municipio único de shapefile</span></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">#get single municipality row from shapefile</span></span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    roi <span class="op">=</span> zones[zones.MID <span class="op">==</span> i]</span>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#recorra IDs de zona (MID)</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co">#loop through zone IDs (MID)</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> zones[<span class="st">'MID'</span>][:<span class="dv">1</span>]:</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Printear MID</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Print MID</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"MID:"</span>, i)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">#obtener forma única de shapefile</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">#get single shape from shapefile</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    roi <span class="op">=</span> zones[zones.MID <span class="op">==</span> i]</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">#enmáscarar los rásteres y establezca nodata en -9999</span></span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Mask rasters with single municipality geometry and set nodata to -9999</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="co">#mask rasters and set nodata to -9999</span></span>
 <span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    LST_arr, LSTbound <span class="op">=</span> mask.mask(LST, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
 <span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    water_arr, waterbound <span class="op">=</span> mask.mask(water, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
 <span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    PM25_arr, PM25bound <span class="op">=</span> mask.mask(PM25, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
@@ -496,44 +467,82 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    water_arr[water_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
 <span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>    PM25_arr[PM25_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
 <span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>    <span class="co">#crear fila para agregar datos de fila al marco de datos</span></span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">#create row to append row data to dataframe</span></span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    row_to_append <span class="op">=</span> pd.DataFrame([{<span class="st">'MID'</span>:i, <span class="st">'LST'</span>: np.nanmean(LST_arr),</span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">'water'</span>:np.nanmean(water_arr),</span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">'PM25'</span>: np.nanmean(PM25_arr)}])</span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">#agregar datos de fila al marco de datos</span></span>
-<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>    <span class="co">#append row data and dataframe</span></span>
-<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.concat([df,row_to_append])</span>
-<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>df.head()</span>
-<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="co">#trazar el gráfico</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the arrays</span></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>show(LST_arr)</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>show(water_arr)</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>show(PM25_arr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="recorra-todos-los-municipios" class="level4">
+<h4 class="anchored" data-anchor-id="recorra-todos-los-municipios"><font color="green">Recorra todos los municipios:</font></h4>
+</section>
+<section id="loop-through-all-municipalities" class="level4">
+<h4 class="anchored" data-anchor-id="loop-through-all-municipalities">Loop through all municipalities:</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Crear marco de datos en blanco para almacenar estadísticas zonales</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Create blank dataframe to store zonal statistics</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(columns <span class="op">=</span>[<span class="st">'MID'</span>,<span class="st">'LST'</span>,<span class="st">'water'</span>,<span class="st">'PM25'</span>])</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co">#recorra IDs de zona (MID)</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co">#loop through zone IDs (MID)</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> zones[<span class="st">'MID'</span>]:</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">#obtener fila de municipio único de shapefile</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">#get single municipality row from shapefile</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    roi <span class="op">=</span> zones[zones.MID <span class="op">==</span> i]</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">#enmáscarar los rásteres y establezca nodata en -9999</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Mask rasters with single municipality geometry and set nodata to -9999</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    LST_arr, LSTbound <span class="op">=</span> mask.mask(LST, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    water_arr, waterbound <span class="op">=</span> mask.mask(water, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    PM25_arr, PM25bound <span class="op">=</span> mask.mask(PM25, roi[<span class="st">"geometry"</span>], crop<span class="op">=</span><span class="va">True</span>, all_touched<span class="op">=</span><span class="va">True</span>, nodata<span class="op">=-</span><span class="dv">9999</span>)</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#establezca nodata (-9999) a None</span></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Set nodata value (-9999) to None</span></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>    LST_arr[LST_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>    water_arr[water_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>    PM25_arr[PM25_arr <span class="op">==-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>    <span class="co">#crear fila para agregar datos de fila al marco de datos</span></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">#create row to append row data to dataframe</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>    row_to_append <span class="op">=</span> pd.DataFrame([{<span class="st">'MID'</span>:i, <span class="st">'LST'</span>: np.nanmean(LST_arr),</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">'water'</span>:np.nanmean(water_arr),</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">'PM25'</span>: np.nanmean(PM25_arr)}])</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">#agregar datos de fila al marco de datos</span></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>    <span class="co">#append row data and dataframe</span></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.concat([df,row_to_append])</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>df.head()</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#combinar table IPM con table df</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co">#comine IPM and df tables</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.merge(IPM,df, on<span class="op">=</span><span class="st">"MID"</span>, how<span class="op">=</span><span class="st">"left"</span>)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#combinar table IPM con table df</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="co">#comine IPM and df tables</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.merge(IPM,df, on<span class="op">=</span><span class="st">"MID"</span>, how<span class="op">=</span><span class="st">"left"</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#histogramas</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="co">#histograms</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>df.hist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#histogramas</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co">#histograms</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>df.hist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#prueba transformaciones</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co">#test out transformations</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> np.power(df[<span class="st">'water'</span>], <span class="fl">1.25</span>)</span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co"># test = boxcox(df['PM25'], lmbda=None)[0]</span></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co"># test = pd.DataFrame(list(test))</span></span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>test.hist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#prueba transformaciones</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co">#test out transformations</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> np.power(df[<span class="st">'water'</span>], <span class="fl">1.25</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="co"># test = boxcox(df['PM25'], lmbda=None)[0]</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># test = pd.DataFrame(list(test))</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>test.hist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#transformar columnas</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co">#transform columns</span></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"water"</span>]<span class="op">=</span> np.power(df[<span class="st">'water'</span>], <span class="fl">1.25</span>)</span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"PM25"</span>]<span class="op">=</span> boxcox(df[<span class="st">'PM25'</span>], lmbda<span class="op">=</span><span class="va">None</span>)[<span class="dv">0</span>]</span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>df.hist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#transformar columnas</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co">#transform columns</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"water"</span>]<span class="op">=</span> np.power(df[<span class="st">'water'</span>], <span class="fl">1.25</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"PM25"</span>]<span class="op">=</span> boxcox(df[<span class="st">'PM25'</span>], lmbda<span class="op">=</span><span class="va">None</span>)[<span class="dv">0</span>]</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>df.hist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
@@ -547,11 +556,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>3. Indexing and Weighting Process</h1>
 <p>Once the average values for each component are calculated for each municipality, each component is indexed from 0 to 100. <br><b>When Low values indicates low deprivation (IPM, LST, and PM 2.5):</b><br> Index = ( Value - Minimum_of_Set ) / ( Maximum_of_Set - Minimum_of_Set ) * 100 <br> <br> <b>High values indicates low deprivation (Water availability): </b><br> Index = ( Value - Maximum_of_Set ) / ( Minimum_of_Set - Maximum_of_Set ) * 100</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'ipm_index'</span>] <span class="op">=</span> (df[<span class="st">'ipm'</span>]<span class="op">-</span>df[<span class="st">'ipm'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'ipm'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'ipm'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'LST_index'</span>] <span class="op">=</span> (df[<span class="st">'LST'</span>]<span class="op">-</span>df[<span class="st">'LST'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'LST'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'LST'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'water_index'</span>] <span class="op">=</span> (df[<span class="st">'water'</span>]<span class="op">-</span>df[<span class="st">'water'</span>].<span class="bu">max</span>())<span class="op">/</span>(df[<span class="st">'water'</span>].<span class="bu">min</span>()<span class="op">-</span> df[<span class="st">'water'</span>].<span class="bu">max</span>())<span class="op">*</span><span class="dv">100</span></span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'PM25_index'</span>] <span class="op">=</span> (df[<span class="st">'PM25'</span>]<span class="op">-</span>df[<span class="st">'PM25'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'PM25'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'PM25'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'ipm_index'</span>] <span class="op">=</span> (df[<span class="st">'ipm'</span>]<span class="op">-</span>df[<span class="st">'ipm'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'ipm'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'ipm'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'LST_index'</span>] <span class="op">=</span> (df[<span class="st">'LST'</span>]<span class="op">-</span>df[<span class="st">'LST'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'LST'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'LST'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'water_index'</span>] <span class="op">=</span> (df[<span class="st">'water'</span>]<span class="op">-</span>df[<span class="st">'water'</span>].<span class="bu">max</span>())<span class="op">/</span>(df[<span class="st">'water'</span>].<span class="bu">min</span>()<span class="op">-</span> df[<span class="st">'water'</span>].<span class="bu">max</span>())<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'PM25_index'</span>] <span class="op">=</span> (df[<span class="st">'PM25'</span>]<span class="op">-</span>df[<span class="st">'PM25'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'PM25'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'PM25'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><font color="green">Los valores ponderados para cada municipio se pueden calcular en función de los datos de entrada. En este caso, asumimos la misma importancia para cada componente (0,25) y lo dividimos por el número de componentes (4).</font></p>
 <section id="hvi_ponderado-imp-025-lst-025-agua-025-pm25-025-4" class="level4">
@@ -561,82 +570,82 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="hvi_weighted-imp-0.25-lst-0.25-water-0.25-pm25-0.25-4" class="level4">
 <h4 class="anchored" data-anchor-id="hvi_weighted-imp-0.25-lst-0.25-water-0.25-pm25-0.25-4"><b>HVI_weighted = (imp * 0.25 + LST * 0.25 + water * 0.25 + PM25 * 0.25 ) / 4</b></h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'HVI_weighted'</span>]<span class="op">=</span> (df[<span class="st">'ipm_index'</span>]<span class="op">*</span> <span class="fl">0.25</span> <span class="op">+</span> df[<span class="st">'LST_index'</span>]<span class="op">*</span> <span class="fl">0.25</span> <span class="op">+</span> df[<span class="st">'water_index'</span>]<span class="op">*</span><span class="fl">0.25</span> <span class="op">+</span> df[<span class="st">'PM25_index'</span>]<span class="op">*</span><span class="fl">0.25</span>)<span class="op">/</span><span class="dv">4</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'HVI_weighted'</span>]<span class="op">=</span> (df[<span class="st">'ipm_index'</span>]<span class="op">*</span> <span class="fl">0.25</span> <span class="op">+</span> df[<span class="st">'LST_index'</span>]<span class="op">*</span> <span class="fl">0.25</span> <span class="op">+</span> df[<span class="st">'water_index'</span>]<span class="op">*</span><span class="fl">0.25</span> <span class="op">+</span> df[<span class="st">'PM25_index'</span>]<span class="op">*</span><span class="fl">0.25</span>)<span class="op">/</span><span class="dv">4</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><font color="green">Indexación final realizada en municipio a partir de los valores ponderados (W):<br> <b> HVI = (HVI_ponderad - Mínimo_de_conjunto ) / ( Máximo_de_conjunto - Mínimo_de_conjunto ) * 100</b></font> <br> <br></p>
 <p>Final Indexing performed on municipality from the weighted values (W):<br> <b>HVI = ( HVI_weighted- Minimum_of_Set ) / ( Maximum_of_Set - Minmum_of_Set ) * 100</b></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'HVI'</span>] <span class="op">=</span> (df[<span class="st">'HVI_weighted'</span>]<span class="op">-</span>df[<span class="st">'HVI_weighted'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'HVI_weighted'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'HVI_weighted'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'HVI'</span>] <span class="op">=</span> (df[<span class="st">'HVI_weighted'</span>]<span class="op">-</span>df[<span class="st">'HVI_weighted'</span>].<span class="bu">min</span>())<span class="op">/</span>(df[<span class="st">'HVI_weighted'</span>].<span class="bu">max</span>()<span class="op">-</span> df[<span class="st">'HVI_weighted'</span>].<span class="bu">min</span>())<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Histograma del índice de vulnerabilidad</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Histogram of Hotspot Vulnerability Index</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"HVI"</span>].hist()</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Cauca - Indice de vulnerabilidad'</span>)</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Histograma del índice de vulnerabilidad</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Histogram of Hotspot Vulnerability Index</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"HVI"</span>].hist()</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Cauca - Indice de vulnerabilidad'</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#matriz de diagrama de dispersión para las columnas elegidas</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="co">#scatterplot matrix for the selected columns</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>pd.plotting.scatter_matrix(df[[<span class="st">'ipm'</span>, <span class="st">'LST'</span>, <span class="st">'water'</span>, <span class="st">'PM25'</span>, <span class="st">'HVI'</span>]], alpha<span class="op">=</span><span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#matriz de diagrama de dispersión para las columnas elegidas</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co">#scatterplot matrix for the selected columns</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>pd.plotting.scatter_matrix(df[[<span class="st">'ipm'</span>, <span class="st">'LST'</span>, <span class="st">'water'</span>, <span class="st">'PM25'</span>, <span class="st">'HVI'</span>]], alpha<span class="op">=</span><span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#fusionar el archivo de forma de zonas y el marco de datos</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co">#merge zones shapefile and the dataframe</span></span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>zones_m <span class="op">=</span> zones.merge(df, on<span class="op">=</span><span class="st">'MID'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#fusionar el archivo de forma de zonas y el marco de datos</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co">#merge zones shapefile and the dataframe</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>zones_m <span class="op">=</span> zones.merge(df, on<span class="op">=</span><span class="st">'MID'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co">#create a plot with 1 row and 4 columns limiting size to 20 by 5</span></span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">4</span>, figsize <span class="op">=</span> (<span class="dv">20</span>,<span class="dv">5</span>))</span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a><span class="co">#traza el archivo de forma de zonas en la primera columna llamada ax[0]</span></span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the zones shapefile in the first column named ax[0]</span></span>
-<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'ipm_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
-<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'LST_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
-<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'water_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">2</span>])</span>
-<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'PM25_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">3</span>])</span>
-<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="co">#establecer títulos para gráficos</span></span>
-<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="co">#set titles for graphs</span></span>
-<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">'Cauca - Indice de Pobreza</span><span class="ch">\n</span><span class="st">Multidimensional'</span>, wrap<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">'Cauca - Temperatura de la</span><span class="ch">\n</span><span class="st">superficie terrestre de verano'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">'Cauca - Disponibilidad de</span><span class="ch">\n</span><span class="st">agua dulce'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">'Cauca - Material particulado 2.5</span><span class="ch">\n</span><span class="st">(PM2.5)'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
-<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co">#create a plot with 1 row and 4 columns limiting size to 20 by 5</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">4</span>, figsize <span class="op">=</span> (<span class="dv">20</span>,<span class="dv">5</span>))</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="co">#traza el archivo de forma de zonas en la primera columna llamada ax[0]</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the zones shapefile in the first column named ax[0]</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'ipm_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'LST_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'water_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">2</span>])</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'PM25_index'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">3</span>])</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="co">#establecer títulos para gráficos</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="co">#set titles for graphs</span></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">'Cauca - Indice de Pobreza</span><span class="ch">\n</span><span class="st">Multidimensional'</span>, wrap<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">'Cauca - Temperatura de la</span><span class="ch">\n</span><span class="st">superficie terrestre de verano'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">'Cauca - Disponibilidad de</span><span class="ch">\n</span><span class="st">agua dulce'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">'Cauca - Material particulado 2.5</span><span class="ch">\n</span><span class="st">(PM2.5)'</span>, wrap<span class="op">=</span><span class="va">True</span>)<span class="op">;</span></span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#trazar el archivo de zonas con la rampa de color</span></span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the zones shapefile with the HVI color ramp</span></span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'HVI'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Cauca - Indice de Vulnerabilidad'</span>)</span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#trazar el archivo de zonas con la rampa de color</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the zones shapefile with the HVI color ramp</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>zones_m.plot(column<span class="op">=</span><span class="st">'HVI'</span>, cmap<span class="op">=</span><span class="st">'inferno'</span>, legend<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Cauca - Indice de Vulnerabilidad'</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#ordenar la tabla de archivos por orden descendente de vulnerabilidad</span></span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co"># #sort shapefile table by HVI descending order</span></span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>zones_m <span class="op">=</span> zones_m.sort_values(<span class="st">'HVI'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#ordenar la tabla de archivos por orden descendente de vulnerabilidad</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="co"># #sort shapefile table by HVI descending order</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>zones_m <span class="op">=</span> zones_m.sort_values(<span class="st">'HVI'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#elegir los 10 con mas alta vulnerabilidad</span></span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="co">#select top 10 with highest vulnerability</span></span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>top10 <span class="op">=</span> zones_m.head(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#elegir los 10 con mas alta vulnerabilidad</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co">#select top 10 with highest vulnerability</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>top10 <span class="op">=</span> zones_m.head(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Gráfico de barras de los diez municipios más vulnerables</span></span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Bar graph of top ten most vulnerable municipalities</span></span>
-<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>barplt<span class="op">=</span> plt.bar(<span class="st">'municipio'</span>, <span class="st">'HVI'</span>, data<span class="op">=</span>top10, color<span class="op">=</span><span class="st">'orange'</span>)</span>
-<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">60</span>, rotation_mode<span class="op">=</span><span class="st">"anchor"</span>, ha<span class="op">=</span><span class="st">'right'</span>)</span>
-<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Municipalidades mas vulnerables en Cauca, Colombia'</span>)</span>
-<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="dv">50</span>, <span class="dv">105</span>)</span>
-<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>plt.bar_label(barplt, labels<span class="op">=</span><span class="bu">list</span>(<span class="bu">round</span>(top10[<span class="st">'HVI'</span>], <span class="dv">1</span>)), label_type<span class="op">=</span><span class="st">'edge'</span>)</span>
-<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Gráfico de barras de los diez municipios más vulnerables</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Bar graph of top ten most vulnerable municipalities</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>barplt<span class="op">=</span> plt.bar(<span class="st">'municipio'</span>, <span class="st">'HVI'</span>, data<span class="op">=</span>top10, color<span class="op">=</span><span class="st">'orange'</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">60</span>, rotation_mode<span class="op">=</span><span class="st">"anchor"</span>, ha<span class="op">=</span><span class="st">'right'</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Municipalidades mas vulnerables en Cauca, Colombia'</span>)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="dv">50</span>, <span class="dv">105</span>)</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>plt.bar_label(barplt, labels<span class="op">=</span><span class="bu">list</span>(<span class="bu">round</span>(top10[<span class="st">'HVI'</span>], <span class="dv">1</span>)), label_type<span class="op">=</span><span class="st">'edge'</span>)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
