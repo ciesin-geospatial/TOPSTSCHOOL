@@ -4,14 +4,16 @@ description: |
   **Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL)**, part of the [NASA Transform to Open Science (TOPS)} (https://zenodo.org/records/8087116) Training (TOPST) initiative.
 ---
 
-##SCHOOL
+## SCHOOL
 
-###Project Overview
+### Project Overview
+
 SCHOOL's objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of [NASA's Open Source Science Initiative (OSSI)] (https://science.nasa.gov/researchers/open-science/).
 The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. 
 Modules focus on demonstrating the data science life cycle with varying themes: Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate.
 
-###SCHOOL Pedagogy
+### SCHOOL Pedagogy
+
 **Inclusive Teaching**
 <ul>
   <li>Inclusive teaching fosters an environment where diversity is celebrated and reflected in course content.</li>
