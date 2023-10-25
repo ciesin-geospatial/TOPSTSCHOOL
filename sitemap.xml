@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training (1).html</loc>
-    <lastmod>2023-10-25T19:48:11.440Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
-    <lastmod>2023-10-25T19:48:10.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
-    <lastmod>2023-10-25T19:48:08.100Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
-    <lastmod>2023-10-25T19:48:07.020Z</lastmod>
-  </url>
-  <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/cookbook-navbar-page.html</loc>
-    <lastmod>2023-10-25T19:48:07.652Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
-    <lastmod>2023-10-25T19:48:09.000Z</lastmod>
+    <lastmod>2023-10-25T19:52:23.127Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
-    <lastmod>2023-10-25T19:48:10.356Z</lastmod>
+    <lastmod>2023-10-25T19:52:20.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
+    <lastmod>2023-10-25T19:52:18.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
+    <lastmod>2023-10-25T19:52:16.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
+    <lastmod>2023-10-25T19:52:17.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
+    <lastmod>2023-10-25T19:52:19.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training (1).html</loc>
+    <lastmod>2023-10-25T19:52:22.279Z</lastmod>
   </url>
 </urlset>
