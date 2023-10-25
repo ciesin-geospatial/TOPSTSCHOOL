@@ -18,14 +18,12 @@ website:
     #   href: index.html
     - text: "About"
       href: about.qmd
-    - text: "Mentors"
-      href: mentors.qmd
-    - text: "Champions"
-      href: champions.qmd
-    - text: "Cookbook"
-      href: cookbook-navbar-page.qmd
-    - text: "Events"
-      href: events.qmd
+    - text: "Get Involved"
+      href: get-involved.qmd
+    - text: "Development Team"
+      href: dev-team.qmd 
+    - text: "Modules"
+      href: modules.qmd
     - icon: github
       href: https://github.com/ciesin-geospatial/TOPSTSCHOOL
     - icon: youtube
