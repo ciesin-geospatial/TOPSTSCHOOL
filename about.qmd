@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: |
-  NASA Earthdata-Openscapes answers a NASA Earthdata call to support scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+  Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative.
 ---
 
 ## Openscapes
