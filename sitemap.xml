@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/cookbook-navbar-page.html</loc>
-    <lastmod>2023-10-25T19:52:23.127Z</lastmod>
+    <lastmod>2023-10-26T14:41:10.363Z</lastmod>
   </url>
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
-    <lastmod>2023-10-25T19:52:20.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
-    <lastmod>2023-10-25T19:52:18.475Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
-    <lastmod>2023-10-25T19:52:16.083Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
-    <lastmod>2023-10-25T19:52:17.787Z</lastmod>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/module1-water.html</loc>
+    <lastmod>2023-10-26T14:41:08.127Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
-    <lastmod>2023-10-25T19:52:19.895Z</lastmod>
+    <lastmod>2023-10-26T14:41:06.903Z</lastmod>
   </url>
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training (1).html</loc>
-    <lastmod>2023-10-25T19:52:22.279Z</lastmod>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
+    <lastmod>2023-10-26T14:41:04.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
+    <lastmod>2023-10-26T14:41:03.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
+    <lastmod>2023-10-26T14:41:05.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
+    <lastmod>2023-10-26T14:41:07.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training.html</loc>
+    <lastmod>2023-10-26T14:41:09.515Z</lastmod>
   </url>
 </urlset>
