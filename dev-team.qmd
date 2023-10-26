@@ -23,7 +23,7 @@ description: |
 [iSciences](https://www.isciences.com/), MORE INFO
 
 ##### Module 2
-##### Module 3s
+##### Module 3
 
 # SCHOOL Development Team
 **Kytt MacManus**\
