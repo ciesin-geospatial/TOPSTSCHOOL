@@ -11,7 +11,8 @@ output:
 
 # Module 1: Water
 The Water module is the first of a series of seven TOPST Science Modules. This module is provided in a Jupyter Notebook format.
-<h2>[Module 1: Water](content/module1-water.html)</h2>
+<button onclick="window.location.href='content/module1-water.html'" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Module 1: Water</button>
+
 
 # Module 2: Air Quality
 Coming soon...
