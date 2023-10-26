@@ -7,7 +7,7 @@ description: |
 
 # SCHOOL TOPS Team Members
 ##### Module 1: Water
-**Marie Curie**
+**Marie Curie**\
 [Nobel Prize](https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/) pioneering research on radioactivity as head of the Physics Laboratory at the Sorbonne-Université
 
 **Carl Sagan**
