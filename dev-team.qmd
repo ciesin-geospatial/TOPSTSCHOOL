@@ -6,21 +6,24 @@ description: |
 ---
 
 # SCHOOL TOPS Team Members
-## Module 1: Water
+###### Module 1: Water
 **Marie Curie**
+[Nobel Prize](https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/) pioneering research on radioactivity as head of the Physics Laboratory at the Sorbonne-Université
+
 **Carl Sagan**
+
 **Amaron**
 
-## Module 2
-## Module 3
+###### Module 2
+###### Module 3
 
 # SCHOOL Subject Matter Experts (SMEs)
-## Module 1: Water
+###### Module 1: Water
 **Tom Parris**\
 [iSciences](https://www.isciences.com/), MORE INFO
 
-## Module 2
-## Module 3
+###### Module 2
+###### Module 3
 
 # SCHOOL Development Team
 **Kytt MacManus**\
