@@ -11,4 +11,4 @@ output:
 
 # Module 1: Water
 The Water module is the first of a series of seven TOPST Science Modules. This module is provided in a Jupyter Notebook format.
-# **[Module1]**(content/module1-water.html)
+# [Module1](content/module1-water.html)
