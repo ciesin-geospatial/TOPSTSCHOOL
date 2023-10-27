@@ -18,13 +18,66 @@ description: |
 ##### Module 3
 
 # SCHOOL Subject Matter Experts (SMEs)
+##### Pedagogy
+**Tom M. Parris**\
+[iSciences](https://www.isciences.com/) President
+
 ##### Module 1: Water
-**Tom Parris**\
-[iSciences](https://www.isciences.com/), MORE INFO
+**Tom M. Parris**\
+President at [iSciences](https://www.isciences.com/) 
+**Laureline M. Josset**\
+Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)
 
 ##### Module 2
 ##### Module 3
 
 # SCHOOL Development Team
+**Deborah Balk **\
+Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)
+
+**Josh Brinks **\
+Research Scientist at [iSciences](https://www.isciences.com/) 
+
+**Christina Alexia Deodatis **\
+Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Hasim Engin **\
+Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Camilla Green**\
+Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
 **Kytt MacManus**\
-GIS DEveloper at [CIESIN](https://www.ciesin.columbia.edu/index.html)
+Assistant Systems Engineer at NASA Socioeconomic Data and Applications Center $($[SEDAC](https://sedac.ciesin.columbia.edu/)$)$ and GIS Developer at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Juan Fernando Martinez**\
+Senior Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Josie Morkin **\
+Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Tom M. Parris**\
+President at [iSciences](https://www.isciences.com/) 
+
+**Linda Pistolesi **\
+Senior Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Sri Vinay **\
+Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center $($[SEDAC](https://sedac.ciesin.columbia.edu/)$)$ and Associate Director for IT at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+**Greg Yetman **\
+Associate Director for Geospatial Applications at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
