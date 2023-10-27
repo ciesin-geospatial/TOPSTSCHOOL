@@ -1,9 +1,9 @@
 ---
 title: "R Notebook"
-format: 
+format:
   html:
-    code-tools: true
-    code-fold: show 
+    code-tools: yes
+    code-fold: show
     code-overflow: wrap
 ---
 
