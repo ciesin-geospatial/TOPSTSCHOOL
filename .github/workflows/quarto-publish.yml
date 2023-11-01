@@ -20,7 +20,7 @@ jobs:
           # version: 0.9.600
           
       - name: Install rmarkdown package
-        run: R -e "install.packages('rmarkdown')"
+        run: R -e "install.packages("rmarkdown")"
       
       # add software dependencies here
 
