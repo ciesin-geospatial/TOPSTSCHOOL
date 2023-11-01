@@ -9,9 +9,30 @@
   {
     "objectID": "content/SCHOOL_module1_water.html",
     "href": "content/SCHOOL_module1_water.html",
-    "title": "This is an R notebook test.",
+    "title": "Module 1: Water",
     "section": "",
-    "text": "text &lt;- (\"Hello, World!\")\n\n\nprint(text)\n\n[1] \"Hello, World!\""
+    "text": "Module 1: Water is part of the Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL),a part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative."
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#sub-title",
+    "href": "content/SCHOOL_module1_water.html#sub-title",
+    "title": "Module 1: Water",
+    "section": "Sub title",
+    "text": "Sub title\nregular text bold text ### Sub Sub title regular text"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#datasets-1",
+    "href": "content/SCHOOL_module1_water.html#datasets-1",
+    "title": "Module 1: Water",
+    "section": "Datasets",
+    "text": "Datasets"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#photos",
+    "href": "content/SCHOOL_module1_water.html#photos",
+    "title": "Module 1: Water",
+    "section": "Photos",
+    "text": "Photos\nModule 1 Banner Photo by Jacob Kelvin.J"
   },
   {
     "objectID": "content/module1-water.html",

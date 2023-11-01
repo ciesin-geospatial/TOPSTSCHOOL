@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>TOPSTSCHOOL - This is an R notebook test.</title>
+<title>TOPSTSCHOOL - Module 1: Water</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,7 +156,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">This is an R notebook test.</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Module 1: Water</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -175,7 +175,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL" rel="" title="TOPSTSCHOOL GitHub repo" class="quarto-navigation-tool px-1" aria-label="TOPSTSCHOOL GitHub repo"><i class="bi bi-github"></i></a>
 </div>
       </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link active" data-scroll-target="#code-of-conduct">Code of Conduct</a></li>
+  <li><a href="#module-1-objectives" id="toc-module-1-objectives" class="nav-link" data-scroll-target="#module-1-objectives">Module 1 objectives</a>
+  <ul class="collapse">
+  <li><a href="#sub-title" id="toc-sub-title" class="nav-link" data-scroll-target="#sub-title">Sub title</a></li>
+  </ul></li>
+  <li><a href="#learing-objective-the-water-cycle" id="toc-learing-objective-the-water-cycle" class="nav-link" data-scroll-target="#learing-objective-the-water-cycle">Learing Objective: The Water Cycle</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#credits" id="toc-credits" class="nav-link" data-scroll-target="#credits">Credits</a>
+  <ul class="collapse">
+  <li><a href="#datasets-1" id="toc-datasets-1" class="nav-link" data-scroll-target="#datasets-1">Datasets</a></li>
+  <li><a href="#photos" id="toc-photos" class="nav-link" data-scroll-target="#photos">Photos</a></li>
+  </ul></li>
+  <li><a href="#this-is-an-r-notebook-test." id="toc-this-is-an-r-notebook-test." class="nav-link" data-scroll-target="#this-is-an-r-notebook-test.">This is an R notebook test.</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -186,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">This is an R notebook test.</h1>
+<h1 class="title">Module 1: Water</h1>
 </div>
 
 
@@ -201,17 +219,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>text <span class="ot">&lt;-</span> (<span class="st">"Hello, World!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><b>Module 1: Water is part of the Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL),</b><br>a part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative.</p>
+<p><img src="https://ciesin-geospatial.github.io/TOPSTSCHOOL/images/m1-banner.jpg" alt="A hand in water" width="600"></p>
+<section id="code-of-conduct" class="level1">
+<h1>Code of Conduct</h1>
+<ul>
+<li>Review other codes</li>
+<li>Carpentries</li>
+<li>NASA TOPS - If possible this is the default, perhaps with some edits, since we are a NASA TOPS project: https://nasa.github.io/Transform-to-Open-Science-Book/About/CODE_OF_CONDUCT.html</li>
+<li>NASA OpenScapes.</li>
+</ul>
+</section>
+<section id="module-1-objectives" class="level1">
+<h1>Module 1 objectives</h1>
+<ul>
+<li>Students will gain an understanding of the water cycle</li>
+<li>Students will learn the role humans play in the water cycle.</li>
+<li>Student will learn about water surpluses and deficits (anomalies)</li>
+<li>Students will learn how to access GLDAS data from the NASA SEDAC website (https://www.dante-project.org/sedacr)</li>
+<li>Students will learn how to access MODIS NRT flood data</li>
+<li>Students will learn how to store data locally</li>
+<li>Students will learn how to subset a global data set to a predefined area of interest (AOI). (GeoBoundaries?)</li>
+<li>Students will learn how to summarize the data set using an area of interest</li>
+<li>Students will learn how to visualize results as maps and graphs using R(?)</li>
+<li>Students will learn how to estimate impacts on populations at risk (PES, POPGRID, perhaps also infrastructure with OSM)</li>
+<li>Students will learn how to share their results to the cloud (using Binder?)</li>
+</ul>
+<div class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>text <span class="ot">&lt;-</span> <span class="st">"Hello, World!"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-outputid="9e3361b0-8d65-4d3e-cecb-41ee63fa1e3e" data-execution_count="2">
+<div class="cell" data-outputid="11982451-8db7-46d9-afca-e7e3f0bf0d81" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(text)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Hello, World!"</code></pre>
 </div>
 </div>
+<section id="sub-title" class="level2">
+<h2 class="anchored" data-anchor-id="sub-title">Sub title</h2>
+<p>regular text <b>bold text</b> ### Sub Sub title regular text</p>
+</section>
+</section>
+<section id="learing-objective-the-water-cycle" class="level1">
+<h1>Learing Objective: The Water Cycle</h1>
+</section>
+<section id="datasets" class="level1">
+<h1>Datasets</h1>
+</section>
+<section id="credits" class="level1">
+<h1>Credits</h1>
+<section id="datasets-1" class="level2">
+<h2 class="anchored" data-anchor-id="datasets-1">Datasets</h2>
+</section>
+<section id="photos" class="level2">
+<h2 class="anchored" data-anchor-id="photos">Photos</h2>
+<p>Module 1 Banner Photo by Jacob Kelvin.J</p>
+</section>
+</section>
+<section id="this-is-an-r-notebook-test." class="level1">
+<h1>This is an R notebook test.</h1>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
