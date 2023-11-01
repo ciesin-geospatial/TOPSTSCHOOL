@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/cookbook-navbar-page.html</loc>
-    <lastmod>2023-10-27T15:33:25.689Z</lastmod>
+    <lastmod>2023-11-01T18:59:28.753Z</lastmod>
   </url>
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/module1-water.html</loc>
-    <lastmod>2023-10-27T15:33:23.469Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
-    <lastmod>2023-10-27T15:33:22.089Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
-    <lastmod>2023-10-27T15:33:21.001Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
-    <lastmod>2023-10-27T15:33:19.973Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
-    <lastmod>2023-10-27T15:33:21.693Z</lastmod>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/find-r.html</loc>
+    <lastmod>2023-11-01T18:59:26.173Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
-    <lastmod>2023-10-27T15:33:22.549Z</lastmod>
+    <lastmod>2023-11-01T18:59:24.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
+    <lastmod>2023-11-01T18:59:23.493Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
+    <lastmod>2023-11-01T18:59:21.793Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
+    <lastmod>2023-11-01T18:59:22.793Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
+    <lastmod>2023-11-01T18:59:23.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/module1-water.html</loc>
+    <lastmod>2023-11-01T18:59:25.153Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training.html</loc>
-    <lastmod>2023-10-27T15:33:24.921Z</lastmod>
+    <lastmod>2023-11-01T18:59:27.969Z</lastmod>
   </url>
 </urlset>
