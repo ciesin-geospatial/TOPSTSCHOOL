@@ -1,0 +1,102 @@
+---
+title: "WSIM-GLDAS Data Visualization"
+author: "Joshua Brinks"
+---
+
+## TO DO
+
+  * Write the actual code
+  * Determine the region and time period of focus to draw in our use cases/human focused stories.
+  * Determine the method of exploration.
+    + Mimic our process?
+      * 12 month integration panels of the CON USA from 2000-2014 to identify areas of interest.
+      * Zoom in to locations of interest and switch to 1-month integration for the years identified in the previous step.
+
+## Introduction
+
+  * Raster/vector visualization background?
+    + General
+    + Water resource specific
+  * Package background
+    + Basic plotting with stars/sf
+    + more advanced plotting with ggplot/ggmap
+
+## Setup
+
+```{r}
+library(stars) # raster manipulation
+library(sf) # vector manipulation
+library(ggplot2) # advanced plotting
+library(lubridate) # date/time manipulation
+
+```
+
+## Load Data
+
+Load in data from previous vignette.
+
+I think the previous vignette should end with a 2000-2014 12-month integration CONUS dataset.
+
+```{r}
+
+```
+
+Verify data structure with `print` or `summary.`
+
+## Visualizations
+
+### Exploratory Histogram
+
+Create histogram of raster values for a single time step.
+
+Basic plotting method is OK, but check if it can be done with `ggplot`so we can use a uniform palette across all modules.
+
+```{r}
+
+```
+
+Extreme values or other items of note might require additional visualization or other data exploration.
+
+### Multi-Panel Time Series
+
+Create a multipanel time series of 12 month integration CONUSA; similar to what we used to identify our case studies.
+
+Start with the basic plotting commands--create the time series with `slice` or other method used in previous vignette.
+
+```{r}
+
+```
+
+The palette will not exist and be difficult to use.
+
+Try a built in palette for stars (not sure if possible?).
+
+Introduce the official WSIM palette. This may only be helpful within a `ggplot` function.
+
+```{r}
+# numbers are return period values for a composite surplus (blues) and deficit (reds) dataset
+leg_colors<-c(
+    '#9B0039',
+    # -50 to -40
+    '#D44135',
+    # -40 to -20
+    '#FF8D43',
+    # -20 to -10
+    '#FFC754',
+    # -10 to -5
+    '#FFEDA3',
+    # -5 to -3
+    '#FFFFFF',
+    # -3 to 3
+    '#CEFFAD',
+    # 3 to 5
+    '#00F3B5',
+    # 5 to 10
+    '#00CFCE',
+    # 10 to 20
+    '#009ADE',
+    # 20 to 40
+    '#0045B5')
+```
+
+Once hot spots 

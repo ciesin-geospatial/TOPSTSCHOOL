@@ -1,0 +1,149 @@
+---
+title: "wsim-gldas-acquisition"
+author: "Josh Brinks"
+---
+
+## TO DO
+
+  * Add context for package selection
+    + stars for raster management
+    + sf for vector/shapefile/geojson
+    + lubridate for date management
+  * More dataset context/explanation (geoBoundaries vs gadm).
+  * Citations and external links for data and packages.
+  * Decide on which wsim-gldas version to use.
+    + Switch out the current for a 12-month integration anomaly. 
+  * Write out the smaller pre-processed file to disk for potential use in binder workshop or subsequent lesson in the module.
+  * Introduce automated data acquisition with some sedac or earthdata package??
+
+## Introduction
+
+WSIM-GLDAS can be download from [SEDAC](https://sedac.ciesin.columbia.edu/data/set/water-wsim-gldas-v1). Downloads are organized by combination of variable (composite surplus/deficit, temperature, PETmE, runoff, soil moisture, precipitation) and integration period (1, 3, 6, 12 months). Each variable-integration combination consists of a NetCDF raster file with a time dimension that contains a raster layer for each of the 804 months between January, 1948 and December, 2014. Some variables also contain multiple attributes each with their own time dimension of 804 rasters. Hence, this is a large file that takes upwards of 2 hours to download and may cause memory issues on certain systems. We will work with the composite anomolies integrated over 1 month periods. 
+
+## Reading the Data
+
+Start by reading in the downloaded file 
+
+```{r}
+
+# proxy = TRUE will limit memory useage but does 
+# not always work with certain downstream processing functions
+
+wsim_gldas_anoms <-
+  stars::read_stars("water-wsim-gldas-v1-composite-anom-one-month-netcdf/composite_anom_1mo.nc", 
+                    proxy = FALSE)
+
+print(wsim_gldas_anoms)
+```
+The print command gives some basic information. The outputs tells us we have 5 attributes (deficit, deficit_cause, surplus, surplus_cause, both) and 3 dimensions. The first 2 dimensions are the spatial extents (x/y--longitude/latitude) and time is the 3rd dimension. 
+
+This means the total number of individual raster layers in this NetCDF is 4020 (5 attributes x 804 time steps/months).
+
+## Attribute Selection
+
+We can start paring this down by subsetting for just the combined surplus/deficit anomaly (both).
+
+```{r}
+names(wsim_gldas_anoms)
+
+wsim_gldas_anoms <- wsim_gldas_anoms['both']
+```
+## Time Selection
+
+Specifying a temporal range of interest will free up more space. We'll grab every month for 2000-2014. This can be accomplished by generating a sequence for every month between January 2000 and December 2014, and then passing that vector of dates to `filter`.
+
+```{r}
+keeps<-seq(lubridate::ymd("2000-01-01"),
+           lubridate::ymd("2014-12-01"), 
+           by = "month")
+
+wsim_gldas_anoms <- dplyr::filter(wsim_gldas_anoms, time %in% keeps)
+
+print(wsim_gldas_anoms)
+```
+
+Now we're down to a single attribute ("both") with 180 time-steps. We can take a look at the first 6 months by passing the object through `slice` and then into `plot`.
+
+```{r}
+wsim_gldas_anoms |>
+  dplyr::slice(index = 1:6, along = "time") |>
+  plot(key.pos = 1)
+```
+
+Although we've pared it down to a single attribute with a restricted time period of interest, we can take it a step further and reduce the spatial extent to a country or state of interest. 
+
+## Spatial Selection
+
+We can spatially crop the raster stack with a few different methods. Options include using a bounding box (xmin, ymin, xmax, ymax), another raster object, or a vectorized boundary like a shapefile or geojson.
+
+Using a vector boundary is one of the more common geoprocessing tasks. In this example we'll pull a geojson of the United States from the geoBoundaries API. You can also download vectorized boundaries directly from [](www.geoboundaries.org).
+
+The call to geoBoundaries' API is pretty simple:
+
+"https://www.geoboundaries.org/api/current/gbOpen/*ISO3C*/*LEVEL*/"
+
+We adjust the bolded components of the URL address to specify the country we want using the ISO 3 Character Country Code (USA) and the desired Administrative Level (ADM1).
+
+```{r}
+usa <- httr::GET("https://www.geoboundaries.org/api/current/gbOpen/USA/ADM1/")
+```
+
+After the `GET` call, we have to translate the `content`.
+
+```{r}
+usa <- httr::content(usa)
+
+names(usa)
+```
+
+The parsed content object contains 32 components. Item 29 is a direct link to the geojson file (gjDownloadURL). Read that in and check the visuals.
+
+```{r}
+usa <- sf::st_read(usa$gjDownloadURL)
+
+plot(sf::st_geometry(usa))
+```
+This looks good, but it includes all United States territories. For simplicity, we can get it down to only the contiguous United States. 
+
+```{r}
+drops<-
+  c("Alaska", "Hawaii", 
+    "American Samoa",
+    "Puerto Rico",
+    "Commonwealth of the Northern Mariana Islands", 
+    "Guam", 
+    "United States Virgin Islands")
+
+usa<-usa[!(usa$shapeName %in% drops),]
+
+plot(sf::st_geometry(usa))
+```
+
+We can take this a step further and select a target state.
+
+```{r}
+michigan <- usa[usa$shapeName == "Michigan",]
+
+plot(sf::st_geometry(michigan))
+```
+
+From here we can crop the WSIM GLDAS raster stack by indexing it with the stored boundary of Michigan.
+
+```{r}
+wsim_gldas_anoms_mich <- wsim_gldas_anoms[michigan]
+```
+
+For a final visual check we'll take the last time-step in the WSIM-GLDAS dataset (180/December, 2014) and plot it with an overlay of the Michigan boundary.
+
+```{r}
+wsim_gldas_anoms_mich |>
+  dplyr::slice(index = 180, along = "time") |>
+  plot(reset = FALSE)
+
+plot(sf::st_geometry(michigan),
+     add = TRUE,
+     lwd = 3,
+     fill = NA,
+     border = 'purple')
+```
+
