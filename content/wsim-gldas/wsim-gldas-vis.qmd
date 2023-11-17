@@ -5,7 +5,7 @@ author: "Joshua Brinks"
 
 ## TO DO
 
-  * Write the actual code
+  * Write the actual code and narrative.
   * Determine the region and time period of focus to draw in our use cases/human focused stories.
   * Determine the method of exploration.
     + Mimic our process?
@@ -28,6 +28,7 @@ library(stars) # raster manipulation
 library(sf) # vector manipulation
 library(ggplot2) # advanced plotting
 library(lubridate) # date/time manipulation
+library(exactextractr) # zonal statistics
 
 ```
 
@@ -43,9 +44,7 @@ I think the previous vignette should end with a 2000-2014 12-month integration C
 
 Verify data structure with `print` or `summary.`
 
-## Visualizations
-
-### Exploratory Histogram
+## Exploratory Histogram
 
 Create histogram of raster values for a single time step.
 
@@ -57,9 +56,16 @@ Basic plotting method is OK, but check if it can be done with `ggplot`so we can 
 
 Extreme values or other items of note might require additional visualization or other data exploration.
 
-### Multi-Panel Time Series
+## Multi-Panel Time Series
 
-Create a multipanel time series of 12 month integration CONUSA; similar to what we used to identify our case studies.
+Create a multipanel time series of 12 month integration CONUSA; similar to what we used to identify our case studies. Each panel will represent 1 year.
+
+Load in a CONUSA geojson from geoBoundaries. Copy methods from previous vignette.
+
+```{r}
+
+```
+
 
 Start with the basic plotting commands--create the time series with `slice` or other method used in previous vignette.
 
@@ -99,4 +105,72 @@ leg_colors<-c(
     '#0045B5')
 ```
 
-Once hot spots 
+Once hot spots are easily identified pick a region of interest to zoom in on using the 1 month integration dataset.
+
+Load in the 1 month integration dataset and subset/index the dataset to the region of interest (copy code from previous vignette). Use `dplyr::slice` or other method to pull out just the 12 months from the year of interest. Code demonstrating these techniques in previous vignette.
+
+```{r}
+
+```
+
+Create a multi-panel figure with each panel representing 1 month to identify the most intense months of drought or flooding. Starting with this one maybe use `ggplot` and a nice palette, legend, and panel headings. Will probably have to use some sort of faceting to make individual panels (might not be possible).
+
+```{r}
+
+```
+
+## Use Case Background
+
+Now that we've keyed in on a particular event, bring in the backup information we've collected to discuss what actually happened.
+
+## Point Location Time Series
+
+Visualize an individual cell with particular extreme or maybe volatile values. Use Google Maps to identify the latitude/longitude of a place of interest. Maybe an urban center or other important location in the region that suffered from the extreme event.
+
+Create a vector with the point location.
+
+```{r}
+
+```
+
+Use `stars::extract` to extract raster values in the stack at the point location. 
+
+```{r}
+
+```
+
+The resulting data frame of time series values should be inspected. It may also need to be converted from wide format to long format so it may be plotted in `ggplot`. Use either pivot wider/longer from `dplyr` or cast/melt from `data.table`.
+
+```{r}
+
+```
+
+Once in the proper format, plot using `ggplot`.
+
+```{r}
+
+```
+
+## Population Exposure Plot
+
+Use Gridded Population of the World and `exactextractr` to determine the number of people exposed to a given anomaly for each month of the year. 
+
+Background info on GPW would be appropriate. Same with `exactextractr` and zonal statistics.
+
+Load in GPW data and the `exactextractr` package
+
+```{r}
+
+```
+
+Perform the time series zonal summary.
+
+This might be a bit tricky; been a while for me. Have to look up the proper code. Dan has good examples on the exactextractr package website.
+
+Resulting data.frame will probably need to be transformed to long (just like before), so it can be plotted.
+
+```{r}
+
+```
+
+Now plot the data in ggplot. I have some existing code I can pull to help with the plotting--or at least make it fancy.
