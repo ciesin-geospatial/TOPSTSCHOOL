@@ -11,11 +11,11 @@ execute:
 
 Libraries:
 
-```{r}
+```r
 library(stars)
 ```
 
-```{r}
+```r
 download_link <- "https://nrt3.modaps.eosdis.nasa.gov/api/v2/content/archives/MCDWD_L3_F3_NRT.A2023324.h09v06.061.tif"
 x <- read_stars(download_link)
 plot(x, axes = TRUE)
