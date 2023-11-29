@@ -1,0 +1,23 @@
+---
+title: "NRT_flood_test"
+author: "Juan Martinez"
+format: html
+editor: visual
+execute:
+  eval: false
+---
+
+## NRT Flood Test 
+
+Libraries:
+
+```{r}
+library(stars)
+```
+
+```{r}
+download_link <- "https://nrt3.modaps.eosdis.nasa.gov/api/v2/content/archives/MCDWD_L3_F3_NRT.A2023324.h09v06.061.tif"
+x <- read_stars(download_link)
+plot(x, axes = TRUE)
+
+```
