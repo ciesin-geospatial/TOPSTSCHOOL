@@ -19,9 +19,7 @@ jobs:
           # uncomment below and fill to pin a version
           # version: 0.9.600
       - name: Install rmarkdown package
-        run: R -e 'install.packages("rmarkdown", lib="$HOME/R")'
-        env:
-          R_LIBS_USER: $HOME/R
+        run: R -e 'install.packages("rmarkdown", lib="~/.R/library")'
 
       
       # add software dependencies here
