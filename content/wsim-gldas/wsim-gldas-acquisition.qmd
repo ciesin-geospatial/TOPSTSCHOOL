@@ -24,7 +24,7 @@ WSIM-GLDAS can be download from [SEDAC](https://sedac.ciesin.columbia.edu/data/s
 
 Start by reading in the downloaded file 
 
-```r
+```{r}
 
 # proxy = TRUE will limit memory useage but does 
 # not always work with certain downstream processing functions
@@ -43,7 +43,7 @@ This means the total number of individual raster layers in this NetCDF is 4020 (
 
 We can start paring this down by subsetting for just the combined surplus/deficit anomaly (both).
 
-```r
+```{r}
 names(wsim_gldas_anoms)
 
 wsim_gldas_anoms <- wsim_gldas_anoms['both']
