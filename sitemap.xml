@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/module1-water.html</loc>
-    <lastmod>2023-12-06T17:07:48.182Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/wsim-gldas/wsim-gldas-acquisition.html</loc>
-    <lastmod>2023-12-06T17:07:45.698Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training.html</loc>
-    <lastmod>2023-12-06T17:07:42.818Z</lastmod>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
+    <lastmod>2023-12-06T17:16:27.356Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/NRT_flood-Test.html</loc>
-    <lastmod>2023-12-06T17:07:34.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
-    <lastmod>2023-12-06T17:07:32.638Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
-    <lastmod>2023-12-06T17:07:30.502Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/cookbook-navbar-page.html</loc>
-    <lastmod>2023-12-06T17:07:29.246Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
-    <lastmod>2023-12-06T17:07:31.694Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
-    <lastmod>2023-12-06T17:07:33.686Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
-    <lastmod>2023-12-06T17:07:35.902Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/SCHOOL_module1_water.html</loc>
-    <lastmod>2023-12-06T17:07:44.462Z</lastmod>
+    <lastmod>2023-12-06T17:16:25.264Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/wsim-gldas/wsim-gldas-vis.html</loc>
-    <lastmod>2023-12-06T17:07:46.930Z</lastmod>
+    <lastmod>2023-12-06T17:16:23.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/SCHOOL_module1_water.html</loc>
+    <lastmod>2023-12-06T17:16:20.600Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
+    <lastmod>2023-12-06T17:16:13.420Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
+    <lastmod>2023-12-06T17:16:11.540Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
+    <lastmod>2023-12-06T17:16:10.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/cookbook-navbar-page.html</loc>
+    <lastmod>2023-12-06T17:16:12.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training.html</loc>
+    <lastmod>2023-12-06T17:16:19.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/module1-water.html</loc>
+    <lastmod>2023-12-06T17:16:21.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/wsim-gldas/wsim-gldas-acquisition.html</loc>
+    <lastmod>2023-12-06T17:16:24.272Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
+    <lastmod>2023-12-06T17:16:26.316Z</lastmod>
   </url>
 </urlset>
