@@ -1,6 +1,16 @@
 ---
-title: "wsim-gldas-acquisition"
+title: "Acquiring and Pre-Processing the WSIM-GLDAS Dataset"
 author: "Josh Brinks"
+date: "December, 6 2023"
+format:
+  html:
+    embed-resources: true
+    theme: 
+      - sandstone
+    css: "https://github.com/ciesin-geospatial/TOPSTSCHOOL/blob/main/custom.scss"
+    toc: true
+    toc-title: Contents
+    toc-location: left
 ---
 
 ## TO DO
@@ -22,19 +32,18 @@ WSIM-GLDAS can be download from [SEDAC](https://sedac.ciesin.columbia.edu/data/s
 
 ## Reading the Data
 
-Start by reading in the downloaded file 
+Once you've completed the download and placed the .nc into your working directory read in the file with the `stars::read_stars()` function.
 
 ```{r}
 
 # proxy = TRUE will limit memory useage but does 
 # not always work with certain downstream processing functions
 
-wsim_gldas_anoms <-
-  stars::read_stars("water-wsim-gldas-v1-composite-anom-one-month-netcdf/composite_anom_1mo.nc", 
-                    proxy = FALSE)
+wsim_gldas_anoms <- stars::read_stars("composite_anom_1mo.nc", proxy = FALSE)
 
 print(wsim_gldas_anoms)
 ```
+
 The print command gives some basic information. The outputs tells us we have 5 attributes (deficit, deficit_cause, surplus, surplus_cause, both) and 3 dimensions. The first 2 dimensions are the spatial extents (x/y--longitude/latitude) and time is the 3rd dimension. 
 
 This means the total number of individual raster layers in this NetCDF is 4020 (5 attributes x 804 time steps/months).
@@ -53,10 +62,11 @@ wsim_gldas_anoms <- wsim_gldas_anoms['both']
 Specifying a temporal range of interest will free up more space. We'll grab every month for 2000-2014. This can be accomplished by generating a sequence for every month between January 2000 and December 2014, and then passing that vector of dates to `filter`.
 
 ```{r}
+# generate a vector of dates for subsetting
 keeps<-seq(lubridate::ymd("2000-01-01"),
            lubridate::ymd("2014-12-01"), 
            by = "month")
-
+# filter using that vector
 wsim_gldas_anoms <- dplyr::filter(wsim_gldas_anoms, time %in% keeps)
 
 print(wsim_gldas_anoms)
@@ -122,28 +132,34 @@ plot(sf::st_geometry(usa))
 We can take this a step further and select a target state.
 
 ```{r}
-michigan <- usa[usa$shapeName == "Michigan",]
+texas <- usa[usa$shapeName == "Texas",]
 
-plot(sf::st_geometry(michigan))
+plot(sf::st_geometry(texas))
 ```
 
-From here we can crop the WSIM GLDAS raster stack by indexing it with the stored boundary of Michigan.
+From here we can crop the WSIM GLDAS raster stack by indexing it with the stored boundary of Texas
 
 ```{r}
-wsim_gldas_anoms_mich <- wsim_gldas_anoms[michigan]
+wsim_gldas_anoms_tex <- wsim_gldas_anoms[texas]
 ```
 
-For a final visual check we'll take the last time-step in the WSIM-GLDAS dataset (180/December, 2014) and plot it with an overlay of the Michigan boundary.
+For a final visual check we'll take the last time-step in the WSIM-GLDAS dataset (180/December, 2014) and plot it with an overlay of the Texas boundary.
 
 ```{r}
-wsim_gldas_anoms_mich |>
+wsim_gldas_anoms_tex |>
   dplyr::slice(index = 180, along = "time") |>
   plot(reset = FALSE)
 
-plot(sf::st_geometry(michigan),
+plot(sf::st_geometry(texas),
      add = TRUE,
      lwd = 3,
      fill = NA,
      border = 'purple')
 ```
 
+The subsetted dataset may be written to disk, and saved for future modules.
+
+```{r}
+stars::write_stars(wsim_gldas_anoms_tex, "wsim_gldas_tex.nc")
+```
+The size of the pre-processed dataset is 1.6 MB compared to the original dataset of 1.7 GB. This is much more manageable in cloud environments, workshops, and git platforms. 

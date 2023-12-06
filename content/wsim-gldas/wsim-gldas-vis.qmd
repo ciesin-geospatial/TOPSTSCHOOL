@@ -1,6 +1,16 @@
 ---
-title: "WSIM-GLDAS Data Visualization"
+title: "WSIM-GLDAS Dataset Exploration and Visualizations"
 author: "Joshua Brinks"
+date: "December, 6 2023"
+format:
+  html:
+    embed-resources: true
+    theme: 
+      - sandstone
+    css: "https://github.com/ciesin-geospatial/TOPSTSCHOOL/blob/main/custom.scss"
+    toc: true
+    toc-title: Contents
+    toc-location: left
 ---
 
 ## TO DO
