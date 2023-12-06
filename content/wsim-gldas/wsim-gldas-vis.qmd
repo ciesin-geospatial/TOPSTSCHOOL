@@ -33,7 +33,7 @@ format:
 
 ## Setup
 
-```{r}
+```r
 library(stars) # raster manipulation
 library(sf) # vector manipulation
 library(ggplot2) # advanced plotting
@@ -48,7 +48,7 @@ Load in data from previous vignette.
 
 I think the previous vignette should end with a 2000-2014 12-month integration CONUS dataset.
 
-```{r}
+```r
 
 ```
 
@@ -60,7 +60,7 @@ Create histogram of raster values for a single time step.
 
 Basic plotting method is OK, but check if it can be done with `ggplot`so we can use a uniform palette across all modules.
 
-```{r}
+```r
 
 ```
 
@@ -72,14 +72,14 @@ Create a multipanel time series of 12 month integration CONUSA; similar to what 
 
 Load in a CONUSA geojson from geoBoundaries. Copy methods from previous vignette.
 
-```{r}
+```r
 
 ```
 
 
 Start with the basic plotting commands--create the time series with `slice` or other method used in previous vignette.
 
-```{r}
+```r
 
 ```
 
@@ -89,7 +89,7 @@ Try a built in palette for stars (not sure if possible?).
 
 Introduce the official WSIM palette. This may only be helpful within a `ggplot` function.
 
-```{r}
+```r
 # numbers are return period values for a composite surplus (blues) and deficit (reds) dataset
 leg_colors<-c(
     '#9B0039',
@@ -119,13 +119,13 @@ Once hot spots are easily identified pick a region of interest to zoom in on usi
 
 Load in the 1 month integration dataset and subset/index the dataset to the region of interest (copy code from previous vignette). Use `dplyr::slice` or other method to pull out just the 12 months from the year of interest. Code demonstrating these techniques in previous vignette.
 
-```{r}
+```r
 
 ```
 
 Create a multi-panel figure with each panel representing 1 month to identify the most intense months of drought or flooding. Starting with this one maybe use `ggplot` and a nice palette, legend, and panel headings. Will probably have to use some sort of faceting to make individual panels (might not be possible).
 
-```{r}
+```r
 
 ```
 
@@ -139,25 +139,25 @@ Visualize an individual cell with particular extreme or maybe volatile values. U
 
 Create a vector with the point location.
 
-```{r}
+```r
 
 ```
 
 Use `stars::extract` to extract raster values in the stack at the point location. 
 
-```{r}
+```r
 
 ```
 
 The resulting data frame of time series values should be inspected. It may also need to be converted from wide format to long format so it may be plotted in `ggplot`. Use either pivot wider/longer from `dplyr` or cast/melt from `data.table`.
 
-```{r}
+```r
 
 ```
 
 Once in the proper format, plot using `ggplot`.
 
-```{r}
+```r
 
 ```
 
@@ -169,7 +169,7 @@ Background info on GPW would be appropriate. Same with `exactextractr` and zonal
 
 Load in GPW data and the `exactextractr` package
 
-```{r}
+```r
 
 ```
 
@@ -179,7 +179,7 @@ This might be a bit tricky; been a while for me. Have to look up the proper code
 
 Resulting data.frame will probably need to be transformed to long (just like before), so it can be plotted.
 
-```{r}
+```r
 
 ```
 

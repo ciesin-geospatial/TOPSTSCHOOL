@@ -42,6 +42,7 @@ website:
           text: "TOPSTSCHOOL GitHub repo"
 format:
   html:
+    embed-resources: true
     theme: [sandstone, custom.scss]
     css: styles.css
     toc: true
