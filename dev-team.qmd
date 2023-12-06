@@ -123,8 +123,8 @@ div.desc {
 
 <div class="responsive">
   <div class="gallery">
-    <a target="images" href="TOPSTSCHOOL_logo03.png">
-      <img src="TOPSTSCHOOL_logo03.png" alt="TOPSLOGO" width="600" height="400">
+    <a target="_self" href="TOPSTSCHOOL_logo03.png">
+      <img src="/images/TOPSTSCHOOL_logo03.png" alt="TOPSLOGO" width="600" height="400">
     </a>
     <div class="desc">TOPSLOGO</div>
   </div>
