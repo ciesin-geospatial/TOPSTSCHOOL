@@ -75,7 +75,7 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 <table>
   <tr>
     <th>![Deborah Balk](images/Balk_headshot.png)</th>
-    <th>![Nancy Degnan](images/Degnan_headshot.png)</th>
+    <th>![Nancy Degnan](images/Degman_headshot.png)</th>
     <th>![Laureline Josset](images/Josset_headshot.png)</th>
     <th>![Ryan Meade](images/Meade_headshot.png)</th>
     <th>![Thomas Parris](images/Parris_headshot.png)</th>
