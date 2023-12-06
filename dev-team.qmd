@@ -74,9 +74,9 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 ## SME's
 <table>
   <tr>
-    <th>![Deborah Balk](images/Balk_headshot.png)</th>
-    <th>![Nancy Degnan](images/Degman_headshot.png)</th>
-    <th>![Laureline Josset](images/Josset_headshot.png)</th>
+    <th>![Deborah Balk](images/Balk_headshot2.png)</th>
+    <th>![Nancy Degnan](images/Degman_headshot2.png)</th>
+    <th>![Laureline Josset](images/Josset_headshot2.png)</th>
     <th>![Ryan Meade](images/Meade_headshot.png)</th>
     <th>![Thomas Parris](images/Parris_headshot.png)</th>
   </tr>
@@ -90,22 +90,3 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
   
 </table>
 
-<div class="responsive">
-  <div class="gallery">
-    <a href="Balk_headshot.png">
-      <img src="./images/Balk_headshot.png" alt="Balk" width="600" height="400">
-    </a>
-    <div class="desc">add description</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a href="Balk_headshot.png">
-      <img src="./images/Balk_headshot.png" alt="Image Description" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div style="clear:both;"></div>
