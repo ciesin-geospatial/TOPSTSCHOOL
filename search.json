@@ -130,7 +130,7 @@
     "href": "dev-team.html#smes",
     "title": "SCHOOL Development Team",
     "section": "SME’s",
-    "text": "SME’s\n\n\n\n\n\n\n\nDeborah Balk\n\n\n\n\n\n\n\nNancy Degnan\n\n\n\n\n\n\n\nLaureline Josset\n\n\n\n\n\n\n\nRyan Meade\n\n\n\n\n\n\n\nThomas Parris\n\n\n\n\n\n\nCUNY Baruch CIDR\n\n\nColumabia University\n\n\nColumbia Water Center\n\n\nSUNY Binghampton\n\n\niScience"
+    "text": "SME’s\n\n\n\n\n\n\n\nDeborah Balk\n\n\n\n\n\n\n\nNancy Degnan\n\n\n\n\n\n\n\nLaureline Josset\n\n\n\n\n\n\n\nRyan Meade\n\n\n\n\n\n\n\nThomas Parris\n\n\n\n\n\n\nCUNY Baruch CIDR\n\n\nColumabia University\n\n\nColumbia Water Center\n\n\nSUNY Binghampton\n\n\niScience\n\n\n\n\n’’’html &lt;!DOCTYPE html&gt;\n\n\n\n\n\n\n\n\n&lt;a target=\"_self\" href=\"TOPSTSCHOOL-logo03.png\"&gt;\n  &lt;img src=\"./images/TOPSTSCHOOL-logo03.png\" width=\"600\" height=\"400\"&gt;\n&lt;/a&gt;\n&lt;div class=\"desc\"&gt;TOPSLOGO&lt;/div&gt;\n\n\n\n\n&lt;a target=\"_blank\" href=\"img_forest.jpg\"&gt;\n  &lt;img src=\"img_forest.jpg\" width=\"600\" height=\"400\"&gt;\n&lt;/a&gt;\n&lt;div class=\"desc\"&gt;Add a description of the image here&lt;/div&gt;\n\n\n\n\n&lt;a target=\"_blank\" href=\"img_lights.jpg\"&gt;\n  &lt;img src=\"img_lights.jpg\" width=\"600\" height=\"400\"&gt;\n&lt;/a&gt;\n&lt;div class=\"desc\"&gt;Add a description of the image here&lt;/div&gt;\n\n\n\n\n&lt;a target=\"_blank\" href=\"img_mountains.jpg\"&gt;\n  &lt;img src=\"img_mountains.jpg\" width=\"600\" height=\"400\"&gt;\n&lt;/a&gt;\n&lt;div class=\"desc\"&gt;Add a description of the image here&lt;/div&gt;\n\n\n\n\n\n\n\n’’’"
   },
   {
     "objectID": "about.html",
