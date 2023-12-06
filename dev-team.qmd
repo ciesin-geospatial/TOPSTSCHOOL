@@ -74,11 +74,11 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 ## SME's
 <table>
   <tr>
-    <th>![Deborah Balk](images/Balk_headshot2.png)</th>
-    <th>![Nancy Degnan](images/Degman_headshot2.png)</th>
-    <th>![Laureline Josset](images/Josset_headshot2.png)</th>
-    <th>![Ryan Meade](images/Meade_headshot.png)</th>
-    <th>![Thomas Parris](images/Parris_headshot.png)</th>
+    <th>![Deborah Balk](images/SME/Balk_headshot2.png)</th>
+    <th>![Nancy Degnan](images/SME/Degman_headshot2.png)</th>
+    <th>![Laureline Josset](images/SME/Josset_headshot2.png)</th>
+    <th>![Ryan Meade](images/SME/Meade_headshot.png)</th>
+    <th>![Thomas Parris](images/SME/Parris_headshot.png)</th>
   </tr>
   <tr>
     <td>CUNY Baruch CIDR</td>
