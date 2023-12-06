@@ -34,7 +34,7 @@ WSIM-GLDAS can be download from [SEDAC](https://sedac.ciesin.columbia.edu/data/s
 
 Once you've completed the download and placed the .nc into your working directory read in the file with the `stars::read_stars()` function.
 
-```{r}
+```r
 
 # proxy = TRUE will limit memory useage but does 
 # not always work with certain downstream processing functions
@@ -52,7 +52,7 @@ This means the total number of individual raster layers in this NetCDF is 4020 (
 
 We can start paring this down by subsetting for just the combined surplus/deficit anomaly (both).
 
-```{r}
+```r
 names(wsim_gldas_anoms)
 
 wsim_gldas_anoms <- wsim_gldas_anoms['both']
@@ -62,7 +62,7 @@ wsim_gldas_anoms <- wsim_gldas_anoms['both']
 Specifying a temporal range of interest will free up more space. We'll grab every month for 2000-2014. This can be accomplished by generating a sequence for every month between January 2000 and December 2014, and then passing that vector of dates to `filter`.
 
 
-```{r}
+```r
 # generate a vector of dates for subsetting
 keeps<-seq(lubridate::ymd("2000-01-01"),
            lubridate::ymd("2014-12-01"), 
@@ -75,7 +75,7 @@ print(wsim_gldas_anoms)
 
 Now we're down to a single attribute ("both") with 180 time-steps. We can take a look at the first 6 months by passing the object through `slice` and then into `plot`.
 
-```{r}
+```r
 wsim_gldas_anoms |>
   dplyr::slice(index = 1:6, along = "time") |>
   plot(key.pos = 1)
@@ -95,13 +95,13 @@ The call to geoBoundaries' API is pretty simple:
 
 We adjust the bolded components of the URL address to specify the country we want using the ISO 3 Character Country Code (USA) and the desired Administrative Level (ADM1).
 
-```{r}
+```r
 usa <- httr::GET("https://www.geoboundaries.org/api/current/gbOpen/USA/ADM1/")
 ```
 
 After the `GET` call, we have to translate the `content`.
 
-```{r}
+```r
 usa <- httr::content(usa)
 
 names(usa)
@@ -109,14 +109,14 @@ names(usa)
 
 The parsed content object contains 32 components. Item 29 is a direct link to the geojson file (gjDownloadURL). Read that in and check the visuals.
 
-```{r}
+```r
 usa <- sf::st_read(usa$gjDownloadURL)
 
 plot(sf::st_geometry(usa))
 ```
 This looks good, but it includes all United States territories. For simplicity, we can get it down to only the contiguous United States. 
 
-```{r}
+```r
 drops<-
   c("Alaska", "Hawaii", 
     "American Samoa",
@@ -133,7 +133,7 @@ plot(sf::st_geometry(usa))
 We can take this a step further and select a target state.
 
 
-```{r}
+```r
 texas <- usa[usa$shapeName == "Texas",]
 
 plot(sf::st_geometry(texas))
@@ -142,14 +142,14 @@ plot(sf::st_geometry(texas))
 From here we can crop the WSIM GLDAS raster stack by indexing it with the stored boundary of Texas
 
 
-```{r}
+```r
 wsim_gldas_anoms_tex <- wsim_gldas_anoms[texas]
 ```
 
 For a final visual check we'll take the last time-step in the WSIM-GLDAS dataset (180/December, 2014) and plot it with an overlay of the Texas boundary.
 
 
-```{r}
+```r
 wsim_gldas_anoms_tex |>
   dplyr::slice(index = 180, along = "time") |>
   plot(reset = FALSE)
@@ -163,7 +163,7 @@ plot(sf::st_geometry(texas),
 
 The subsetted dataset may be written to disk, and saved for future modules.
 
-```{r}
+```r
 stars::write_stars(wsim_gldas_anoms_tex, "wsim_gldas_tex.nc")
 ```
 
