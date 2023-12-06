@@ -71,7 +71,6 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 <hr>
 <h1 class="heading">SCHOOL Yearbook</h1>
 
-<html>
 <head>
 <style>
 div.gallery {
@@ -129,7 +128,7 @@ div.desc {
 <div class="responsive">
  <div class="gallery">
     <a target="_self" href="TOPSTSCHOOL-logo03.png">
-      <img src="./images/TOPSTSCHOOL-logo03.png" width="600" height="400">
+      <img src="images/TOPSTSCHOOL-logo03.png" width="600" height="400">
     </a>
     <div class="desc">TOPSLOGO</div>
   </div>
@@ -168,7 +167,6 @@ div.desc {
 
 
 </body>
-</html>
 
 <hr>
 
