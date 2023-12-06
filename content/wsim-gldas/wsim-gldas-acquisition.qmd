@@ -61,7 +61,7 @@ wsim_gldas_anoms <- wsim_gldas_anoms['both']
 
 Specifying a temporal range of interest will free up more space. We'll grab every month for 2000-2014. This can be accomplished by generating a sequence for every month between January 2000 and December 2014, and then passing that vector of dates to `filter`.
 
-<<<<<<< HEAD
+
 ```{r}
 # generate a vector of dates for subsetting
 keeps<-seq(lubridate::ymd("2000-01-01"),
@@ -132,7 +132,7 @@ plot(sf::st_geometry(usa))
 
 We can take this a step further and select a target state.
 
-<<<<<<< HEAD
+
 ```{r}
 texas <- usa[usa$shapeName == "Texas",]
 
@@ -141,14 +141,14 @@ plot(sf::st_geometry(texas))
 
 From here we can crop the WSIM GLDAS raster stack by indexing it with the stored boundary of Texas
 
-<<<<<<< HEAD
+
 ```{r}
 wsim_gldas_anoms_tex <- wsim_gldas_anoms[texas]
 ```
 
 For a final visual check we'll take the last time-step in the WSIM-GLDAS dataset (180/December, 2014) and plot it with an overlay of the Texas boundary.
 
-<<<<<<< HEAD
+
 ```{r}
 wsim_gldas_anoms_tex |>
   dplyr::slice(index = 180, along = "time") |>
