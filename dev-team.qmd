@@ -148,37 +148,37 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_self" href="TOPSTSCHOOL-logo03.png">
-      <img src="./images/TOPSTSCHOOL-logo03.png" width="600" height="400">
+    <a target="_self" href="Balk_headshot.png">
+      <img src="./images/Balk_headshot.png" width="600" height="400">
     </a>
-    <div class="desc">TOPSLOGO</div>
+    <div class="desc">BALK</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" width="600" height="400">
+    <a target="_self" href="Balk_headshot.png">
+      <img src="./images/Balk_headshot.png" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">BALK</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" width="600" height="400">
+    <a target="_self" href="Balk_headshot.png">
+      <img src="./images/Balk_headshot.png" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">BALK</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" width="600" height="400">
+    <a target="_self" href="Balk_headshot.png">
+      <img src="./images/Balk_headshot.png" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">BALK</div>
   </div>
 </div>
 
