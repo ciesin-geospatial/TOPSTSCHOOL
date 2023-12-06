@@ -71,17 +71,21 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 <hr>
 
 # SCHOOL Yearkbook
-## Development Team
+## SME's
 <table>
   <tr>
-    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.hi-res.png)</th>
-    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.hi-res.png)</th>
-    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.hi-res.png)</th>
+    <th>![Deborah Balk](images/Balk_headshot.png)</th>
+    <th>![Nancy Degnan](images/Degnan_headshot.png)</th>
+    <th>![Laureline Josset](images/Josset_headshot.png)</th>
+    <th>![Ryan Meade](images/Meade_headshot.png)</th>
+    <th>![Thomas Parris](images/Parris_headshot.png)</th>
   </tr>
   <tr>
-    <td>TOPS1</td>
-    <td>TOPS2</td>
-    <td>TOPS3</td>
+    <td>CUNY Baruch CIDR</td>
+    <td>Columabia University</td>
+    <td>Columbia Water Center</td>
+    <td>SUNY Binghampton</td>
+    <td>iScience</td>
   </tr>
   
 </table>
