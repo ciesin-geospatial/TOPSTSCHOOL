@@ -71,6 +71,8 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 <hr>
 <h1 class="heading">SCHOOL Yearbook</h1>
 
+<!DOCTYPE html>
+<html>
 <head>
 <style>
 div.gallery {
@@ -123,10 +125,12 @@ div.desc {
 </head>
 <body>
 
+
+
 <div class="responsive">
-  <div class="gallery">
-    <a target="_self" href="TOPSTSCHOOL_logo03.png">
-      <img src="./images/TOPSTSCHOOL-logo03.png" alt="TOPSLOGO" width="600" height="400">
+ <div class="gallery">
+    <a target="_self" href="TOPSTSCHOOL-logo03.png">
+      <img src="./images/TOPSTSCHOOL-logo03.png" width="600" height="400">
     </a>
     <div class="desc">TOPSLOGO</div>
   </div>
@@ -136,7 +140,7 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+      <img src="img_forest.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -145,7 +149,7 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+      <img src="img_lights.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -154,7 +158,7 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+      <img src="img_mountains.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -162,8 +166,10 @@ div.desc {
 
 <div class="clearfix"></div>
 
-<div style="padding:6px;">
+
+
 </body>
+</html>
 
 <hr>
 
