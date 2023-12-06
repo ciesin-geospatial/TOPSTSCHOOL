@@ -74,9 +74,9 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 ## Development Team
 <table>
   <tr>
-    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.png)</th>
-    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.png)</th>
-    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.png)</th>
+    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.hi-res.png)</th>
+    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.hi-res.png)</th>
+    <th>![TOPSLOGO](images/TOPTSCHOOL-logo02.hi-res.png)</th>
   </tr>
   <tr>
     <td>TOPS1</td>
