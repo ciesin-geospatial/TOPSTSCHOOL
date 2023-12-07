@@ -10,6 +10,11 @@ Libraries:
 
 ```{r}
 library(stars)
+library(earthdatalogin)
+```
+
+```{r}
+edl_set_token()
 ```
 
 ```{r}
