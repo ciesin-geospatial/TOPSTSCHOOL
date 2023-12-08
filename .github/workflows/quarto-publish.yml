@@ -31,6 +31,10 @@ jobs:
             any::stars
             any::xml2
             any::earthdatalogin
+            any::stars
+            any::httr
+            any::jsonlite
+            any::tmap
      
 
       - name: Publish to GitHub Pages (and render)
