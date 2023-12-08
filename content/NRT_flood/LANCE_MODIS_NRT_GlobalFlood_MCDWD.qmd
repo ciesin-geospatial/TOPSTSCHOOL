@@ -42,7 +42,7 @@ Based on availability, edit the year_day variable YYYY-DD. Example: '2022-01'
 ```{r}
 
 #add the year and date you want to search for (YYYY-DD, 2022-01)
-year_day <- '2023-333'
+year_day <- '2023-336'
 
 ```
 
@@ -54,7 +54,7 @@ Based on availability, edit the tile_code variable:
 
 ```{r}
 #add tile code from the map above (written as h00v00)
-tile_code <- 'h09v06'
+tile_code <- 'h05v05'
 ```
 
 This is the NRT Flood F3 (MCDWD_L3_F3) API URL:
@@ -144,19 +144,32 @@ NRT Flood data has 5 classifications:
 
 [^lance_modis_nrt_globalflood_mcdwd-1]: Value 2 (Recurring flood) is not populated in the beta release.
 
-
-
+Create a classified legend; however, the NRT Flood data is stored in decimal numbers (aka floating-point). Create class breaks dividing the data by these breaks, and corresponding colors and labels:
 ```{r}
-class_breaks <- c(0,0.1, 1.1, 2.1, 3.1,255)
-labels = c("0: No Water", "1: Surface Water", "2: Recurring flood","3: Flood (unusual)", "255: Insufficient data")
+class_breaks <- c(-Inf, 0.1, 1.1, 2.1, 3.1)
+colors <- c( "gray", "blue", "yellow","red")
+
+labels = c("0: No Water", "1: Surface Water", "2: Recurring flood", "3: Flood (unusual)")
+
+```
+
+Add a title for the plot that includes the year, day of year, and tile code:
+```{r}
 title = paste("NRT Flood", year_day, tile_code)
+```
 
-colors <- c( "gray", "blue", "yellow","red", "white")
+Generate a plot from the tmap library using the tm_shape() function. With style as "cat," meaning categorical. T
+```{r}
+tmap_mode("view")
+## tmap mode set to plotting
 tm_shape(raster_df, style="cat" )+
-  tm_raster(palette = c(colors), title = title, breaks = class_breaks, labels= labels ) +
+  tm_raster(palette = c(colors), 
+  title = title, 
+  breaks = class_breaks,
+  labels = labels )+
+  tm_basemap(server = "Esri.WorldImagery") +
   tm_layout(legend.outside = TRUE)
-
-
+  
 
 
 ```
