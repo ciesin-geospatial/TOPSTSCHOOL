@@ -28,7 +28,8 @@ for (package_name in packages_to_check) {
 ```
 
 ```{r}
-remotes::install_github('r-tmap/tmap')
+#in case tmap does not install
+#remotes::install_github('r-tmap/tmap')
 
 ```
 
