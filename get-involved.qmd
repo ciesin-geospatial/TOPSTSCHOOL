@@ -22,10 +22,20 @@ To **join the Open Science Team** or **learn more**, please fill out the [Partic
 
 ## Fall 2023: Mentors give workshops at AGU
 
+### AGU 2023
 December 11 - 15, NASA Openscapes Mentors will attend the AGU annual meeting and deliver workshops. High-level planning happens in the [2023-planning-agu](https://github.com/NASA-Openscapes/2023-planning-agu) GitHub repo.
 
-## Water Resources SCHOOL Workshop - [I-GUIDE Forum 2023](https://iguide.illinois.edu/forum-2023/agenda-of-i-guide-forum-2023/)
+### SCHOOL Water Module, Open Science Team Meeting 1
 
-October 4-5, TOPSTSCHOOL Development Team will host a workshop at the I-GUIDE Fourm 2023. ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL): Water Resources Module Development.
+The first meeting for the SCHOOL Open Science Team Members was held where Open Science concepts and the Transform to Open Science ([TOPS)](https://nasa.github.io/Transform-to-Open-Science/) initiative was introduced.
+[Workshop Documents](https://doi.org/10.5281/zenodo.10247097)
+[YouTube Video (subtitulos en Español)](https://youtu.be/OKAxJqOlhjM)
+
+
+### Water Resources SCHOOL Workshop - [I-GUIDE Forum 2023](https://iguide.illinois.edu/forum-2023/agenda-of-i-guide-forum-2023/)
+
+October 4-5, TOPSTSCHOOL Development Team hosted a workshop at the I-GUIDE Fourm 2023. ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL): Water Resources Module Development.
+[Workshop Documents](https://doi.org/10.5281/zenodo.8432066)
+[YouTube Video (subtitulos en Español)](https://youtu.be/OsZ3xBYNB6Q)
 
 
