@@ -83,14 +83,14 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Nancy Degnan**</td>
     <td>**Laureline Josset**</td>
     <td>**Ryan Meade**</td>
-    <td>**Thomas Parris**/td>
+    <td>**Thomas Parris**</td>
   </tr>
    <tr>
     <td>CUNY Baruch CIDR</td>
     <td>Columbia University</td>
     <td>Columbia Water Center</td>
     <td>SUNY Binghampton</td>
-    <td>iScience</td>
+    <td>iSciences</td>
   </tr>
 </table>
 <hr>
