@@ -69,6 +69,15 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 
 
 <hr>
+<table>
+  <tr>
+    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
+    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
+    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
+    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
+    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
+  </tr>
+</table>
 
 # SCHOOL Yearkbook
 ## SME's
