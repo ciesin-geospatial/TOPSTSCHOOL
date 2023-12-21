@@ -67,35 +67,26 @@ Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Cen
 Associate Director for Geospatial Applications at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 
-
+# SCHOOL Yearbook
 <hr>
+### SME's
 <table>
   <tr>
-    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
-    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
-    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
-    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
-    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200"/></th>
+    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="180"/></th>
+    <th><img src="./images/SME/Degman_headshot.png" alt="Nancy Degnan" width="180"/></th>
+    <th><img src="./images/SME/Josset_headshot.png" alt="Laureline Josset" width="180"/></th>
+    <th><img src="./images/SME/Meade_headshot.png" alt="Ryan Meade" width="180"/></th>
+    <th><img src="./images/SME/Parris_headshot.png" alt="Thomas Parris" width="180"/></th>
   </tr>
-</table>
-
-# SCHOOL Yearkbook
-## SME's
-<table>
-  <tr>
-    <th>![Deborah Balk](images/SME/Balk_headshot3.png)</th>
-    <th>![Nancy Degnan](images/SME/Degman_headshot3.png)</th>
-    <th>![Laureline Josset](images/SME/Josset_headshot3.png)</th>
-    <th>![Ryan Meade](images/SME/Meade_headshot3.png)</th>
-    <th>![Thomas Parris](images/SME/Parris_headshot3.png)</th>
-  </tr>
-  <tr>
+   <tr>
     <td>CUNY Baruch CIDR</td>
     <td>Columabia University</td>
     <td>Columbia Water Center</td>
     <td>SUNY Binghampton</td>
     <td>iScience</td>
   </tr>
-  
 </table>
+<hr>
+### Development Team
+
 
