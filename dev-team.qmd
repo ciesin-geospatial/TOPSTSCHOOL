@@ -72,11 +72,11 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 ### SMEs
 <table>
   <tr>
-    <th><img src="./images/SME/Balk_headshot.png" alt="Deoborah Balk" width="200" height="200"/></th>
-    <th><img src="./images/SME/Degman_headshot.png" alt="Nancy Degnan" width="200" height="200"/></th>
-    <th><img src="./images/SME/Josset_headshot.png" alt="Laureline Josset" width="200" height="200"/></th>
-    <th><img src="./images/SME/Meade_headshot.png" alt="Ryan Meade" width="200" height="200"/></th>
-    <th><img src="./images/SME/Parris_headshot.png" alt="Thomas Parris" width="200" height="200"/></th>
+    <th><img src="./images/SME/Balk_headshot3.png" alt="Deoborah Balk" width="185" height="200"/></th>
+    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" width="185" height="200"/></th>
+    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" width="185" height="200"/></th>
+    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" width="185" height="200"/></th>
+    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" width="185" height="200"/></th>
   </tr>
    <tr>
     <td>CUNY Baruch CIDR</td>
