@@ -80,7 +80,7 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
   </tr>
    <tr>
     <td>CUNY Baruch CIDR</td>
-    <td>Columabia University</td>
+    <td>Columbia University</td>
     <td>Columbia Water Center</td>
     <td>SUNY Binghampton</td>
     <td>iScience</td>
