@@ -122,7 +122,7 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
   <tr> 
     <th><img src="./images/DT/Elaine Famutimi.jpeg" alt="Elaine Famutimi" width="180" height="185"/></th>
     <th><img src="./images/DT/Camilla Green.jpeg" alt="Camilla Green" width="180" height="185"/></th>
-    <th><img src="./images/DT/Kytt MacManus.jpg" alt="Kytt MacManus" width="180" height="185"/></th>
+    <th><img src="./images/DT/Kytt MacManus.jpeg" alt="Kytt MacManus" width="180" height="185"/></th>
     <th><img src="./images/DT/Juan Martinez.jpg" alt="Juan Martinez" width="180" height="185"/></th>
     <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" width="180" height="185"/></th>
   </tr>
@@ -138,6 +138,23 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>CIESIN</td>
     <td>CIESIN, SEDAC</td>
     <td>CIESIN</td>
+    <td>CIESIN</td>
+  </tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
+    <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
+    <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Linda Pistolesi**</td>
+    <td>**Sri Vinay**</td>
+    <td>**Greg Yetman**</td>
+  </tr>
+   <tr>
+    <td>CIESIN</td>
+    <td>CIESIN, SEDAC</td>
     <td>CIESIN</td>
   </tr>
 </table>
