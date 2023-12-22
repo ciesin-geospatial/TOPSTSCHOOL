@@ -95,5 +95,28 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 </table>
 <hr>
 ### Development Team
+<table>
+  <tr>
+    <th><img src="./images/DT/Navin Aade.jpg" alt="Navin Aade" width="180" height="185"/></th>
+    <th><img src="./images/SME/Josh Brinks.jpg" alt="Josh Brinks" width="180" height="185"/></th>
+    <th><img src="./images/SME/Iris Cano.jpg" alt="Iris Cano" width="180" height="185"/></th>
+    <th><img src="./images/SME/Christina Deodatis.jpg" alt="Christina Deodatis" width="180" height="185"/></th>
+    <th><img src="./images/SME/Hasim Engin.jpg" alt="Hasim Engin" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Navin Aade**</td>
+    <td>**Josh Brinks**</td>
+    <td>**Iris Cano**</td>
+    <td>**Christina Deodatis**</td>
+    <td>**Hasim Engin**</td>
+  </tr>
+   <tr>
+    <td>Columbia Climate School</td>
+    <td>iSciences</td>
+    <td>CUNY Baruch</td>
+    <td>CIESIN</td>
+    <td>CIESIN</td>
+  </tr>
+</table>
 
 
