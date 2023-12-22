@@ -107,13 +107,36 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Navin Aade**</td>
     <td>**Josh Brinks**</td>
     <td>**Iris Cano**</td>
-    <td>**Christina Deodatis**</td>
+    <td>**Christina Alexia Deodatis**</td>
     <td>**Hasim Engin**</td>
   </tr>
    <tr>
     <td>Columbia Climate School</td>
     <td>iSciences</td>
     <td>CUNY Baruch</td>
+    <td>CIESIN</td>
+    <td>CIESIN</td>
+  </tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/DT/Elaine Famutimi.jpeg" alt="Elaine Famutimi" width="180" height="185"/></th>
+    <th><img src="./images/DT/Camilla Green.jpeg" alt="Camilla Green" width="180" height="185"/></th>
+    <th><img src="./images/DT/Kytt MacManus.jpg" alt="Kytt MacManus" width="180" height="185"/></th>
+    <th><img src="./images/DT/Juan Martinez.jpg" alt="Juan Martinez" width="180" height="185"/></th>
+    <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Elaine Famutimi**</td>
+    <td>**Camilla Green**</td>
+    <td>**Kytt MacManus**</td>
+    <td>**Juan Fernando Martinez**</td>
+    <td>**Josie Morkin**</td>
+  </tr>
+   <tr>
+    <td>CUNY Baruch</td>
+    <td>CIESIN</td>
+    <td>CIESIN, SEDAC</td>
     <td>CIESIN</td>
     <td>CIESIN</td>
   </tr>
