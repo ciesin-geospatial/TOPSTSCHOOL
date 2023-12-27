@@ -107,7 +107,7 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Navin Aade**</td>
     <td>**Josh Brinks**</td>
     <td>**Iris Cano**</td>
-    <td>**Christina Alexia Deodatis**</td>
+    <td>**Christina Deodatis**</td>
     <td>**Hasim Engin**</td>
   </tr>
    <tr>
@@ -130,7 +130,7 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Elaine Famutimi**</td>
     <td>**Camilla Green**</td>
     <td>**Kytt MacManus**</td>
-    <td>**Juan Fernando Martinez**</td>
+    <td>**Juan Martinez**</td>
     <td>**Josie Morkin**</td>
   </tr>
    <tr>
