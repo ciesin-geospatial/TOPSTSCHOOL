@@ -86,11 +86,11 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Thomas Parris**</td>
   </tr>
    <tr>
-    <td>CUNY Baruch CIDR</td>
+    <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
     <td>Columbia University</td>
-    <td>Columbia Water Center</td>
+    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>SUNY Binghampton</td>
-    <td>iSciences</td>
+    <td>President at [iSciences](https://www.isciences.com/)</td>
   </tr>
 </table>
 <hr>
@@ -111,11 +111,11 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Hasim Engin**</td>
   </tr>
    <tr>
-    <td>Columbia Climate School</td>
-    <td>iSciences</td>
-    <td>CUNY Baruch</td>
-    <td>CIESIN</td>
-    <td>CIESIN</td>
+    <td>Research Associate at CIESIN</td>
+    <td>Research Scientist at [iSciences](https://www.isciences.com/)</td>
+    <td>Research Associate at CUNY Baruch</td>
+    <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
+    <td>Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
   </tr>
 </table>
 <table>
