@@ -68,6 +68,20 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
 
 
 # SCHOOL Yearbook
+```{=html}
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #dddddd; /* Optional: Add border for better visualization */
+  }
+</style>
+```
+
 <hr>
 ### SMEs
 <table>
