@@ -125,9 +125,9 @@ Associate Director for Geospatial Applications at [CIESIN, Columbia Climate Scho
     <td>**Hasim Engin**</td>
   </tr>
    <tr>
-    <td>Research Associate at CIESIN</td>
+    <td>Research Associate at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Research Scientist at [iSciences](https://www.isciences.com/)</td>
-    <td>Research Associate at CUNY Baruch</td>
+    <td>Research Associate at [CUNY](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)</td>
     <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
   </tr>
