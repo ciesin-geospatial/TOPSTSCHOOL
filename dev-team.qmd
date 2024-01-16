@@ -20,32 +20,6 @@ description: |
 ```
 
 <hr>
-### Consultation Team, Subject Matter Experts (SMEs)
-#### Module 1: Water
-<table>
-  <tr>
-    <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" width="180" height="185"/></th>
-    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" width="180" height="185"/></th>
-    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" width="180" height="185"/></th>
-    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" width="180" height="185"/></th>
-    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" width="180" height="185"/></th>
-  </tr>
-<tr>
-    <td>**Deborah Balk**</td>
-    <td>**Nancy Degnan**</td>
-    <td>**Laureline Josset**</td>
-    <td>**Ryan Mead**</td>
-    <td>**Thomas Parris**</td>
-  </tr>
-   <tr>
-    <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
-    <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
-    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
-    <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
-    <td>President at [iSciences](https://www.isciences.com/)</td>
-  </tr>
-</table>
-<hr>
 ### Open Science Team Members
 #### Module 1: Water
 <table>
@@ -108,6 +82,32 @@ description: |
     <td>**Xuan Zhou**</td>
   </tr>
 </table>
+### Consultation Team, Subject Matter Experts (SMEs)
+#### Module 1: Water
+<table>
+  <tr>
+    <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" width="180" height="185"/></th>
+    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" width="180" height="185"/></th>
+    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" width="180" height="185"/></th>
+    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" width="180" height="185"/></th>
+    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Deborah Balk**</td>
+    <td>**Nancy Degnan**</td>
+    <td>**Laureline Josset**</td>
+    <td>**Ryan Mead**</td>
+    <td>**Thomas Parris**</td>
+  </tr>
+   <tr>
+    <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
+    <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
+    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
+    <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
+    <td>President at [iSciences](https://www.isciences.com/)</td>
+  </tr>
+</table>
+<hr>
 ### Development Team 
 <table>
   <tr> 
@@ -158,8 +158,8 @@ description: |
 <table>
   <tr> 
     <th style="width:20%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
-    <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
-    <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
+    <th style="width:20%"><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
+    <th style="width:20%"><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
   </tr>
 <tr>
     <td>**Linda Pistolesi**</td>
