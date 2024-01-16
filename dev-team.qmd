@@ -157,9 +157,9 @@ description: |
 </table>
 <table>
   <tr> 
-    <th style="width:20%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
-    <th style="width:20%"><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
-    <th style="width:20%"><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
+    <th style="width:15%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
+    <th style="width:15%"><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
+    <th style="width:15%"><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
   </tr>
 <tr>
     <td>**Linda Pistolesi**</td>
