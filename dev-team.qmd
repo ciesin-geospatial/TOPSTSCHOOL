@@ -167,14 +167,14 @@ img {
 </table>
 <table>
   <tr> 
-    <th style="width:180px"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
+    <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
     <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" class="cover"/></th>
     <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" class="cover"/></th>
   </tr>
 <tr>
-    <td>**Linda Pistolesi**</td>
-    <td>**Sri Vinay**</td>
-    <td>**Greg Yetman**</td>
+    <td style="width:180px">**Linda Pistolesi**</td>
+    <td style="width:180px">**Sri Vinay**</td>
+    <td style="width:180px">**Greg Yetman**</td>
   </tr>
    <tr>
     <td>Senior Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
