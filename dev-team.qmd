@@ -136,9 +136,9 @@ description: |
   <tr> 
     <th><img src="./images/DT/Elaine Famutimi.jpeg" alt="Elaine Famutimi" width="180" height="185"/></th>
     <th><img src="./images/DT/Camilla Green.jpeg" alt="Camilla Green" width="180" height="185"/></th>
-    <th><img src="./images/DT/Kytt MacManus2.JPG" alt="Kytt MacManus" width="185" height="185"/></th>
-    <th><img src="./images/DT/Juan Martinez.jpg" alt="Juan Martinez" width="180" height="185"/></th>
-    <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" width="180" height="185"/></th>
+    <th><img src="./images/DT/Kytt MacManus2.JPG" alt="Kytt MacManus" class="cover"/></th>
+    <th><img src="./images/DT/Juan Martinez.jpg" alt="Juan Martinez" class="cover"/></th>
+    <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th>
   </tr>
 <tr>
     <td>**Elaine Famutimi**</td>
