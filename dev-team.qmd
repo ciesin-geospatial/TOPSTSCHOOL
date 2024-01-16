@@ -167,7 +167,7 @@ img {
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
+    <th style="width:180px"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
     <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" class="cover"/></th>
     <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" class="cover"/></th>
   </tr>
