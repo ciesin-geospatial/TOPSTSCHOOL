@@ -87,9 +87,9 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
-    <td>**Hieu Tran**</td>
-    <td>**Aneese Williams**</td>
-    <td>**Xuan Zhou**</td>
+    <td style="width:180px">**Hieu Tran**</td>
+    <td style="width:180px">**Aneese Williams**</td>
+    <td style="width:180px">**Xuan Zhou**</td>
   </tr>
 </table>
 ### Consultation Team, Subject Matter Experts (SMEs)
