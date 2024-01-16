@@ -1,7 +1,7 @@
 ---
 title: "SCHOOL Development Team"
 description: |
-  Acknowledgments of those involved in the production of the TOPSTSCHOOL Modules
+  The Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) project is made up of a core team of developers, scientists, and educators working with a consultation team of subject matter experts (SMEs) and with the input and review of a diverse Open Science Team to develop online learning modules demonstrating the data science lifecycle across a variety of NASA Earth Science Applied Sciences Program Areas.
 ---
 
 # SCHOOL Yearbook
@@ -20,7 +20,7 @@ description: |
 ```
 
 <hr>
-### Subject Matter Experts (SMEs)
+### Consultation Team, Subject Matter Experts (SMEs)
 #### Module 1: Water
 <table>
   <tr>
@@ -46,7 +46,7 @@ description: |
   </tr>
 </table>
 <hr>
-### SCHOOL TOPS Team Members
+### Open Science Team Members
 #### Module 1: Water
 <table>
   <tr> 
@@ -157,7 +157,7 @@ description: |
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
+    <th style="width:40%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
     <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
     <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
   </tr>
