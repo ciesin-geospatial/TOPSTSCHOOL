@@ -114,7 +114,7 @@ description: |
     <th><img src="./images/DT/Navin Aade2.jpg" alt="Navin Aade" width="180" height="185"/></th>
     <th><img src="./images/DT/Josh Brinks.jpg" alt="Josh Brinks" width="180" height="185"/></th>
     <th><img src="./images/DT/Iris Cano.jpg" alt="Iris Cano" width="180" height="185"/></th>
-    <th><img src="./images/DT/Christina Deodatis.jpg" alt="Christina Deodatis" width="180" height="185"/></th>
+    <th><img src="./images/DT/Christina Deodatis.jpg" alt="Christina Deodatis" width="185" height="185"/></th>
     <th><img src="./images/DT/Hasim Engin.jpg" alt="Hasim Engin" width="180" height="185"/></th>
   </tr>
 <tr>
@@ -136,7 +136,7 @@ description: |
   <tr> 
     <th><img src="./images/DT/Elaine Famutimi.jpeg" alt="Elaine Famutimi" width="180" height="185"/></th>
     <th><img src="./images/DT/Camilla Green.jpeg" alt="Camilla Green" width="180" height="185"/></th>
-    <th><img src="./images/DT/Kytt MacManus2.JPG" alt="Kytt MacManus" width="180" height="185"/></th>
+    <th><img src="./images/DT/Kytt MacManus2.JPG" alt="Kytt MacManus" width="185" height="185"/></th>
     <th><img src="./images/DT/Juan Martinez.jpg" alt="Juan Martinez" width="180" height="185"/></th>
     <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" width="180" height="185"/></th>
   </tr>
@@ -157,7 +157,7 @@ description: |
 </table>
 <table>
   <tr> 
-    <th style="width:40%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
+    <th style="width:20%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" width="180" height="185"/></th>
     <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" height="185"/></th>
     <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" height="185"/></th>
   </tr>
