@@ -34,11 +34,11 @@ img {
 #### Module 1: Water
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
     <td>**Emanuel Agú**</td>
@@ -50,11 +50,11 @@ img {
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
     <td>**Karen E. Cowen**</td>
@@ -66,11 +66,11 @@ img {
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
     <td>**Robyn Marowitz**</td>
@@ -82,9 +82,9 @@ img {
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank"class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
     <td>**Hieu Tran**</td>
@@ -96,11 +96,11 @@ img {
 #### Module 1: Water
 <table>
   <tr>
-    <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" width="180" height="185"/></th>
-    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" width="180" height="185"/></th>
-    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" width="180" height="185"/></th>
-    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" width="180" height="185"/></th>
-    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" width="180" height="185"/></th>
+    <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
+    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" class="cover"/></th>
+    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" class="cover"/></th>
+    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" class="cover"/></th>
+    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
   </tr>
 <tr>
     <td>**Deborah Balk**</td>
@@ -121,11 +121,11 @@ img {
 ### Development Team 
 <table>
   <tr> 
-    <th><img src="./images/DT/Navin Aade2.jpg" alt="Navin Aade" width="180" height="185"/></th>
-    <th><img src="./images/DT/Josh Brinks.jpg" alt="Josh Brinks" width="180" height="185"/></th>
-    <th><img src="./images/DT/Iris Cano.jpg" alt="Iris Cano" width="180" height="185"/></th>
-    <th><img src="./images/DT/Christina Deodatis.jpg" alt="Christina Deodatis" width="185" height="185"/></th>
-    <th><img src="./images/DT/Hasim Engin.jpg" alt="Hasim Engin" width="180" height="185"/></th>
+    <th><img src="./images/DT/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
+    <th><img src="./images/DT/Josh Brinks.jpg" alt="Josh Brinks" class="cover"/></th>
+    <th><img src="./images/DT/Iris Cano.jpg" alt="Iris Cano" class="cover"/></th>
+    <th><img src="./images/DT/Christina Deodatis.jpg" alt="Christina Deodatis" class="cover"/></th>
+    <th><img src="./images/DT/Hasim Engin.jpg" alt="Hasim Engin" class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
@@ -167,9 +167,9 @@ img {
 </table>
 <table>
   <tr> 
-    <th style="width:15%"><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
-    <th style="width:15%"><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" width="180" class="cover"/></th>
-    <th style="width:15%"><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" width="180" class="cover"/></th>
+    <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
+    <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" class="cover"/></th>
+    <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" class="cover"/></th>
   </tr>
 <tr>
     <td>**Linda Pistolesi**</td>
