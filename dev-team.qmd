@@ -34,21 +34,80 @@ description: |
     <td>**Deborah Balk**</td>
     <td>**Nancy Degnan**</td>
     <td>**Laureline Josset**</td>
-    <td>**Ryan Meade**</td>
+    <td>**Ryan Mead**</td>
     <td>**Thomas Parris**</td>
   </tr>
    <tr>
     <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
-    <td>Columbia University</td>
+    <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
-    <td>SUNY Binghampton</td>
+    <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
     <td>President at [iSciences](https://www.isciences.com/)</td>
   </tr>
 </table>
 <hr>
 ### SCHOOL TOPS Team Members
 #### Module 1: Water
-
+<table>
+  <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Emanuel Agú**</td>
+    <td>**Denisse Fierro Arcos**</td>
+    <td>**Rosana Aguilera Becker**</td>
+    <td>**Tricia Boucher**</td>
+    <td>**Jinyi Cai**</td>
+  </tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Karen E. Cowen**</td>
+    <td>**Jenny Hewson**</td>
+    <td>**Peer Herholz**</td>
+    <td>**David Lee**</td>
+    <td>**Hazem Mahmoud**</td>
+  </tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Robyn Marowitz**</td>
+    <td>**Lara Pistolesi**</td>
+    <td>**Annajiat Alim Rasel**</td>
+    <td>**Luana Sales**</td>
+    <td>**Alber Sánchez**</td>
+  </tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" width="180" height="185"/></th>
+  </tr>
+<tr>
+    <td>**Hieu Tran**</td>
+    <td>**Aneese Williams**</td>
+    <td>**Xuan Zhou**</td>
+  </tr>
+</table>
 ### Development Team 
 <table>
   <tr> 
