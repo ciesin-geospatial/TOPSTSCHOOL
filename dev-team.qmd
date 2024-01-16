@@ -16,6 +16,13 @@ description: |
     padding: 10px;
     border: 1px solid #dddddd; /* Optional: Add border for better visualization */
   }
+img {
+    width: 128px;
+    height: 128px;
+}
+.contain {
+  object-fit: contain;
+}
 </style>
 ```
 
