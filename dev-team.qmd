@@ -3,24 +3,6 @@ title: "SCHOOL Development Team"
 description: |
   Acknowledgments of those involved in the production of the TOPSTSCHOOL Modules
 ---
-# SCHOOL TOPS Team Members
-##### Module 1: Water
-**Marie Curie**\
-[Nobel Prize](https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/) pioneering research on radioactivity as head of the Physics Laboratory at the Sorbonne-Université
-
-**Carl Sagan**
-
-**Amaron**
-
-##### Module 2
-##### Module 3
-
-# SCHOOL Subject Matter Experts (SMEs)
-##### Pedagogy
-**Tom M. Parris**\
-[iSciences](https://www.isciences.com/) President
-
-
 
 # SCHOOL Yearbook
 ```{=html}
@@ -64,7 +46,10 @@ description: |
   </tr>
 </table>
 <hr>
-### Development Team
+### SCHOOL TOPS Team Members
+#### Module 1: Water
+
+### Development Team 
 <table>
   <tr> 
     <th><img src="./images/DT/Navin Aade2.jpg" alt="Navin Aade" width="180" height="185"/></th>
