@@ -22,7 +22,7 @@ website:
       href: about.qmd
     - text: "Get Involved"
       href: get-involved.qmd
-    - text: "Development Team"
+    - text: "Meet Our Team"
       href: dev-team.qmd 
     - text: "Modules"
       href: modules.qmd
