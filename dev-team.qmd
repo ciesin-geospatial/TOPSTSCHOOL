@@ -122,61 +122,67 @@ img {
 <table>
   <tr> 
     <th><img src="./images/DT/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
+    <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
     <th><img src="./images/DT/Josh Brinks.jpg" alt="Josh Brinks" class="cover"/></th>
     <th><img src="./images/DT/Iris Cano.jpg" alt="Iris Cano" class="cover"/></th>
     <th><img src="./images/DT/Christina Deodatis.jpg" alt="Christina Deodatis" class="cover"/></th>
-    <th><img src="./images/DT/Hasim Engin.jpg" alt="Hasim Engin" class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
+    <td>**Deborah Balk**</td>
     <td>**Josh Brinks**</td>
     <td>**Iris Cano**</td>
     <td>**Christina Alexia Deodatis**</td>
-    <td>**Hasim Engin**</td>
   </tr>
    <tr>
     <td>Research Associate at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
+     <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
     <td>Research Scientist at [iSciences](https://www.isciences.com/)</td>
     <td>Research Associate at [CUNY](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)</td>
     <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
-    <td>Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
   </tr>
 </table>
 <table>
-  <tr> 
+  <tr>
+    <th><img src="./images/DT/Hasim Engin.jpg" alt="Hasim Engin" class="cover"/></th>
     <th><img src="./images/DT/Elaine Famutimi.jpeg" alt="Elaine Famutimi" class="cover"/></th>
     <th><img src="./images/DT/Camilla Green.jpeg" alt="Camilla Green" class="cover"/></th>
     <th><img src="./images/DT/Kytt MacManus2.JPG" alt="Kytt MacManus" class="cover"/></th>
     <th><img src="./images/DT/Juan Martinez.jpg" alt="Juan Martinez" class="cover"/></th>
-    <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th>
   </tr>
 <tr>
+    <td>**Hasim Engin**</td>
     <td>**Elaine Famutimi**</td>
     <td>**Camilla Green**</td>
     <td>**Kytt MacManus**</td>
     <td>**Juan Fernando Martinez**</td>
-    <td>**Josie Morkin**</td>
   </tr>
    <tr>
+    <td>Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Research Associate at [CUNY](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)</td>
     <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Assistant Systems Engineer at NASA Socioeconomic Data and Applications Center $($[SEDAC](https://sedac.ciesin.columbia.edu/)$)$ and GIS Developer at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Senior Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
-    <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
   </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th>
+    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
     <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
     <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" class="cover"/></th>
     <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" class="cover"/></th>
   </tr>
 <tr>
+    <td>**Josie Morkin**</td>
+    <td>**Thomas Parris**</td>
     <td style="width:180px">**Linda Pistolesi**</td>
     <td style="width:180px">**Sri Vinay**</td>
     <td style="width:180px">**Greg Yetman**</td>
   </tr>
    <tr>
+    <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
+    <td>President at [iSciences](https://www.isciences.com/)</td>
     <td>Senior Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center $($[SEDAC](https://sedac.ciesin.columbia.edu/)$)$ and Associate Director for IT at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Associate Director for Geospatial Applications at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
