@@ -1,31 +1,94 @@
 [
   {
-    "objectID": "get-involved.html",
-    "href": "get-involved.html",
-    "title": "Join the NASA TOPSTSCHOOL Team",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+    "text": "SCHOOL’s objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of NASA’s Open Source Science Initiative (OSSI). The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. Modules focus on demonstrating the data science life cycle with varying themes: Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate.\n\n\n\nInclusive Teaching\n\n\nInclusive teaching fosters an environment where diversity is celebrated and reflected in course content.\n\n\nMarginalization of various populations is overcome by using multiple and diverse examples crossing gender, cultural, and socioeconomic barriers. Course content is designed to provide a variety of modes (visual, textual, interactive) for content delivery and for student expression which is absent of assumptions about student abilities or experiences.\n\n\nActive Learning\n\n\nThe process of encouraging students to not only focus on doing, but also to think critically about what they are doing.\n\n\nActive learning engages students through activities such as reading, discussing, executing code, and writing, in addition to listening.\n\n\nIn asynchronous learning environments, active learning strategies move beyond listening to prerecorded materials and toward active engagement by directing students to do something, such as looking at an image, interacting with the real world, or retrieving past knowledge.\n\n\nEvaluations\n\n\nTo foster inclusive teaching and active learning, it is critical that\n\n\n\nexpectations for assessment are clearly communicated\n\n\nthat assessments are timely\n\n\nthat examples of ideal results are presented\n\n\n\n\nClearly defined learning objectives allow instructors to assess metrics of student performance, and to provide feedback early and often."
   },
   {
-    "objectID": "get-involved.html#subject-matter-experts",
-    "href": "get-involved.html#subject-matter-experts",
-    "title": "Join the NASA TOPSTSCHOOL Team",
+    "objectID": "about.html#school",
+    "href": "about.html#school",
+    "title": "About",
     "section": "",
-    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+    "text": "SCHOOL’s objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of NASA’s Open Source Science Initiative (OSSI). The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. Modules focus on demonstrating the data science life cycle with varying themes: Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate.\n\n\n\nInclusive Teaching\n\n\nInclusive teaching fosters an environment where diversity is celebrated and reflected in course content.\n\n\nMarginalization of various populations is overcome by using multiple and diverse examples crossing gender, cultural, and socioeconomic barriers. Course content is designed to provide a variety of modes (visual, textual, interactive) for content delivery and for student expression which is absent of assumptions about student abilities or experiences.\n\n\nActive Learning\n\n\nThe process of encouraging students to not only focus on doing, but also to think critically about what they are doing.\n\n\nActive learning engages students through activities such as reading, discussing, executing code, and writing, in addition to listening.\n\n\nIn asynchronous learning environments, active learning strategies move beyond listening to prerecorded materials and toward active engagement by directing students to do something, such as looking at an image, interacting with the real world, or retrieving past knowledge.\n\n\nEvaluations\n\n\nTo foster inclusive teaching and active learning, it is critical that\n\n\n\nexpectations for assessment are clearly communicated\n\n\nthat assessments are timely\n\n\nthat examples of ideal results are presented\n\n\n\n\nClearly defined learning objectives allow instructors to assess metrics of student performance, and to provide feedback early and often."
   },
   {
-    "objectID": "get-involved.html#open-science-team",
-    "href": "get-involved.html#open-science-team",
-    "title": "Join the NASA TOPSTSCHOOL Team",
-    "section": "Open Science Team",
-    "text": "Open Science Team\nWe are looking for participants to join the Open Science Team to give input on the development of learning modules. Participants will engage in workshops and short sprints in a hybrid, open-meeting format. Our workshop focuses on FAIR and CARE principles in learning, making us particularly interested in team members with a passion for inclusive pedagogy. Following the launch workshop, participants will be asked for feedback during two 1-hour remote participation meetings. To join the Open Science Team or learn more, please fill out the Participant Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+    "objectID": "about.html#topstschool-module-structure",
+    "href": "about.html#topstschool-module-structure",
+    "title": "About",
+    "section": "TOPSTSCHOOL Module Structure",
+    "text": "TOPSTSCHOOL Module Structure\nEach 2.5 hour thematic module, broken down into five 30-minute lessons, will demonstrate the full data science life cycle and connect those processes with open science principles.\n\n\n\nModule Component\n\n\nData Science Life Cycle/Open Science Integration\n\n\nExample Activity\n\n\n\n\nLesson 1\n\n\nGeneration and collection\n\n\nIdentify and obtain data sources. Generation could include spatializing tabular data.\n\n\n\n\nLesson 2\n\n\nProcessing and sotarge\n\n\nData integration tasks are completed. Local and cloud storage options are demonstrated.\n\n\n\n\nLesson 3\n\n\nManagement and analysis\n\n\nCreation of metadata to inform uses and structure. Statistical techniques applied.\n\n\n\n\nLesson 4\n\n\nVisualization and interpretation\n\n\nCreation of charts and maps. Interpretation thought questions and examples from other work.\n\n\n\n\nLesson 5\n\n\nOpen Science and Community Engagement\n\n\nHow to share these results openly. Practice of engaging with existing and emerging community networks."
   },
   {
-    "objectID": "get-involved.html#events",
-    "href": "get-involved.html#events",
-    "title": "Join the NASA TOPSTSCHOOL Team",
-    "section": "Events",
-    "text": "Events\n\nSpring 2024:\n\nSEDAC Open Science Workshop.\nTuesday, January 9 2024. 10 am - 4 pm Eastern Time. Comer Building Seminar Room, Lamont Campus, Columbia University, 61 Route 9W, Palisades NY 10964 workshop on Open Science hosted by the NASA Socioeconomic Data and Applications Center (SEDAC). This event is designed to provide valuable insights, practical knowledge, and collaborative opportunities for researchers who are passionate about open science and the world of data processing for research and applications at the interface of human and environmental systems.\nJoin virtually via Zoom\n\n\n\nFall 2023\n\nAGU 2023\nMentors give workshops at AGU. December 11 - 15, NASA Openscapes Mentors will attend the AGU annual meeting and deliver workshops. High-level planning happens in the 2023-planning-agu GitHub repo.\n\n\nSCHOOL Water Module, Open Science Team Meeting 1\nThe first meeting for the SCHOOL Open Science Team Members was held where Open Science concepts and the Transform to Open Science (TOPS) initiative was introduced.\nWorkshop Documents\nYouTube Video (subtitulos en Español)\n\n\nWater Resources SCHOOL Workshop - I-GUIDE Forum 2023\nOctober 4-5, TOPSTSCHOOL Development Team hosted a workshop at the I-GUIDE Fourm 2023. ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL): Water Resources Module Development.\nWorkshop Documents\nYouTube Video (subtitulos en Español)"
+    "objectID": "about.html#project-timeline",
+    "href": "about.html#project-timeline",
+    "title": "About",
+    "section": "Project Timeline",
+    "text": "Project Timeline\nThe project will commence on July 1, 2023 and end on June 30, 2025. Learning modules will be developed using the SAFe methodology which will allow for the regular incremental release of thematic content as it becomes available."
+  },
+  {
+    "objectID": "about.html#learn-more",
+    "href": "about.html#learn-more",
+    "title": "About",
+    "section": "Learn More",
+    "text": "Learn More"
+  },
+  {
+    "objectID": "content/Hotspot_Training.html",
+    "href": "content/Hotspot_Training.html",
+    "title": "",
+    "section": "",
+    "text": "CodeShow All CodeHide All Code\nEntrenamiento provedido en Español  Training offered in English"
+  },
+  {
+    "objectID": "content/Hotspot_Training.html#indexing-and-weighting-method",
+    "href": "content/Hotspot_Training.html#indexing-and-weighting-method",
+    "title": "",
+    "section": "Indexing and Weighting Method",
+    "text": "Indexing and Weighting Method\nThe Hotspot Vulnerability Analysis method is borrowed from the CIESIN Step-by-Step Guide to Vulnerability Hotspots Mapping: Implementing the Spatial Index Approach. This method develops a data-driven model that allows for varied nominal variables –whether they are absolute, physical, unitless, or indexes– to be transformed to the same range and be comparatively measured. Each component that is introduced is first transformed from a range from 0 to 100, where 0 represents the lowest and 100 represents the highest levels of vulnerability. All of the components introduced are weighted based on the level of importance placed by the user. The weights of the components can be changed to adjust the model. The weighted components are added together and indexed again into a single Hotspot Vulnerability Index (HVI)."
+  },
+  {
+    "objectID": "content/Hotspot_Training.html#estudio-de-caso-de-municipios-del-cauca-colombia",
+    "href": "content/Hotspot_Training.html#estudio-de-caso-de-municipios-del-cauca-colombia",
+    "title": "",
+    "section": "Estudio de Caso de Municipios del Cauca, Colombia",
+    "text": "Estudio de Caso de Municipios del Cauca, Colombia\nEn esta lección, desarrollaremos un índice de vulnerabilidad de puntos críticos (HVI) para cada uno de los municipios del Cauca, Colombia, para medir tres componentes ambientales y uno socioeconómico para determinar qué municipios son los más vulnerables. Identificamos cuatro componentes del bienestar que queremos medir: pobreza multidimensional, calor, agua y aire. - Pobreza Multidimensional: Medida por el Índice de Pobreza Multidimensional (IPM) del DANE. - Calor: medido por la temperatura máxima diurna de la superficie terrestre en Celsius (LST). - Agua: Medida por la evolución de la disponibilidad de agua terrestre (Agua). - Calidad del aire: medida por partículas finas a nivel del suelo de 2,5 micrómetros o menos en microgramos por metro cúbico (PM2,5). \n\n Fuentes de datos:\nLímites Municipales de Colombia (Shapefile)Índice de Pobreza Multidimensional del Valle del Cauca (Table) Valle del Cauca Cuadrículas globales de temperatura de la superficie terrestre (LST) de verano, v1 (2013) (Raster) Tendencias en la disponibilidad global de agua dulce del Experimento climático y de recuperación de la gravedad (GRACE), v1 (2002 – 2016) (Raster)Valle del Cauca Global (GL) Anual PM2.5 Cuadrículas de MODIS, MISR y SeaWiFS Aerosol Profundidad óptica (AOD), v4.03 (2019) (Raster)"
+  },
+  {
+    "objectID": "content/Hotspot_Training.html#case-study-of-municipalities-in-cauca-colombia",
+    "href": "content/Hotspot_Training.html#case-study-of-municipalities-in-cauca-colombia",
+    "title": "",
+    "section": "Case Study of Municipalities in Cauca, Colombia",
+    "text": "Case Study of Municipalities in Cauca, Colombia\nIn this lesson, we will develop a hotspot vulnerability index (HVI) for each of the municipalities in Cauca, Colombia to measure four components, three environmental and one socioeconomic, to determine which municipalities are the most vulnerable. We identified four components of wellbeing that we want to measure: multidimensional poverty, heat, water, and air. - Multidimensonal Poverty: Measured by the DANE Multidimensional Poverty Index (IPM). - Heat: Measured by Land Surface Temperature daytime maximum in Celcius (LST). - Water: Measured by trends in terrestrial water availability (Water). - Air Quality: Measured by ground-level fine particulate matter of 2.5 micrometers or smaller in micrograms per cubic meter (PM2.5).\n\nData Sources:\nColombia Municipal Boundaries (Shapefile)\nValle del Cauca Multidimensional Poverty Index (Table)\nValle del Cauca Global Summer Land Surface Temperature (LST) Grids, v1 (2013) (Raster)\nTrends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE), v1 (2002 – 2016) (Raster)\nValle del Cauca Global (GL) Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), v4.03 (2019) (Raster)\n\nImportar archivos –shapefile, tabla, y tres geoTiffs.\nZonas utilizadas para delimitar zonas. Los valores de zona deben ser números enteros: #### Import files –shapefile, table, and three geoTiffs. Zones used to delineate zones. Zone Values should be integers:\n\n\nCode\n#assing shapefile to zones\nzones = gpd.read_file(\"/vsicurl/https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/Col_CAUCA_municip.shp\")\n#vista previa de las primeras cinco filas\n#preview first five rows\nzones.head()\n\n\n\n\nCode\n#Importar tabla índice de pobreza multidimensional (IPM)\n#Import multidimensional poverty index table (IPM)\nIPM = pd.read_csv(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/cauca_IPM.csv\", index_col=False, decimal=\",\")\nIPM.head()\n\n\n\n\nCode\n#lista de columnas\n#column list\nIPM.columns\n\n\n\n\nCode\n#Ver los variables unicos en la columna 'clase'\n#View the unique variables in column 'clase' (class)\nIPM[\"clase\"].unique()\n\n\n\n\nCode\n#tabla de subconjuntos para incluir solo filas con 'Total' en la columna 'clase'\n#subset table to include only rows with 'Total' in the 'class' column\nIPM  = IPM[IPM[\"clase\"] == \"Total\"]\nIPM.head()\n\n\n\n\nCode\n#seleccione solo las columnas de código municipal, nombre e IPM\n#select only the columns for municipal code, name and IPM\nIPM = IPM[[\"cod_municipio\", \"municipio\", \"ipm\"]]\n\n#cambiar el nombre de la columna del código municipal a 'MID'\n#rename municipal code column to 'MID'\nIPM = IPM.rename(columns={\"cod_municipio\": \"MID\"})\nIPM.head()\n\n\n\n\nCode\n#archivos de datos utilizados para realizar estadísticas zonales\n#files of data used to perform zonal statistics\n\n#Temperatura de la superficie terrestre (LST)\n#Land Surface Temperature (LST)\nLST = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/summer_LST.tif\")\n#disponibilidad de agua dulce (agua)\n#freshwater availability (water)\nwater = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/freshwater.tif\")\n#partículas de ozono 2.5 (PM25)\n#ozone particulate matter 2.5 (PM25)\nPM25 = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/PM25.tif\")\n\n#leer banda 1 del ráster LST\n#read LST raster band 1\nLST_data = LST.read(1, masked=True)\n\n#leer banda 1 del ráster water\n#read water raster band 1\nwater_data = water.read(1, masked=True)\n\n#leer banda 1 del ráster PM25\n#read PM25 raster band 1\nPM25_data = PM25.read(1, masked=True)\n\n\n\n\n\nCode\n#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5\n#create a plot with 1 row and 4 columns limiting size to 20 by 5\nfig, ax = plt.subplots(1,4, figsize = (20,5))\n\n\n#traza el archivo de forma de zonas en la primera columna llamada ax[0]\n#plot the zones shapefile in the first column named ax[0]\nzones.plot(cmap = 'rainbow', ax=ax[0])\n\n#trazar rásteres en el resto de las columnas\n#plot rasters in the rest of the columns\nim1 = ax[1].imshow(LST_data, cmap='plasma')\nim2 = ax[2].imshow(water_data, cmap='GnBu')\nim3 = ax[3].imshow(PM25_data, cmap='viridis')\n\n#establecer títulos para gráficos\n#set titles for graphs\nax[0].set_title('Cauca - Municipalidades', wrap=True)\nax[1].set_title('Cauca - Temperatura de la\\nsuperficie terrestre de verano', wrap=True);\nax[2].set_title('Cauca - Disponibilidad de\\nagua dulce', wrap=True);\nax[3].set_title('Cauca - Material particulado 2.5\\n(PM2.5)', wrap=True);\n\n#barra de colores para rásteres\n#color bar for rasters\nfig.colorbar(im1, ax=ax[1])\nfig.colorbar(im2, ax=ax[2])\nfig.colorbar(im3, ax=ax[3])\n\nplt.show()\n\n\n\nEjemplo de una municipalidad:\n\n\nExample of one Municipality:\n\n\nCode\n#recorra IDs de zona (MID)\n#loop through zone IDs (MID)\nfor i in zones['MID'][:1]:\n    #Printear MID\n    #Print MID\n    print(\"MID:\", i)\n\n    #obtener forma única de shapefile\n    #get single shape from shapefile\n    roi = zones[zones.MID == i]\n\n\n    #enmáscarar los rásteres y establezca nodata en -9999\n    #mask rasters and set nodata to -9999\n    LST_arr, LSTbound = mask.mask(LST, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    water_arr, waterbound = mask.mask(water, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    PM25_arr, PM25bound = mask.mask(PM25, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n\n    #establezca nodata (-9999) a None\n    #Set nodata value (-9999) to None\n    LST_arr[LST_arr ==-9999] = None\n    water_arr[water_arr ==-9999] = None\n    PM25_arr[PM25_arr ==-9999] = None\n\n#trazar el gráfico\n#plot the arrays\nshow(LST_arr)\nshow(water_arr)\nshow(PM25_arr)\n\n\n\n\n\nRecorra todos los municipios:\n\n\nLoop through all municipalities:\n\n\nCode\n#Crear marco de datos en blanco para almacenar estadísticas zonales\n#Create blank dataframe to store zonal statistics\ndf = pd.DataFrame(columns =['MID','LST','water','PM25'])\n\n#recorra IDs de zona (MID)\n#loop through zone IDs (MID)\nfor i in zones['MID']:\n\n    #obtener fila de municipio único de shapefile\n    #get single municipality row from shapefile\n    roi = zones[zones.MID == i]\n\n    #enmáscarar los rásteres y establezca nodata en -9999\n    #Mask rasters with single municipality geometry and set nodata to -9999\n    LST_arr, LSTbound = mask.mask(LST, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    water_arr, waterbound = mask.mask(water, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    PM25_arr, PM25bound = mask.mask(PM25, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n\n    #establezca nodata (-9999) a None\n    #Set nodata value (-9999) to None\n    LST_arr[LST_arr ==-9999] = None\n    water_arr[water_arr ==-9999] = None\n    PM25_arr[PM25_arr ==-9999] = None\n\n    #crear fila para agregar datos de fila al marco de datos\n    #create row to append row data to dataframe\n    row_to_append = pd.DataFrame([{'MID':i, 'LST': np.nanmean(LST_arr),\n                                   'water':np.nanmean(water_arr),\n                                   'PM25': np.nanmean(PM25_arr)}])\n    #agregar datos de fila al marco de datos\n    #append row data and dataframe\n    df = pd.concat([df,row_to_append])\ndf.head()\n\n\n\n\n\nCode\n#combinar table IPM con table df\n#comine IPM and df tables\ndf = pd.merge(IPM,df, on=\"MID\", how=\"left\")\ndf.head()\n\n\n\n\nCode\n#histogramas\n#histograms\ndf.hist()\n\n\n\n\nCode\n#prueba transformaciones\n#test out transformations\ntest = np.power(df['water'], 1.25)\n\n\n# test = boxcox(df['PM25'], lmbda=None)[0]\n# test = pd.DataFrame(list(test))\ntest.hist()\n\n\n\n\nCode\n#transformar columnas\n#transform columns\ndf[\"water\"]= np.power(df['water'], 1.25)\ndf[\"PM25\"]= boxcox(df['PM25'], lmbda=None)[0]\ndf.hist()"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html",
+    "href": "content/SCHOOL_module1_water.html",
+    "title": "Module 1: Water",
+    "section": "",
+    "text": "Module 1: Water is part of the Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL),a part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative."
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#subtitle",
+    "href": "content/SCHOOL_module1_water.html#subtitle",
+    "title": "Module 1: Water",
+    "section": "Subtitle",
+    "text": "Subtitle\nregular text bold text ### Sub Sub title regular text"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#datasets-1",
+    "href": "content/SCHOOL_module1_water.html#datasets-1",
+    "title": "Module 1: Water",
+    "section": "Datasets",
+    "text": "Datasets"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#photos",
+    "href": "content/SCHOOL_module1_water.html#photos",
+    "title": "Module 1: Water",
+    "section": "Photos",
+    "text": "Photos\nModule 1 Banner Photo by Jacob Kelvin.J"
   },
   {
     "objectID": "content/wsim-gldas/wsim-gldas-vis.html",
@@ -98,69 +161,6 @@
     "text": "Population Exposure Plot\nUse Gridded Population of the World and exactextractr to determine the number of people exposed to a given anomaly for each month of the year.\nBackground info on GPW would be appropriate. Same with exactextractr and zonal statistics.\nLoad in GPW data and the exactextractr package\n\nPerform the time series zonal summary.\nThis might be a bit tricky; been a while for me. Have to look up the proper code. Dan has good examples on the exactextractr package website.\nResulting data.frame will probably need to be transformed to long (just like before), so it can be plotted.\n\nNow plot the data in ggplot. I have some existing code I can pull to help with the plotting–or at least make it fancy."
   },
   {
-    "objectID": "content/SCHOOL_module1_water.html",
-    "href": "content/SCHOOL_module1_water.html",
-    "title": "Module 1: Water",
-    "section": "",
-    "text": "Module 1: Water is part of the Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL),a part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative."
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html#subtitle",
-    "href": "content/SCHOOL_module1_water.html#subtitle",
-    "title": "Module 1: Water",
-    "section": "Subtitle",
-    "text": "Subtitle\nregular text bold text ### Sub Sub title regular text"
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html#datasets-1",
-    "href": "content/SCHOOL_module1_water.html#datasets-1",
-    "title": "Module 1: Water",
-    "section": "Datasets",
-    "text": "Datasets"
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html#photos",
-    "href": "content/SCHOOL_module1_water.html#photos",
-    "title": "Module 1: Water",
-    "section": "Photos",
-    "text": "Photos\nModule 1 Banner Photo by Jacob Kelvin.J"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "SCHOOL’s objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of NASA’s Open Source Science Initiative (OSSI). The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. Modules focus on demonstrating the data science life cycle with varying themes: Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate.\n\n\n\nInclusive Teaching\n\n\nInclusive teaching fosters an environment where diversity is celebrated and reflected in course content.\n\n\nMarginalization of various populations is overcome by using multiple and diverse examples crossing gender, cultural, and socioeconomic barriers. Course content is designed to provide a variety of modes (visual, textual, interactive) for content delivery and for student expression which is absent of assumptions about student abilities or experiences.\n\n\nActive Learning\n\n\nThe process of encouraging students to not only focus on doing, but also to think critically about what they are doing.\n\n\nActive learning engages students through activities such as reading, discussing, executing code, and writing, in addition to listening.\n\n\nIn asynchronous learning environments, active learning strategies move beyond listening to prerecorded materials and toward active engagement by directing students to do something, such as looking at an image, interacting with the real world, or retrieving past knowledge.\n\n\nEvaluations\n\n\nTo foster inclusive teaching and active learning, it is critical that\n\n\n\nexpectations for assessment are clearly communicated\n\n\nthat assessments are timely\n\n\nthat examples of ideal results are presented\n\n\n\n\nClearly defined learning objectives allow instructors to assess metrics of student performance, and to provide feedback early and often."
-  },
-  {
-    "objectID": "about.html#school",
-    "href": "about.html#school",
-    "title": "About",
-    "section": "",
-    "text": "SCHOOL’s objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of NASA’s Open Source Science Initiative (OSSI). The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. Modules focus on demonstrating the data science life cycle with varying themes: Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate.\n\n\n\nInclusive Teaching\n\n\nInclusive teaching fosters an environment where diversity is celebrated and reflected in course content.\n\n\nMarginalization of various populations is overcome by using multiple and diverse examples crossing gender, cultural, and socioeconomic barriers. Course content is designed to provide a variety of modes (visual, textual, interactive) for content delivery and for student expression which is absent of assumptions about student abilities or experiences.\n\n\nActive Learning\n\n\nThe process of encouraging students to not only focus on doing, but also to think critically about what they are doing.\n\n\nActive learning engages students through activities such as reading, discussing, executing code, and writing, in addition to listening.\n\n\nIn asynchronous learning environments, active learning strategies move beyond listening to prerecorded materials and toward active engagement by directing students to do something, such as looking at an image, interacting with the real world, or retrieving past knowledge.\n\n\nEvaluations\n\n\nTo foster inclusive teaching and active learning, it is critical that\n\n\n\nexpectations for assessment are clearly communicated\n\n\nthat assessments are timely\n\n\nthat examples of ideal results are presented\n\n\n\n\nClearly defined learning objectives allow instructors to assess metrics of student performance, and to provide feedback early and often."
-  },
-  {
-    "objectID": "about.html#topstschool-module-structure",
-    "href": "about.html#topstschool-module-structure",
-    "title": "About",
-    "section": "TOPSTSCHOOL Module Structure",
-    "text": "TOPSTSCHOOL Module Structure\nEach 2.5 hour thematic module, broken down into five 30-minute lessons, will demonstrate the full data science life cycle and connect those processes with open science principles.\n\n\n\nModule Component\n\n\nData Science Life Cycle/Open Science Integration\n\n\nExample Activity\n\n\n\n\nLesson 1\n\n\nGeneration and collection\n\n\nIdentify and obtain data sources. Generation could include spatializing tabular data.\n\n\n\n\nLesson 2\n\n\nProcessing and sotarge\n\n\nData integration tasks are completed. Local and cloud storage options are demonstrated.\n\n\n\n\nLesson 3\n\n\nManagement and analysis\n\n\nCreation of metadata to inform uses and structure. Statistical techniques applied.\n\n\n\n\nLesson 4\n\n\nVisualization and interpretation\n\n\nCreation of charts and maps. Interpretation thought questions and examples from other work.\n\n\n\n\nLesson 5\n\n\nOpen Science and Community Engagement\n\n\nHow to share these results openly. Practice of engaging with existing and emerging community networks."
-  },
-  {
-    "objectID": "about.html#project-timeline",
-    "href": "about.html#project-timeline",
-    "title": "About",
-    "section": "Project Timeline",
-    "text": "Project Timeline\nThe project will commence on July 1, 2023 and end on June 30, 2025. Learning modules will be developed using the SAFe methodology which will allow for the regular incremental release of thematic content as it becomes available."
-  },
-  {
-    "objectID": "about.html#learn-more",
-    "href": "about.html#learn-more",
-    "title": "About",
-    "section": "Learn More",
-    "text": "Learn More"
-  },
-  {
     "objectID": "dev-team.html",
     "href": "dev-team.html",
     "title": "SCHOOL Development Team",
@@ -170,9 +170,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "\nTOPSTSCHOOL\n",
+    "title": "TOPSTSCHOOL",
     "section": "",
-    "text": "TOPSTSCHOOL\n\n\n\nScience Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative SITE UNDER CONSTRUCTION\n\n\n\nThe TOPST Science Core Heuristics for Open Science Outcomes in Learning project is developing seven modules that will be part of NASA’s Transform to Open Science curriculum. Each 2.5-hour module will teach students how to apply Open Science principles to scientific research in a specific thematic area. We are asking for your participation in this workshop to help the Development Team formulate use cases for the module on water resources with the principles of inclusive teaching and active learning in mind.\nProject announcements: TOPSTSCHOOL •\nLearn about our recent work: Blog Posts • Presentations • SEDAC • CIESIN • iSciences • Baruch College\nPlease connect with us at TOPSTSCHOOL@gmail.com"
+    "text": "Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative SITE UNDER CONSTRUCTION\n\n\n\nThe Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) is part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative, designed to generate an inclusive culture of open science. The SCHOOL curriculum consists of five 2.5-hour open, interactive, and interdisciplinary learning modules covering an array of lessons across the thematic areas of water, health and air quality, environmental justice, natural disasters, climate, agriculture, and wildfires, integrating themes of population and infrastructure across the modules. Within the modules, lessons in Earth Science Applications use cases demonstrate how to access and analyze data sources in open data science lifecycle workflows focusing on FAIR principles for scientific data management.\nProject announcements: TOPSTSCHOOL •\nLearn about our recent work: Blog Posts • Presentations • SEDAC • CIESIN • iSciences • Baruch College\nPlease connect with us at TOPSTSCHOOL@gmail.com"
   },
   {
     "objectID": "modules.html",
@@ -180,41 +180,6 @@
     "title": "SCHOOL MODULES",
     "section": "",
     "text": "Module 1: Water\nCOMING SOON The Water module is the first of a series of seven TOPST Science Modules. This module will be provided in a Jupyter Notebook format.\n\n\nModule 2: Air Quality\nComing soon…"
-  },
-  {
-    "objectID": "content/module1-water.html",
-    "href": "content/module1-water.html",
-    "title": "Module 1: Water",
-    "section": "",
-    "text": "Code of Conduct\n\nReview other codes\nCarpentries\nNASA TOPS - If possible this is the default, perhaps with some edits, since we are a NASA TOPS project: https://nasa.github.io/Transform-to-Open-Science-Book/About/CODE_OF_CONDUCT.html\nNASA OpenScapes.\n\n\n\nModule 1 objectives\n\nStudents will gain an understanding of the water cycle\nStudents will learn the role humans play in the water cycle.\nStudent will learn about water surpluses and deficits (anomalies)\nStudents will learn how to access GLDAS data from the NASA SEDAC website (https://www.dante-project.org/sedacr)\nStudents will learn how to access MODIS NRT flood data\nStudents will learn how to store data locally\nStudents will learn how to subset a global data set to a predefined area of interest (AOI). (GeoBoundaries?)\nStudents will learn how to summarize the data set using an area of interest\nStudents will learn how to visualize results as maps and graphs using R(?)\nStudents will learn how to estimate impacts on populations at risk (PES, POPGRID, perhaps also infrastructure with OSM)\nStudents will learn how to share their results to the cloud (using Binder?)\n\n\n\nDatasets\n\n\nCredits\nM1 Banner Photo by Jacob Kelvin.J"
-  },
-  {
-    "objectID": "content/Hotspot_Training.html",
-    "href": "content/Hotspot_Training.html",
-    "title": "",
-    "section": "",
-    "text": "CodeShow All CodeHide All Code\nEntrenamiento provedido en Español  Training offered in English"
-  },
-  {
-    "objectID": "content/Hotspot_Training.html#indexing-and-weighting-method",
-    "href": "content/Hotspot_Training.html#indexing-and-weighting-method",
-    "title": "",
-    "section": "Indexing and Weighting Method",
-    "text": "Indexing and Weighting Method\nThe Hotspot Vulnerability Analysis method is borrowed from the CIESIN Step-by-Step Guide to Vulnerability Hotspots Mapping: Implementing the Spatial Index Approach. This method develops a data-driven model that allows for varied nominal variables –whether they are absolute, physical, unitless, or indexes– to be transformed to the same range and be comparatively measured. Each component that is introduced is first transformed from a range from 0 to 100, where 0 represents the lowest and 100 represents the highest levels of vulnerability. All of the components introduced are weighted based on the level of importance placed by the user. The weights of the components can be changed to adjust the model. The weighted components are added together and indexed again into a single Hotspot Vulnerability Index (HVI)."
-  },
-  {
-    "objectID": "content/Hotspot_Training.html#estudio-de-caso-de-municipios-del-cauca-colombia",
-    "href": "content/Hotspot_Training.html#estudio-de-caso-de-municipios-del-cauca-colombia",
-    "title": "",
-    "section": "Estudio de Caso de Municipios del Cauca, Colombia",
-    "text": "Estudio de Caso de Municipios del Cauca, Colombia\nEn esta lección, desarrollaremos un índice de vulnerabilidad de puntos críticos (HVI) para cada uno de los municipios del Cauca, Colombia, para medir tres componentes ambientales y uno socioeconómico para determinar qué municipios son los más vulnerables. Identificamos cuatro componentes del bienestar que queremos medir: pobreza multidimensional, calor, agua y aire. - Pobreza Multidimensional: Medida por el Índice de Pobreza Multidimensional (IPM) del DANE. - Calor: medido por la temperatura máxima diurna de la superficie terrestre en Celsius (LST). - Agua: Medida por la evolución de la disponibilidad de agua terrestre (Agua). - Calidad del aire: medida por partículas finas a nivel del suelo de 2,5 micrómetros o menos en microgramos por metro cúbico (PM2,5). \n\n Fuentes de datos:\nLímites Municipales de Colombia (Shapefile)Índice de Pobreza Multidimensional del Valle del Cauca (Table) Valle del Cauca Cuadrículas globales de temperatura de la superficie terrestre (LST) de verano, v1 (2013) (Raster) Tendencias en la disponibilidad global de agua dulce del Experimento climático y de recuperación de la gravedad (GRACE), v1 (2002 – 2016) (Raster)Valle del Cauca Global (GL) Anual PM2.5 Cuadrículas de MODIS, MISR y SeaWiFS Aerosol Profundidad óptica (AOD), v4.03 (2019) (Raster)"
-  },
-  {
-    "objectID": "content/Hotspot_Training.html#case-study-of-municipalities-in-cauca-colombia",
-    "href": "content/Hotspot_Training.html#case-study-of-municipalities-in-cauca-colombia",
-    "title": "",
-    "section": "Case Study of Municipalities in Cauca, Colombia",
-    "text": "Case Study of Municipalities in Cauca, Colombia\nIn this lesson, we will develop a hotspot vulnerability index (HVI) for each of the municipalities in Cauca, Colombia to measure four components, three environmental and one socioeconomic, to determine which municipalities are the most vulnerable. We identified four components of wellbeing that we want to measure: multidimensional poverty, heat, water, and air. - Multidimensonal Poverty: Measured by the DANE Multidimensional Poverty Index (IPM). - Heat: Measured by Land Surface Temperature daytime maximum in Celcius (LST). - Water: Measured by trends in terrestrial water availability (Water). - Air Quality: Measured by ground-level fine particulate matter of 2.5 micrometers or smaller in micrograms per cubic meter (PM2.5).\n\nData Sources:\nColombia Municipal Boundaries (Shapefile)\nValle del Cauca Multidimensional Poverty Index (Table)\nValle del Cauca Global Summer Land Surface Temperature (LST) Grids, v1 (2013) (Raster)\nTrends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE), v1 (2002 – 2016) (Raster)\nValle del Cauca Global (GL) Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), v4.03 (2019) (Raster)\n\nImportar archivos –shapefile, tabla, y tres geoTiffs.\nZonas utilizadas para delimitar zonas. Los valores de zona deben ser números enteros: #### Import files –shapefile, table, and three geoTiffs. Zones used to delineate zones. Zone Values should be integers:\n\n\nCode\n#assing shapefile to zones\nzones = gpd.read_file(\"/vsicurl/https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/Col_CAUCA_municip.shp\")\n#vista previa de las primeras cinco filas\n#preview first five rows\nzones.head()\n\n\n\n\nCode\n#Importar tabla índice de pobreza multidimensional (IPM)\n#Import multidimensional poverty index table (IPM)\nIPM = pd.read_csv(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/cauca_IPM.csv\", index_col=False, decimal=\",\")\nIPM.head()\n\n\n\n\nCode\n#lista de columnas\n#column list\nIPM.columns\n\n\n\n\nCode\n#Ver los variables unicos en la columna 'clase'\n#View the unique variables in column 'clase' (class)\nIPM[\"clase\"].unique()\n\n\n\n\nCode\n#tabla de subconjuntos para incluir solo filas con 'Total' en la columna 'clase'\n#subset table to include only rows with 'Total' in the 'class' column\nIPM  = IPM[IPM[\"clase\"] == \"Total\"]\nIPM.head()\n\n\n\n\nCode\n#seleccione solo las columnas de código municipal, nombre e IPM\n#select only the columns for municipal code, name and IPM\nIPM = IPM[[\"cod_municipio\", \"municipio\", \"ipm\"]]\n\n#cambiar el nombre de la columna del código municipal a 'MID'\n#rename municipal code column to 'MID'\nIPM = IPM.rename(columns={\"cod_municipio\": \"MID\"})\nIPM.head()\n\n\n\n\nCode\n#archivos de datos utilizados para realizar estadísticas zonales\n#files of data used to perform zonal statistics\n\n#Temperatura de la superficie terrestre (LST)\n#Land Surface Temperature (LST)\nLST = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/summer_LST.tif\")\n#disponibilidad de agua dulce (agua)\n#freshwater availability (water)\nwater = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/freshwater.tif\")\n#partículas de ozono 2.5 (PM25)\n#ozone particulate matter 2.5 (PM25)\nPM25 = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/PM25.tif\")\n\n#leer banda 1 del ráster LST\n#read LST raster band 1\nLST_data = LST.read(1, masked=True)\n\n#leer banda 1 del ráster water\n#read water raster band 1\nwater_data = water.read(1, masked=True)\n\n#leer banda 1 del ráster PM25\n#read PM25 raster band 1\nPM25_data = PM25.read(1, masked=True)\n\n\n\n\n\nCode\n#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5\n#create a plot with 1 row and 4 columns limiting size to 20 by 5\nfig, ax = plt.subplots(1,4, figsize = (20,5))\n\n\n#traza el archivo de forma de zonas en la primera columna llamada ax[0]\n#plot the zones shapefile in the first column named ax[0]\nzones.plot(cmap = 'rainbow', ax=ax[0])\n\n#trazar rásteres en el resto de las columnas\n#plot rasters in the rest of the columns\nim1 = ax[1].imshow(LST_data, cmap='plasma')\nim2 = ax[2].imshow(water_data, cmap='GnBu')\nim3 = ax[3].imshow(PM25_data, cmap='viridis')\n\n#establecer títulos para gráficos\n#set titles for graphs\nax[0].set_title('Cauca - Municipalidades', wrap=True)\nax[1].set_title('Cauca - Temperatura de la\\nsuperficie terrestre de verano', wrap=True);\nax[2].set_title('Cauca - Disponibilidad de\\nagua dulce', wrap=True);\nax[3].set_title('Cauca - Material particulado 2.5\\n(PM2.5)', wrap=True);\n\n#barra de colores para rásteres\n#color bar for rasters\nfig.colorbar(im1, ax=ax[1])\nfig.colorbar(im2, ax=ax[2])\nfig.colorbar(im3, ax=ax[3])\n\nplt.show()\n\n\n\nEjemplo de una municipalidad:\n\n\nExample of one Municipality:\n\n\nCode\n#recorra IDs de zona (MID)\n#loop through zone IDs (MID)\nfor i in zones['MID'][:1]:\n    #Printear MID\n    #Print MID\n    print(\"MID:\", i)\n\n    #obtener forma única de shapefile\n    #get single shape from shapefile\n    roi = zones[zones.MID == i]\n\n\n    #enmáscarar los rásteres y establezca nodata en -9999\n    #mask rasters and set nodata to -9999\n    LST_arr, LSTbound = mask.mask(LST, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    water_arr, waterbound = mask.mask(water, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    PM25_arr, PM25bound = mask.mask(PM25, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n\n    #establezca nodata (-9999) a None\n    #Set nodata value (-9999) to None\n    LST_arr[LST_arr ==-9999] = None\n    water_arr[water_arr ==-9999] = None\n    PM25_arr[PM25_arr ==-9999] = None\n\n#trazar el gráfico\n#plot the arrays\nshow(LST_arr)\nshow(water_arr)\nshow(PM25_arr)\n\n\n\n\n\nRecorra todos los municipios:\n\n\nLoop through all municipalities:\n\n\nCode\n#Crear marco de datos en blanco para almacenar estadísticas zonales\n#Create blank dataframe to store zonal statistics\ndf = pd.DataFrame(columns =['MID','LST','water','PM25'])\n\n#recorra IDs de zona (MID)\n#loop through zone IDs (MID)\nfor i in zones['MID']:\n\n    #obtener fila de municipio único de shapefile\n    #get single municipality row from shapefile\n    roi = zones[zones.MID == i]\n\n    #enmáscarar los rásteres y establezca nodata en -9999\n    #Mask rasters with single municipality geometry and set nodata to -9999\n    LST_arr, LSTbound = mask.mask(LST, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    water_arr, waterbound = mask.mask(water, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    PM25_arr, PM25bound = mask.mask(PM25, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n\n    #establezca nodata (-9999) a None\n    #Set nodata value (-9999) to None\n    LST_arr[LST_arr ==-9999] = None\n    water_arr[water_arr ==-9999] = None\n    PM25_arr[PM25_arr ==-9999] = None\n\n    #crear fila para agregar datos de fila al marco de datos\n    #create row to append row data to dataframe\n    row_to_append = pd.DataFrame([{'MID':i, 'LST': np.nanmean(LST_arr),\n                                   'water':np.nanmean(water_arr),\n                                   'PM25': np.nanmean(PM25_arr)}])\n    #agregar datos de fila al marco de datos\n    #append row data and dataframe\n    df = pd.concat([df,row_to_append])\ndf.head()\n\n\n\n\n\nCode\n#combinar table IPM con table df\n#comine IPM and df tables\ndf = pd.merge(IPM,df, on=\"MID\", how=\"left\")\ndf.head()\n\n\n\n\nCode\n#histogramas\n#histograms\ndf.hist()\n\n\n\n\nCode\n#prueba transformaciones\n#test out transformations\ntest = np.power(df['water'], 1.25)\n\n\n# test = boxcox(df['PM25'], lmbda=None)[0]\n# test = pd.DataFrame(list(test))\ntest.hist()\n\n\n\n\nCode\n#transformar columnas\n#transform columns\ndf[\"water\"]= np.power(df['water'], 1.25)\ndf[\"PM25\"]= boxcox(df['PM25'], lmbda=None)[0]\ndf.hist()"
   },
   {
     "objectID": "content/wsim-gldas/wsim-gldas-acquisition.html",
@@ -264,5 +229,40 @@
     "title": "Acquiring and Pre-Processing the WSIM-GLDAS Dataset",
     "section": "Spatial Selection",
     "text": "Spatial Selection\nWe can spatially crop the raster stack with a few different methods. Options include using a bounding box (xmin, ymin, xmax, ymax), another raster object, or a vectorized boundary like a shapefile or geojson.\nUsing a vector boundary is one of the more common geoprocessing tasks. In this example we’ll pull a geojson of the United States from the geoBoundaries API. You can also download vectorized boundaries directly from .\nThe call to geoBoundaries’ API is pretty simple:\n“https://www.geoboundaries.org/api/current/gbOpen/ISO3C/LEVEL/”\nWe adjust the bolded components of the URL address to specify the country we want using the ISO 3 Character Country Code (USA) and the desired Administrative Level (ADM1).\nusa &lt;- httr::GET(\"https://www.geoboundaries.org/api/current/gbOpen/USA/ADM1/\")\nAfter the GET call, we have to translate the content.\nusa &lt;- httr::content(usa)\n\nnames(usa)\nThe parsed content object contains 32 components. Item 29 is a direct link to the geojson file (gjDownloadURL). Read that in and check the visuals.\nusa &lt;- sf::st_read(usa$gjDownloadURL)\n\nplot(sf::st_geometry(usa))\nThis looks good, but it includes all United States territories. For simplicity, we can get it down to only the contiguous United States.\ndrops&lt;-\n  c(\"Alaska\", \"Hawaii\", \n    \"American Samoa\",\n    \"Puerto Rico\",\n    \"Commonwealth of the Northern Mariana Islands\", \n    \"Guam\", \n    \"United States Virgin Islands\")\n\nusa&lt;-usa[!(usa$shapeName %in% drops),]\n\nplot(sf::st_geometry(usa))\nWe can take this a step further and select a target state.\ntexas &lt;- usa[usa$shapeName == \"Texas\",]\n\nplot(sf::st_geometry(texas))\nFrom here we can crop the WSIM GLDAS raster stack by indexing it with the stored boundary of Texas\nwsim_gldas_anoms_tex &lt;- wsim_gldas_anoms[texas]\nFor a final visual check we’ll take the last time-step in the WSIM-GLDAS dataset (180/December, 2014) and plot it with an overlay of the Texas boundary.\nwsim_gldas_anoms_tex |&gt;\n  dplyr::slice(index = 180, along = \"time\") |&gt;\n  plot(reset = FALSE)\n\nplot(sf::st_geometry(texas),\n     add = TRUE,\n     lwd = 3,\n     fill = NA,\n     border = 'purple')\nThe subsetted dataset may be written to disk, and saved for future modules.\nstars::write_stars(wsim_gldas_anoms_tex, \"wsim_gldas_tex.nc\")\nThe size of the pre-processed dataset is 1.6 MB compared to the original dataset of 1.7 GB. This is much more manageable in cloud environments, workshops, and git platforms."
+  },
+  {
+    "objectID": "content/module1-water.html",
+    "href": "content/module1-water.html",
+    "title": "Module 1: Water",
+    "section": "",
+    "text": "Code of Conduct\n\nReview other codes\nCarpentries\nNASA TOPS - If possible this is the default, perhaps with some edits, since we are a NASA TOPS project: https://nasa.github.io/Transform-to-Open-Science-Book/About/CODE_OF_CONDUCT.html\nNASA OpenScapes.\n\n\n\nModule 1 objectives\n\nStudents will gain an understanding of the water cycle\nStudents will learn the role humans play in the water cycle.\nStudent will learn about water surpluses and deficits (anomalies)\nStudents will learn how to access GLDAS data from the NASA SEDAC website (https://www.dante-project.org/sedacr)\nStudents will learn how to access MODIS NRT flood data\nStudents will learn how to store data locally\nStudents will learn how to subset a global data set to a predefined area of interest (AOI). (GeoBoundaries?)\nStudents will learn how to summarize the data set using an area of interest\nStudents will learn how to visualize results as maps and graphs using R(?)\nStudents will learn how to estimate impacts on populations at risk (PES, POPGRID, perhaps also infrastructure with OSM)\nStudents will learn how to share their results to the cloud (using Binder?)\n\n\n\nDatasets\n\n\nCredits\nM1 Banner Photo by Jacob Kelvin.J"
+  },
+  {
+    "objectID": "get-involved.html",
+    "href": "get-involved.html",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "",
+    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+  },
+  {
+    "objectID": "get-involved.html#subject-matter-experts",
+    "href": "get-involved.html#subject-matter-experts",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "",
+    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+  },
+  {
+    "objectID": "get-involved.html#open-science-team",
+    "href": "get-involved.html#open-science-team",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "Open Science Team",
+    "text": "Open Science Team\nWe are looking for participants to join the Open Science Team to give input on the development of learning modules. Participants will engage in workshops and short sprints in a hybrid, open-meeting format. Our workshop focuses on FAIR and CARE principles in learning, making us particularly interested in team members with a passion for inclusive pedagogy. Following the launch workshop, participants will be asked for feedback during two 1-hour remote participation meetings. To join the Open Science Team or learn more, please fill out the Participant Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+  },
+  {
+    "objectID": "get-involved.html#events",
+    "href": "get-involved.html#events",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "Events",
+    "text": "Events\n\nSpring 2024:\n\nSEDAC Open Science Workshop.\nTuesday, January 9 2024. 10 am - 4 pm Eastern Time. Comer Building Seminar Room, Lamont Campus, Columbia University, 61 Route 9W, Palisades NY 10964 workshop on Open Science hosted by the NASA Socioeconomic Data and Applications Center (SEDAC). This event is designed to provide valuable insights, practical knowledge, and collaborative opportunities for researchers who are passionate about open science and the world of data processing for research and applications at the interface of human and environmental systems.\nJoin virtually via Zoom\n\n\n\nFall 2023\n\nAGU 2023\nMentors give workshops at AGU. December 11 - 15, NASA Openscapes Mentors will attend the AGU annual meeting and deliver workshops. High-level planning happens in the 2023-planning-agu GitHub repo.\n\n\nSCHOOL Water Module, Open Science Team Meeting 1\nThe first meeting for the SCHOOL Open Science Team Members was held where Open Science concepts and the Transform to Open Science (TOPS) initiative was introduced.\nWorkshop Documents\nYouTube Video (subtitulos en Español)\n\n\nWater Resources SCHOOL Workshop - I-GUIDE Forum 2023\nOctober 4-5, TOPSTSCHOOL Development Team hosted a workshop at the I-GUIDE Fourm 2023. ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL): Water Resources Module Development.\nWorkshop Documents\nYouTube Video (subtitulos en Español)"
   }
 ]
