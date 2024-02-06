@@ -82,7 +82,7 @@ img {
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank"class="cover"/></th>
+    <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
     <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
