@@ -10,10 +10,9 @@ output:
 ---
 
 # Module 1: Water
-The [Water module] (https://ciesin-geospatial.github.io/TOPSTSCHOOL-module-1-water/) is the first of a series of several TOPST Science Modules. This module will be provided in a Jupyter Notebook format.
+The Water module is the first of a series of several ScienceCore Modules developed by the SCHOOL team. 
 
-
-[SEDAC](https://sedac.ciesin.columbia.edu/) •
+[Water Module](https://ciesin-geospatial.github.io/TOPSTSCHOOL-module-1-water/) •
 
 # Module 2: Air Quality
 Coming soon...
