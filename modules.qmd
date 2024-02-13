@@ -10,7 +10,7 @@ output:
 ---
 
 # Module 1: Water
-**COMING SOON**
+(https://ciesin-geospatial.github.io/TOPSTSCHOOL-module-1-water/) 
 The Water module is the first of a series of seven TOPST Science Modules. This module will be provided in a Jupyter Notebook format.
 
 # Module 2: Air Quality
