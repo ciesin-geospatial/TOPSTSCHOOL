@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
-    <lastmod>2024-02-06T19:28:56.323Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training.html</loc>
-    <lastmod>2024-02-06T19:28:56.327Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/SCHOOL_module1_water.html</loc>
-    <lastmod>2024-02-06T19:28:56.327Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/wsim-gldas/wsim-gldas-vis.html</loc>
-    <lastmod>2024-02-06T19:28:56.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
-    <lastmod>2024-02-06T19:28:56.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
-    <lastmod>2024-02-06T19:28:56.379Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
-    <lastmod>2024-02-06T19:28:56.379Z</lastmod>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
+    <lastmod>2024-02-13T15:06:17.497Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/wsim-gldas/wsim-gldas-acquisition.html</loc>
-    <lastmod>2024-02-06T19:28:56.335Z</lastmod>
+    <lastmod>2024-02-13T15:06:17.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/SCHOOL_module1_water.html</loc>
+    <lastmod>2024-02-13T15:06:17.477Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/Hotspot_Training.html</loc>
+    <lastmod>2024-02-13T15:06:17.477Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html</loc>
+    <lastmod>2024-02-13T15:06:17.477Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/dev-team.html</loc>
+    <lastmod>2024-02-13T15:06:17.497Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/index.html</loc>
+    <lastmod>2024-02-13T15:06:17.593Z</lastmod>
   </url>
   <url>
     <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/module1-water.html</loc>
-    <lastmod>2024-02-06T19:28:56.327Z</lastmod>
+    <lastmod>2024-02-13T15:06:17.477Z</lastmod>
   </url>
   <url>
-    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/get-involved.html</loc>
-    <lastmod>2024-02-06T19:28:56.343Z</lastmod>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/content/wsim-gldas/wsim-gldas-vis.html</loc>
+    <lastmod>2024-02-13T15:06:17.493Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html</loc>
+    <lastmod>2024-02-13T15:06:17.593Z</lastmod>
   </url>
 </urlset>
