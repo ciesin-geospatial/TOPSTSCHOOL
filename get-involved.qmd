@@ -22,6 +22,9 @@ To **join the Open Science Team** or **learn more**, please fill out the [Partic
 
 ### Spring 2024:
 
+#### AAG 2024 Panel Session
+<img src="./images/AAG_panel_flier.jpg" alt="AAG" width="100" height="100"/>
+
 #### SEDAC Open Science Workshop. 
 Tuesday, January 9 2024. 10 am - 4 pm Eastern Time. Comer Building Seminar Room, Lamont Campus, Columbia University,  61 Route 9W, Palisades NY 10964
 workshop on Open Science hosted by the NASA Socioeconomic Data and Applications Center ([SEDAC](https://sedac.ciesin.columbia.edu/)). This event is designed to provide valuable insights, practical knowledge, and collaborative opportunities for researchers who are passionate about open science and the world of data processing for research and applications at the interface of human and environmental systems. 
