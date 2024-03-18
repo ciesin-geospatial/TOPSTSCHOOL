@@ -23,7 +23,8 @@ To **join the Open Science Team** or **learn more**, please fill out the [Partic
 ### Spring 2024:
 
 #### AAG 2024 Panel Session
-<img src="./images/AAG_panel_flier.jpg" alt="AAG" width="100" height="100"/>
+Panel session at the Association of American Geographers (AAG) annual meeting, disucssing the development of SCHOOL Module 2: Health, Air Quality, and Environmental Justice. 
+<img src="./images/AAG_panel_flier.jpg" alt="AAG" width="300" height="300"/>
 
 #### SEDAC Open Science Workshop. 
 Tuesday, January 9 2024. 10 am - 4 pm Eastern Time. Comer Building Seminar Room, Lamont Campus, Columbia University,  61 Route 9W, Palisades NY 10964
