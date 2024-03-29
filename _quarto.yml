@@ -6,7 +6,7 @@ execute:
 website:
   title: "TOPSTSCHOOL"
   site-url: https://ciesin-geospatial.github.io/TOPSTSCHOOL/
-  favicon: images/TOPTSCHOOL-logo02.hi-res.png  
+  favicon: images/TOPTSCHOOL-updated-logo02.png  
   
   page-footer: 
     right: "This page is built with ❤️ help from [NASA Openscapes](https://nasa-openscapes.github.io/), and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
@@ -32,7 +32,7 @@ website:
       href: https://www.youtube.com/channel/UCOIrczFd7_ht2bNUQ3qnM8w
   sidebar:
       title: "TOPSTSCHOOL"
-      logo: images/TOPTSCHOOL-logo02.hi-res.png
+      logo: images/TOPTSCHOOL-updated-logo02.png
       pinned: false
       align: center
       tools: 
