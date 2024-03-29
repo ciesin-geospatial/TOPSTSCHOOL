@@ -1,4 +1,4 @@
-<center><a><img src="images/TOPTSCHOOL-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center>
+<center><a><img src="images/TOPTSCHOOL-updated-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center>
 
 <center><h2>Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative.<br><br><br>
 SITE UNDER CONSTRUCTION</h2>
