@@ -1,12 +1,12 @@
 <center><a><img src="images/TOPSTSCHOOL-updated-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center>
 
-<center><h2>Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative.<br><br><br>
+<center><h2>Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL), part of the NASA Transform to Open Science (TOPS) Training initiative.<br><br><br>
 SITE UNDER CONSTRUCTION</h2>
 
 </center>
 <br>
 
-The Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) is part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative, designed to generate an inclusive culture of open science. The SCHOOL curriculum consists of five 2.5-hour open, interactive, and interdisciplinary learning modules covering an array of lessons across the thematic areas of water, health and air quality, environmental justice, natural disasters, climate, agriculture, and wildfires, integrating themes of population and infrastructure across the modules. Within the modules, lessons in Earth Science Applications use cases demonstrate how to access and analyze data sources in open data science lifecycle workflows focusing on FAIR principles for scientific data management.
+The Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) is part of the NASA Transform to Open Science (TOPS) Training initiative, designed to generate an inclusive culture of open science. The SCHOOL curriculum consists of five 2.5-hour open, interactive, and interdisciplinary learning modules covering an array of lessons across the thematic areas of water, health and air quality, environmental justice, natural disasters, climate, agriculture, and wildfires, integrating themes of population and infrastructure across the modules. Within the modules, lessons in Earth Science Applications use cases demonstrate how to access and analyze data sources in open data science lifecycle workflows focusing on FAIR principles for scientific data management.
 
 
 Project announcements: [TOPSTSCHOOL](https://ciesin-geospatial.github.io/TOPSTSCHOOL/) • 
