@@ -13,7 +13,7 @@ website:
     left: "&copy; CC-By TOPSTSCHOOL Development Team"
  
   navbar:
-    logo: images/TOPTSCHOOL-logo02.hi-res.png
+    logo: images/TOPTSCHOOL-updated-logo02.png
     href: https://ciesin-geospatial.github.io/TOPSTSCHOOL/
     right:
     # - text: "Home"
