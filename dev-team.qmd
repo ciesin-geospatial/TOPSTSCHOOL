@@ -8,6 +8,7 @@ description: |
 ```{=html}
 <style>
   table {
+    width: 180px;
     border-collapse: collapse;
   }
 
@@ -139,7 +140,7 @@ img {
     <td style="width:180px">**Dr. Antonio Tovar**</td>
   </tr>
  <tr>
-    <td style="width:180px">Assistant Professor of Computer Science and Information Systems at [National Louis University] (https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
+    <td style="width:180px">Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
   </tr>
 </table>
 <hr>
