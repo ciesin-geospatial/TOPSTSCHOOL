@@ -139,7 +139,7 @@ img {
     <td style="width:180px">**Dr. Antonio Tovar**</td>
   </tr>
  <tr>
-    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University] (https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
+    <td style="width:180px">Assistant Professor of Computer Science and Information Systems at [National Louis University] (https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
   </tr>
 </table>
 <hr>
