@@ -70,7 +70,6 @@ img {
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
     <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
   </tr>
 <tr>
     <td>**David Lee**</td>
@@ -130,6 +129,17 @@ img {
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
     <td>President at [iSciences](https://www.isciences.com/)</td>
+  </tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/SME/Tovar_headshot.jpg" alt="Antonio Tovar" class="cover"/></th>
+  </tr>
+<tr>
+    <td style="width:180px">**Dr. Antonio Tovar**</td>
+  </tr>
+ <tr>
+    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University] (https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
   </tr>
 </table>
 <hr>
