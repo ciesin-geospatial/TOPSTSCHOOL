@@ -12,7 +12,7 @@ output:
 # Module 1: Water
 The Water module is the first of a series of several ScienceCore Modules developed by the SCHOOL team. 
 
-[Module 1: Water](https://ciesin-geospatial.github.io/TOPSTSCHOOL-module-1-water/){.btn .btn-primary .btn role="button"}
+[Module 1: Water](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/){.btn .btn-primary .btn role="button"}
 
 
 # Module 2: Air Quality
