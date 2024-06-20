@@ -10,10 +10,15 @@ output:
 ---
 
 # Module 1: Water
-The Water module is the first of a series of several ScienceCore Modules developed by the SCHOOL team. 
+The Water module explores data on historial water return periods, sattellite data of near-real time flood . 
 
 [Module 1: Water](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/){.btn .btn-primary .btn role="button"}
 
+# Module 1: Water
+The Water module is the first of a series of several ScienceCore Modules developed by the SCHOOL team. 
 
-# Module 2: Air Quality
+[Module 2: Air Quality](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/){.btn .btn-primary .btn role="button"}
+
+
+# Module 2: Disasters
 Coming soon...
