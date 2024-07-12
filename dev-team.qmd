@@ -161,8 +161,10 @@ img {
     <td>Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center $($[SEDAC](https://sedac.ciesin.columbia.edu/)$)$ and Associate Director for IT at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>Associate Director for Geospatial Applications at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
   </tr>
+  </table>
   <hr>
-  ### Alumni
+
+### Alumni
 <table>
   <tr> 
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
@@ -179,7 +181,9 @@ img {
     <td>**Nikolas Fisher**</td>
   </tr>
 </table>
+<table>
   <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
@@ -193,7 +197,9 @@ img {
     <td>**Jorge Lopez**</td>
     </tr>
 </table>
+<table>
   <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
