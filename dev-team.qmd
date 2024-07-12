@@ -38,7 +38,7 @@ img {
     <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
-    <th><img src="./images/DT/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
+    <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
   </tr>
 <tr>
     <td>**Navin Aade**</td>
@@ -219,4 +219,5 @@ img {
   </tr>
 <tr>
     <td style="width:180px">**Xuan Zhou**</td>
-  </tr>
+</tr>
+</table>
