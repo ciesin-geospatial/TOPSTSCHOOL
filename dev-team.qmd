@@ -214,5 +214,3 @@ img {
 <tr>
     <td style="width:180px">**Xuan Zhou**</td>
   </tr>
-</table>
-<hr>
