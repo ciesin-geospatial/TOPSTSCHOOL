@@ -54,8 +54,10 @@ img {
     <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
     <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Arina Moroz**</td>
     <td style="width:180px">**Alber Sánchez**</td>
     <td style="width:180px">**Hieu Tran**</td>
     <td style="width:180px">**Aneese Williams**</td>
