@@ -48,3 +48,8 @@ $code-block-bg: $light-gray !default;
 .blockquote {
   color: $mid-gray;
 }
+
+// callout box paragraphs had no spacing between them
+.column-margin.column-container p {
+    margin-bottom: 1rem;
+}
