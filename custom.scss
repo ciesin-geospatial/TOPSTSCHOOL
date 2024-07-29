@@ -50,7 +50,6 @@ $code-block-bg: $light-gray !default;
 }
 
 // callout box paragraphs had no spacing between them
-.callout-body-container.callout-body p {
+.column-margin.column-container.p {
     margin-bottom: 1rem;
 }
-
