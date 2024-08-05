@@ -66,35 +66,47 @@ img {
 <table>
   <tr>
     <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
+    <th><img src="./images/SME/Chen_headshot.jpg" alt="Robert Chen" class="cover"/></th>
     <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" class="cover"/></th>
-    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" class="cover"/></th>
-    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" class="cover"/></th>
-    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
+    <th><img src="./images/SME/Glasscoe_headshot.jpg" alt="Maggi Glasscoe" class="cover"/></th>
+    <th><img src="./images/SME/Huang_headshot.jpeg" alt="Qian Huang" class="cover"/></th>
   </tr>
 <tr>
     <td>**Deborah Balk**</td>
+    <td>**Robert Chen**</td>
     <td>**Nancy Degnan**</td>
-    <td>**Laureline Josset**</td>
-    <td>**Ryan Mead**</td>
-    <td>**Thomas Parris**</td>
+    <td>**Maggi Glasscoe**</td>
+    <td>**Qian Huang**</td>
   </tr>
    <tr>
     <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
+    <td>Director Emeritus, [CIESIN] (https://www.ciesin.columbia.edu/), Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center [(SEDAC)](https://sedac.ciesin.columbia.edu/)</td>
     <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
-    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
-    <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
-    <td>President at [iSciences](https://www.isciences.com/)</td>
+    <td>Research Associate at the [University of Alabama–Huntsville] (https://www.uah.edu/) and Disasters Coordinator for [NASA’s Applied Sciences Disasters Program] (https://appliedsciences.nasa.gov/what-we-do/disasters)</td>
+    <td>Research Assistant Professor at East Tennessee State University College of Public Health, [Center for Rural Health Research] (https://www.etsu.edu/cph/rural-health-research/)
   </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/SME/Jones_headshot.jpg" alt="Dave Jones" class="cover"/></th>
+    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" class="cover"/></th>
+    <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" class="cover"/></th>
+    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
     <th><img src="./images/SME/Tovar_headshot.jpg" alt="Antonio Tovar" class="cover"/></th>
   </tr>
 <tr>
-    <td style="width:180px">**Dr. Antonio Tovar**</td>
+    <td>**Dave Jones**</td>
+    <td>**Laureline Josset**</td>
+    <td>**Ryan Meade**</td>
+    <td>**Thomas Parris**</td>
+    <td>**Dr. Antonio Tovar**</td>
   </tr>
  <tr>
-    <td style="width:180px">Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
+    <td>Founder and CEO of [StormCenter Communications, Inc.] (https://geocollaborate.com/)</td>
+    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
+    <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
+    <td>President at [iSciences](https://www.isciences.com/)</td>
+    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
   </tr>
 </table>
 <hr>
