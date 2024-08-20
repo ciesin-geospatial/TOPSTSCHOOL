@@ -102,7 +102,7 @@ img {
     <td>**Dr. Antonio Tovar**</td>
   </tr>
  <tr>
-    <td>Founder and CEO of [StormCenter Communications, Inc.](https://geocollaborate.com/)</td>
+    <td>Founder and CEO at [StormCenter Communications, Inc.](https://geocollaborate.com/)</td>
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
     <td>President at [iSciences](https://www.isciences.com/)</td>

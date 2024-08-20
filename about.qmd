@@ -76,4 +76,4 @@ The project will commence on July 1, 2023 and end on June 30, 2025. Learning mod
 
 Find all of the relevant material for modules and events on the TOPSTSCHOOL Zenodo [here.](https://zenodo.org/communities/topstschool/records?q=&l=list&p=1&s=10&sort=newest)
 
-Watch our most recent SCHOOL video: {{< video https://www.youtube.com/watch?v=v-4ZrcvOCis >}}
+Watch our most recent SCHOOL video from Disasters and Wildfires Module 3 Development: {{< video https://www.youtube.com/watch?v=GdPvP7Yhx2I >}}
