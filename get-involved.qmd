@@ -18,9 +18,15 @@ We are looking for **participants** to join the **Open Science Team** to give in
 
 ### Summer 2024:
 
+#### Curso Corto AmeriGEO
+
+La sesión comenzará con una guía de inundaciones repentinas de la OMM. Esta sesión de formación interactiva profundiza en conceptos de evaluación de vulnerabilidad espacial. Esta sesión aprovechará el entorno del portátil JupyterHub para proporcionar una demostración interactiva utilizando métodos y herramientas estadísticas para evaluar riesgos y vulnerabilidades asociados con desastres naturales y factores socioeconómicos. Los participantes obtendrán experiencia práctica en la selección y análisis de una variedad de vulnerabilidades y aprenderán a aplicar estos conocimientos a escenarios del mundo real. Acceda a los materiales del evento [aquí.] (https://zenodo.org/records/13350477)
+
+The session will begin with a WMO Flash Flood Guide. This interactive training session delves deeper into spatial vulnerability assessment concepts. This session will leverage the JupyterHub notebook environment to provide an interactive demonstration using statistical methods and tools to assess risks and vulnerabilities associated with natural disasters and socioeconomic factors. Participants will gain hands-on experience in selecting and analyzing a variety of vulnerabilities and learn how to apply this knowledge to real-world scenarios. Access the materials from the vent [here.] (https://zenodo.org/records/13350477) <img src="./images/AmeriGEO_flyer.png" alt="AmeriGEO" width="2080" height="800"/>
+
 #### ESIP 2024 Interactive Session
 
-Interactive session at the Earth Science Information Partners (ESIP) July 2024 meeting, discussing SCHOOL Module 3: Disaster and Wildfires. Access the presentation materials on Zenodo [here.](https://zenodo.org/records/13134698) <img src="./images/ESIP_flyer.jpg" alt="ESIP" width="720" height="720"/>
+Interactive session at the Earth Science Information Partners (ESIP) July 2024 meeting, discussing SCHOOL Module 3: Disaster and Wildfires. Access the presentation materials on Zenodo [here.](https://zenodo.org/records/13134698) Watch the video from this session on youtube [here.] (https://www.youtube.com/watch?v=GdPvP7Yhx2I) <img src="./images/ESIP_flyer.jpg" alt="ESIP" width="720" height="720"/>
 
 ### Spring 2024:
 
