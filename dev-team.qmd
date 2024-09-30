@@ -37,41 +37,31 @@ img {
     <th><img src="./images/OST/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
     <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
     <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
-    <th><img src="./images/OST/jessica_durbano.jpg" alt="Jessica D'Urbano" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
+    <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
   </tr>
 <tr>
     <td>**Navin Aade**</td>
     <td>**Emanuel Agú**</td>
      <td>**Jinyi Cai**</td>
-     <td>**Jessica D'Urbano**</td>
     <td>**Hazem Mahmoud**</td>
+    <td>**Josie Morkin**</td>
   </tr>
 </table>
 <table>
   <tr>  
-     <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
      <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>
-    <th><img src="./images/OST/Anupam_Pandey.jpg" alt="Anupam Kumar Pandey" class="cover"/></th>
     <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
-  </tr>
-<tr>
-    <td>**Josie Morkin**</td>
-    <td>**Arina Moroz**</td>
-    <td>**Anupam Kumar Pandey**</td>
-    <td>**Alber Sanchez**</td>
-    <td>**Hieu Tran**</td>
-  </tr>
-</table>
-<table>
-  <tr>  
     <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
-    <td style="width:180px">**Aneese Williams**</td>
-    <td style="width:180px">**Xuan Zhou**</td>
+    <td>**Arina Moroz**</td>
+    <td>**Alber Sanchez**</td>
+    <td>**Hieu Tran**</td>
+    <td>**Aneese Williams**</td>
+    <td>**Xuan Zhou**</td>
   </tr>
 </table>
 <hr>
