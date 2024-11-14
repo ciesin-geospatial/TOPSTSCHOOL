@@ -52,7 +52,7 @@ img {
   <tr>  
      <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
      <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>
-     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+     <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
      <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
      <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
   </tr>
