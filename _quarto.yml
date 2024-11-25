@@ -7,6 +7,8 @@ website:
   title: "TOPSTSCHOOL"
   site-url: https://ciesin-geospatial.github.io/TOPSTSCHOOL/
   favicon: images/TOPSTSCHOOL-updated-logo02.png  
+  google-analytics:
+    tracking-id: "G-DP8JW8JWVN"
   
   page-footer: 
     right: "This page is built with ❤️ help from [NASA Openscapes](https://nasa-openscapes.github.io/), and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
