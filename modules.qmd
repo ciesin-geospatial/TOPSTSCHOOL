@@ -27,7 +27,7 @@ The Disasters module explores differnt types of natural and anthropogenic disast
 [Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/){.btn .btn-primary .btn role="button"}
 
 
-# Module 3: Climate and Agriculture
+# Module 4: Climate and Agriculture
 The Climate and Agriculture module explores how climate change and the changing ecosystems impact global food systems, particularly agricultural processes. 
 
-[Module 3: Climate and Agriculture](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/){.btn .btn-primary .btn role="button"}
+[Module 4: Climate and Agriculture](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/){.btn .btn-primary .btn role="button"}
