@@ -16,10 +16,18 @@ The Water module explores data on historial water return periods, satellite data
 
 
 # Module 2: Air Quality
-The module on Air Quality is in development. 
+The Air Quality module explores air quality data at different levels of analysis, including student-led community monitoring, using the Social Vulnerability Index (SVI) to highlight areas at greater risk for adverse health outcomes due to environmental hazards, to exploring the Environmental Protection Agency's EJScreen data visualization tool, to tracking air quality for international policy. 
 
 [Module 2: Air Quality](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/){.btn .btn-primary .btn role="button"}
 
 
 # Module 3: Disasters
-Coming soon...
+The Disasters module explores differnt types of natural and anthropogenic disasters, such as observing coastal hazards including hurricanes and sea level rise, monitoring wildfires using a multidata approach, learning how to develop a hazard assessment, and considering multihazards on vulnerable populations. 
+
+[Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/){.btn .btn-primary .btn role="button"}
+
+
+# Module 3: Climate and Agriculture
+The Climate and Agriculture module explores how climate change and the changing ecosystems impact global food systems, particularly agricultural processes. 
+
+[Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/){.btn .btn-primary .btn role="button"}
