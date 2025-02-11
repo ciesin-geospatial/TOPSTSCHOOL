@@ -22,7 +22,7 @@ The Air Quality module explores air quality data at different levels of analysis
 
 
 # Module 3: Disasters
-The Disasters module explores differnt types of natural and anthropogenic disasters, such as observing coastal hazards including hurricanes and sea level rise, monitoring wildfires using a multidata approach, learning how to develop a hazard assessment, and considering multihazards on vulnerable populations. 
+The Disasters module explores different types of natural and anthropogenic disasters, such as observing coastal hazards including hurricanes and sea level rise, monitoring wildfires using a multidata approach, learning how to develop a hazard assessment, and considering multihazards on vulnerable populations. 
 
 [Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/){.btn .btn-primary .btn role="button"}
 
