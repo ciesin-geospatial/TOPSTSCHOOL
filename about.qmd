@@ -8,78 +8,72 @@ description: |
 
 ### Project Overview
 
-SCHOOL's objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of [NASA's Open Source Science Initiative (OSSI)](https://science.nasa.gov/researchers/open-science/).
-The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. 
-Modules focus on demonstrating the data science life cycle with varying themes: **Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate**.
+SCHOOL's objective is to develop curriculum for ScienceCore that incorporates NASA Earth Science Applications use cases and data into the data science life cycle as part of [NASA's Open Source Science Initiative (OSSI)](https://science.nasa.gov/researchers/open-science/). The project consists of seven 2.5 hour learning modules designed to fit both online (self-led) and in person instruction. Modules focus on demonstrating the data science life cycle with varying themes: **Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate**.
 
 ### SCHOOL Pedagogy
 
 **Inclusive Teaching**
+
 <ul>
-  <li>Inclusive teaching fosters an environment where diversity is celebrated and reflected in course content.</li>
-  <li>Marginalization of various populations is overcome by using multiple and diverse examples crossing gender, cultural, and socioeconomic barriers. Course content is designed to provide a variety of modes **(visual, textual, interactive)** for content delivery and for student expression which is absent of assumptions about student abilities or experiences. </li>
+
+<li>Inclusive teaching fosters an environment where diversity is celebrated and reflected in course content.</li>
+
+<li>Marginalization of various populations is overcome by using multiple and diverse examples crossing gender, cultural, and socioeconomic barriers. Course content is designed to provide a variety of modes **(visual, textual, interactive)** for content delivery and for student expression which is absent of assumptions about student abilities or experiences.</li>
+
 </ul>
 
 **Active Learning**
+
 <ul>
-  <li>The process of encouraging students to not only focus on doing, but also to think critically about what they are doing.</li>
-  <li>Active learning engages students through activities such as reading, discussing, executing code, and writing, in addition to listening.</li>
-  <li>In asynchronous learning environments, active learning strategies move beyond listening to prerecorded materials and toward active engagement by directing students to do something, such as looking at an image, interacting with the real world, or retrieving past knowledge.</li>
+
+<li>The process of encouraging students to not only focus on doing, but also to think critically about what they are doing.</li>
+
+<li>Active learning engages students through activities such as reading, discussing, executing code, and writing, in addition to listening.</li>
+
+<li>In asynchronous learning environments, active learning strategies move beyond listening to prerecorded materials and toward active engagement by directing students to do something, such as looking at an image, interacting with the real world, or retrieving past knowledge.</li>
+
 </ul>
 
 **Evaluations**
+
 <ul>
-  <li>To foster inclusive teaching and active learning, it is critical that</li>
-    <ul>
-      <li>expectations for assessment are clearly communicated</li>
-      <li>that assessments are timely</li>
-      <li>that examples of ideal results are presented</li>
-    </ul>
-  </li>
-  <li>Clearly defined learning objectives allow instructors to assess metrics of student performance, and to provide feedback early and often.</li>
+
+<li>To foster inclusive teaching and active learning, it is critical that</li>
+
+<ul>
+
+<li>expectations for assessment are clearly communicated</li>
+
+<li>that assessments are timely</li>
+
+<li>that examples of ideal results are presented</li>
+
+</ul>
+
+</li>
+
+<li>Clearly defined learning objectives allow instructors to assess metrics of student performance, and to provide feedback early and often.</li>
+
 </ul>
 
 ## TOPSTSCHOOL Module Structure
+
 Each 2.5 hour thematic module, broken down into five 30-minute lessons, will demonstrate the full data science life cycle and connect those processes with open science principles.
 
-<table>
-  <tr>
-    <th>Module Component</th>
-    <th>Data Science Life Cycle/Open Science Integration</th>
-    <th>Example Activity</th>
-  </tr>
-  <tr>
-    <td>Lesson 1</td>
-    <td>Generation and collection</td>
-    <td>Identify and obtain data sources. Generation could include spatializing tabular data.</td>
-  </tr>
-  <tr>
-    <td>Lesson 2</td>
-    <td>Processing and sotarge</td>
-    <td>Data integration tasks are completed. Local and cloud storage options are demonstrated.</td>
-  </tr>
-  <tr>
-    <td>Lesson 3</td>
-    <td>Management and analysis</td>
-    <td>Creation of metadata to inform uses and structure. Statistical techniques applied.</td>
-  </tr>
-  <tr>
-    <td>Lesson 4</td>
-    <td>Visualization and interpretation</td>
-    <td>Creation of charts and maps. Interpretation thought questions and examples from other work.</td>
-  </tr>
-  <tr>
-    <td>Lesson 5</td>
-    <td>Open Science and Community Engagement</td>
-    <td>How to share these results openly. Practice of engaging with existing and emerging community networks.</td>
-  </tr>
-</table>
+| Module Component | Data Science Life Cycle/Open Science Integration | Example Activity |
+|---------------|------------------|---------------------------------------|
+| Lesson 1 | Generation and collection | Identify and obtain data sources. Generation could include spatializing tabular data. |
+| Lesson 2 | Processing and storage | Data integration tasks are completed. Local and cloud storage options are demonstrated. |
+| Lesson 3 | Management and analysis | Creation of metadata to inform uses and structure. Statistical techniques applied. |
+| Lesson 4 | Visualization and interpretation | Creation of charts and maps. Interpretation thought questions and examples from other work. |
+| Lesson 5 | Open Science and Community Engagement | How to share these results openly. Practice of engaging with existing and emerging community networks. |
 
 ## Project Timeline
-The project will commence on July 1, 2023 and end on June 30, 2025. Learning modules will be
-developed using the SAFe methodology which will allow for the regular incremental release of
-thematic content as it becomes available.
 
+The project will commence on July 1, 2023 and end on June 30, 2025. Learning modules will be developed using the SAFe methodology which will allow for the regular incremental release of thematic content as it becomes available.
 
 ## Learn More
 
+Find all of the relevant material for modules and events on the TOPSTSCHOOL Zenodo [here.](https://zenodo.org/communities/topstschool/records?q=&l=list&p=1&s=10&sort=newest)
+
+Watch our most recent SCHOOL video from Disasters and Wildfires Module 3 Development: {{< video https://www.youtube.com/watch?v=GdPvP7Yhx2I >}}
