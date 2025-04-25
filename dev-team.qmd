@@ -118,7 +118,7 @@ img {
     <td>**Dave Jones**</td>
     <td>**Laureline Josset**</td>
   </tr>
-   <tr>
+ <tr>
     <td>PhD Candidate in Geography at the [University of Colorado Denver](https://clas.ucdenver.edu/ges/)</td>
     <td>Research Associate at the [University of Alabama–Huntsville](https://www.uah.edu/) and Disasters Coordinator for [NASA’s Applied Sciences Disasters Program](https://appliedsciences.nasa.gov/what-we-do/disasters)</td>
     <td>Research Assistant Professor at East Tennessee State University College of Public Health, [Center for Rural Health Research](https://www.etsu.edu/cph/rural-health-research/)
