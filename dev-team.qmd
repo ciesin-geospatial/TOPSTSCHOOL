@@ -84,7 +84,7 @@ img {
   <tr>
     <th><img src="./images/SME/shristi_adhikari.jpg" alt="Shristi Adhikari" class="cover"/></th>
     <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
-    <th><img src="./images/SME/Boyer_headshot.png" alt="Anne-Lise Boyer" class="cover"/></th>
+    <th><img src="./images/SME/Boyer_Headshot.png" alt="Anne-Lise Boyer" class="cover"/></th>
     <th><img src="./images/SME/Chen_headshot.jpg" alt="Robert Chen" class="cover"/></th>
     <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" class="cover"/></th> 
   </tr>
@@ -98,9 +98,9 @@ img {
    <tr>
     <td>Master's Student in Environmental Studies at the [Kentucky State University](https://www.kysu.edu/)</td>
     <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
-    <td>Postdoctoral Research Associate at [The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)
+    <td>Postdoctoral Research Associate at [The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)</td>
     <td>Director Emeritus, [CIESIN](https://www.ciesin.columbia.edu/), Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center [(SEDAC)](https://sedac.ciesin.columbia.edu/)</td>
-    <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
+   <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
   </tr>
 </table>
 <table>
@@ -121,7 +121,8 @@ img {
  <tr>
     <td>PhD Candidate in Geography at the [University of Colorado Denver](https://clas.ucdenver.edu/ges/)</td>
     <td>Research Associate at the [University of Alabama–Huntsville](https://www.uah.edu/) and Disasters Coordinator for [NASA’s Applied Sciences Disasters Program](https://appliedsciences.nasa.gov/what-we-do/disasters)</td>
-    <td>Research Assistant Professor at East Tennessee State University College of Public Health, [Center for Rural Health Research](https://www.etsu.edu/cph/rural-health-research/)<td>Founder and CEO at [StormCenter Communications, Inc.](https://geocollaborate.com/)</td>
+    <td>Research Assistant Professor at East Tennessee State University College of Public Health, [Center for Rural Health Research](https://www.etsu.edu/cph/rural-health-research/)
+    <td>Founder and CEO at [StormCenter Communications, Inc.](https://geocollaborate.com/)</td>
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
   </tr>
 </table>
