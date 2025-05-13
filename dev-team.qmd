@@ -35,46 +35,26 @@ img {
 <table>
   <tr> 
     <th><img src="./images/OST/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
-    <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
-    <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
     <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
-    <td>**Emanuel Agú**</td>
-    <td>**Jinyi Cai**</td>
     <td>**Hazem Mahmoud**</td>
     <td>**Akshay Arvind Mestry**</td>
-  </tr>
-</table>
-<table>
-  <tr>  
-     <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
-     <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>
-     <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
-     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-     <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
-  </tr>
-<tr>
-    <td>**Josie Morkin**</td>
-    <td>**Arina Moroz**</td>
-    <td>**America Munoz**</td>
     <td>**Dhruvil Prajapati**</td>
-    <td>**Alber Sanchez**</td>
+    <td>**Alexandr Smagin**</td>
   </tr>
 </table>
 <table>
   <tr>  
-    <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
-    <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
-    <td style="width:180px">**Alexandr Smagin**</td>
     <td style="width:180px">**Hieu Tran**</td>
-    <td style="width:180px">**Aneese Williams**</td>
     <td style="width:180px">**Xuan Zhou**</td>
   </tr>
 </table>
@@ -151,15 +131,12 @@ img {
 </table>
 <table>
   <tr>
-    <th><img src="./images/SME/daniel_vecellio.png" alt="Daniel Vecellio" class="cover"/></th>
     <th><img src="./images/SME/masha_vernik.jpg" alt="Masha Vernik" class="cover"/></th>
   </tr>
 <tr>
-    <td>**Daniel Vecellio**</td>
     <td>**Masha Vernik**</td>
   </tr>
    <tr>
-    <td>Assistant Professor in Geography and Geology at [The Univeristy of Nebraska Omaha](https://www.unomaha.edu/index.php)</td>
     <td>Master's Student at the [Univeristy of Washington School of Environmental and Forest Sciences](https://sefs.uw.edu/)</td>  
   </tr>
 </table>
@@ -234,17 +211,17 @@ img {
 <table>
   <tr> 
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th> 
+    <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
   </tr>
 <tr>
     <td>**Denisse Fierro Arcos**</td>
+    <td>**Emanuel Agú**</td>
     <td>**Rosana Aguilera Becker**</td>
     <td>**Tricia Boucher**</td> 
-    <td>**Karen E. Cowen**</td>
-    <td>**Nikolas Fisher**</td>
+    <td>**Jinyi Cai**</td>
   </tr>
 </table>
 <table>
@@ -256,11 +233,11 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td>**Karen E. Cowen**</td>
+    <td>**Nikolas Fisher**</td>
     <td>**Iker Gomez**</td>
     <td>**Jenny Hewson**</td>
     <td>**Peer Herholz**</td>
-    <td>**David Lee**</td>
-    <td>**Jorge Lopez**</td>
     </tr>
 </table>
 <table>
@@ -268,22 +245,42 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
+    <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>  
   </tr>
 <tr>
+    <td>**David Lee**</td>
+    <td>**Jorge Lopez**</td>
     <td>**Robyn Marowitz**</td>
+    <td>**Josie Morkin**</td>
+    <td>**Arina Moroz**</td>   
+</tr>
+</table>
+<table>
+  <tr> 
+    <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
+  </tr>
+<tr>
+    <td>**America Munoz**</td>
     <td>**Lara Pistolesi**</td>
     <td>**Annajiat Alim Rasel**</td>
     <td>**Luana Sales**</td>
-    <td>**Jonathan Sanchez**</td>
+    <td>**Alber Sanchez**</td>
 </tr>
 </table>
 <table>
   <tr> 
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
+        <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Jonathan Sanchez**</td>
+    <td style="width:180px">**Aneese Williams**</td>
     <td style="width:180px">**Xuan Zhou**</td>
 </tr>
 </table>
