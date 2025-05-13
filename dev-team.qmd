@@ -77,7 +77,7 @@ img {
   </tr>
    <tr>
     <td>Master's Student in Environmental Studies at the [Kentucky State University](https://www.kysu.edu/)</td>
-    <td>Assistant professor in the [Department of Geography & Atmospheric Science](https://geog.ku.edu/) at the [University of Kansas](https://geog.ku.edu/)</td>
+    <td>Assistant professor in the Department of Geography & Atmospheric Science at the [University of Kansas](https://geog.ku.edu/)</td>
     <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
     <td>Postdoctoral Research Associate at [The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)</td>
     <td>Director Emeritus, [CIESIN](https://www.ciesin.columbia.edu/), Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center [(SEDAC)](https://sedac.ciesin.columbia.edu/)</td>
@@ -254,6 +254,7 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
   </tr>
 <tr>
@@ -262,7 +263,6 @@ img {
     <td>**Jorge Lopez**</td>
     <td>**Robyn Marowitz**</td>
     <td>**Josie Morkin**</td>
-
 </tr>
 </table>
 <table>
