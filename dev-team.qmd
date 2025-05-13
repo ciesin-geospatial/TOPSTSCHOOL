@@ -63,7 +63,7 @@ img {
 <table>
   <tr>
     <th><img src="./images/SME/shristi_adhikari.jpg" alt="Shristi Adhikari" class="cover"/></th>
-    <th><img src="./images/SME/Yoonjun_Ahn.png" alt="Yoonjung Ahn" class="cover"/></th>
+    <th><img src="./images/SME/Yoonjung_Ahn.png" alt="Yoonjung Ahn" class="cover"/></th>
     <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
      <th><img src="./images/SME/boyer_headshot.jpg" alt="Anne-Lise Boyer" class="cover"/></th>
     <th><img src="./images/SME/Chen_headshot.jpg" alt="Robert Chen" class="cover"/></th>
