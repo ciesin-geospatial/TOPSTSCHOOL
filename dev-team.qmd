@@ -35,27 +35,27 @@ img {
 <table>
   <tr> 
     <th><img src="./images/OST/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
+    <th><img src="./images/OST/dydych.png" alt="Mykola Dydych" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
     <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
+    <td>**Mykola Dydych**</td>
     <td>**Hazem Mahmoud**</td>
     <td>**Akshay Arvind Mestry**</td>
     <td>**Dhruvil Prajapati**</td>
-    <td>**Alexandr Smagin**</td>
   </tr>
 </table>
 <table>
   <tr>  
+    <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Alexandr Smagin**</td>
     <td style="width:180px">**Hieu Tran**</td>
-    <td style="width:180px">**Xuan Zhou**</td>
   </tr>
 </table>
 <hr>
@@ -63,80 +63,87 @@ img {
 <table>
   <tr>
     <th><img src="./images/SME/shristi_adhikari.jpg" alt="Shristi Adhikari" class="cover"/></th>
+    <th><img src="./images/SME/Yoonjun_Ahn.png" alt="Yoonjung Ahn" class="cover"/></th>
     <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
      <th><img src="./images/SME/boyer_headshot.jpg" alt="Anne-Lise Boyer" class="cover"/></th>
     <th><img src="./images/SME/Chen_headshot.jpg" alt="Robert Chen" class="cover"/></th>
-    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" class="cover"/></th> 
   </tr>
 <tr>
     <td>**Shristi Adhikari**</td>
+    <td>**Yoonjung Ahn**</td>
     <td>**Deborah Balk**</td>
     <td>**Anne-Lise Boyer**</td>
     <td>**Robert Chen**</td>
-    <td>**Nancy Degnan**</td>
   </tr>
    <tr>
     <td>Master's Student in Environmental Studies at the [Kentucky State University](https://www.kysu.edu/)</td>
+    <td>Assistant professor in the [Department of Geography & Atmospheric Science](https://geog.ku.edu/) at the [University of Kansas](https://geog.ku.edu/)</td>
     <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
     <td>Postdoctoral Research Associate at [The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)</td>
     <td>Director Emeritus, [CIESIN](https://www.ciesin.columbia.edu/), Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center [(SEDAC)](https://sedac.ciesin.columbia.edu/)</td>
-    <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
   </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/SME/Degman_headshot3.png" alt="Nancy Degnan" class="cover"/></th> 
     <th><img src="./images/SME/elizabeth_dzwonczyk.jpg" alt="Elizabeth Dzwonczyk" class="cover"/></th>
     <th><img src="./images/SME/Glasscoe_headshot.jpg" alt="Maggi Glasscoe" class="cover"/></th>
     <th><img src="./images/SME/Huang_headshot.jpeg" alt="Qian Huang" class="cover"/></th>
     <th><img src="./images/SME/Jones_headshot.jpg" alt="Dave Jones" class="cover"/></th>
-    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" class="cover"/></th> 
   </tr>
 <tr>
+    <td>**Nancy Degnan**</td>
     <td>**Elizabeth Dzwonczyk**</td>
     <td>**Maggi Glasscoe**</td>
     <td>**Qian Huang**</td>
     <td>**Dave Jones**</td>
-    <td>**Laureline Josset**</td>
   </tr>
  <tr>
+    <td>Senior Advisor for Education at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>PhD Candidate in Geography at the [University of Colorado Denver](https://clas.ucdenver.edu/ges/)</td>
     <td>Research Associate at the [University of Alabama–Huntsville](https://www.uah.edu/) and Disasters Coordinator for [NASA’s Applied Sciences Disasters Program](https://appliedsciences.nasa.gov/what-we-do/disasters)</td>
     <td>Research Assistant Professor at East Tennessee State University College of Public Health, [Center for Rural Health Research](https://www.etsu.edu/cph/rural-health-research/)</td>
     <td>Founder and CEO at [StormCenter Communications, Inc.](https://geocollaborate.com/)</td>
-    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
   </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/SME/Josset_headshot3.png" alt="Laureline Josset" class="cover"/></th> 
     <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Meade" class="cover"/></th>
+    <th><img src="./images/SME/alamin_molla.png" alt="Alamin Molla" class="cover"/></th>
     <th><img src="./images/SME/faezeh_najafzadeh.png" alt="Faezeh Najafzadeh" class="cover"/></th>
      <th><img src="./images/SME/jacob_orser.jpg" alt="Jacob Orser" class="cover"/></th>
-    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
-    <th><img src="./images/SME/Tovar_headshot.jpg" alt="Antonio Tovar" class="cover"/></th>
+
   </tr>
 <tr>
+    <td>**Laureline Josset**</td>
     <td>**Ryan Meade**</td>
+    <td>**Alamin Molla**</td>
     <td>**Faezeh Najafzadeh**</td>
     <td>**Jacob Orser**</td>
-    <td>**Thomas Parris**</td>
-    <td>**Antonio Tovar**</td>
   </tr>
 <tr>
+    <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
-    <td>PhD Candidate in Geography and Environmental Sustainability at the [Univeristy of Oklahoma](Faezeh Najafzadeh)</td>
+    <td>PhD Candidate in Geographic Information Science at the [University of Arizona School of Geographical Sciences and Urban Planning](https://sgsup.asu.edu/)</td>
+    <td>PhD Candidate in Geography and Environmental Sustainability at the [Univeristy of Oklahoma](https://www.ou.edu/ags/geography)</td>
     <td>Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)</td>
-    <td>President at [iSciences](https://www.isciences.com/)</td>
-    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
   </tr>
 </table>
 <table>
   <tr>
+    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
+    <th><img src="./images/SME/Tovar_headshot.jpg" alt="Antonio Tovar" class="cover"/></th>
     <th><img src="./images/SME/masha_vernik.jpg" alt="Masha Vernik" class="cover"/></th>
   </tr>
 <tr>
+    <td>**Thomas Parris**</td>
+    <td>**Antonio Tovar**</td>
     <td>**Masha Vernik**</td>
   </tr>
    <tr>
+    <td>President at [iSciences](https://www.isciences.com/)</td>
+    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
     <td>Master's Student at the [Univeristy of Washington School of Environmental and Forest Sciences](https://sefs.uw.edu/)</td>  
   </tr>
 </table>
@@ -212,32 +219,34 @@ img {
   <tr> 
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
+    <th><img src="./images/OST/Ahanaf_Aziz.jpeg" alt="Ahanaf Aziz" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th> 
-    <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
   </tr>
 <tr>
     <td>**Denisse Fierro Arcos**</td>
     <td>**Emanuel Agú**</td>
+    <td>**Ahanaf Aziz**</td>
     <td>**Rosana Aguilera Becker**</td>
     <td>**Tricia Boucher**</td> 
-    <td>**Jinyi Cai**</td>
+
   </tr>
 </table>
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td>**Jinyi Cai**</td>
     <td>**Karen E. Cowen**</td>
     <td>**Nikolas Fisher**</td>
     <td>**Iker Gomez**</td>
     <td>**Jenny Hewson**</td>
-    <td>**Peer Herholz**</td>
+
     </tr>
 </table>
 <table>
@@ -246,39 +255,41 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
-    <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>  
   </tr>
 <tr>
+    <td>**Peer Herholz**</td>
     <td>**David Lee**</td>
     <td>**Jorge Lopez**</td>
     <td>**Robyn Marowitz**</td>
     <td>**Josie Morkin**</td>
-    <td>**Arina Moroz**</td>   
+
 </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>  
     <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
   </tr>
 <tr>
+    <td>**Arina Moroz**</td>   
     <td>**America Munoz**</td>
     <td>**Lara Pistolesi**</td>
     <td>**Annajiat Alim Rasel**</td>
     <td>**Luana Sales**</td>
-    <td>**Alber Sanchez**</td>
 </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
-        <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Alber Sanchez**</td>
     <td style="width:180px">**Jonathan Sanchez**</td>
     <td style="width:180px">**Aneese Williams**</td>
     <td style="width:180px">**Xuan Zhou**</td>
