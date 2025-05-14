@@ -1,5 +1,194 @@
 [
   {
+    "objectID": "content/module1-water.html",
+    "href": "content/module1-water.html",
+    "title": "Module 1: Water",
+    "section": "",
+    "text": "Code of Conduct\n\nReview other codes\nCarpentries\nNASA TOPS - If possible this is the default, perhaps with some edits, since we are a NASA TOPS project: https://nasa.github.io/Transform-to-Open-Science-Book/About/CODE_OF_CONDUCT.html\nNASA OpenScapes.\n\n\n\nModule 1 objectives\n\nStudents will gain an understanding of the water cycle\nStudents will learn the role humans play in the water cycle.\nStudent will learn about water surpluses and deficits (anomalies)\nStudents will learn how to access GLDAS data from the NASA SEDAC website (https://www.dante-project.org/sedacr)\nStudents will learn how to access MODIS NRT flood data\nStudents will learn how to store data locally\nStudents will learn how to subset a global data set to a predefined area of interest (AOI). (GeoBoundaries?)\nStudents will learn how to summarize the data set using an area of interest\nStudents will learn how to visualize results as maps and graphs using R(?)\nStudents will learn how to estimate impacts on populations at risk (PES, POPGRID, perhaps also infrastructure with OSM)\nStudents will learn how to share their results to the cloud (using Binder?)\n\n\n\nDatasets\n\n\nCredits\nM1 Banner Photo by Jacob Kelvin.J"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html",
+    "href": "content/SCHOOL_module1_water.html",
+    "title": "Module 1: Water",
+    "section": "",
+    "text": "Module 1: Water is part of the Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL),a part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative."
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#subtitle",
+    "href": "content/SCHOOL_module1_water.html#subtitle",
+    "title": "Module 1: Water",
+    "section": "Subtitle",
+    "text": "Subtitle\nregular text bold text ### Sub Sub title regular text"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#datasets-1",
+    "href": "content/SCHOOL_module1_water.html#datasets-1",
+    "title": "Module 1: Water",
+    "section": "Datasets",
+    "text": "Datasets"
+  },
+  {
+    "objectID": "content/SCHOOL_module1_water.html#photos",
+    "href": "content/SCHOOL_module1_water.html#photos",
+    "title": "Module 1: Water",
+    "section": "Photos",
+    "text": "Photos\nModule 1 Banner Photo by Jacob Kelvin.J"
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "",
+    "text": "Write the actual code and narrative.\nDetermine the region and time period of focus to draw in our use cases/human focused stories.\nDetermine the method of exploration.\n\nMimic our process?\n\n12 month integration panels of the CON USA from 2000-2014 to identify areas of interest.\nZoom in to locations of interest and switch to 1-month integration for the years identified in the previous step."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#to-do",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#to-do",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "",
+    "text": "Write the actual code and narrative.\nDetermine the region and time period of focus to draw in our use cases/human focused stories.\nDetermine the method of exploration.\n\nMimic our process?\n\n12 month integration panels of the CON USA from 2000-2014 to identify areas of interest.\nZoom in to locations of interest and switch to 1-month integration for the years identified in the previous step."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#introduction",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#introduction",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Introduction",
+    "text": "Introduction\n\nRaster/vector visualization background?\n\nGeneral\nWater resource specific\n\nPackage background\n\nBasic plotting with stars/sf\nmore advanced plotting with ggplot/ggmap"
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#setup",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#setup",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Setup",
+    "text": "Setup\nlibrary(stars) # raster manipulation\nlibrary(sf) # vector manipulation\nlibrary(ggplot2) # advanced plotting\nlibrary(lubridate) # date/time manipulation\nlibrary(exactextractr) # zonal statistics"
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#load-data",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#load-data",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Load Data",
+    "text": "Load Data\nLoad in data from previous vignette.\nI think the previous vignette should end with a 2000-2014 12-month integration CONUS dataset.\n\nVerify data structure with print or summary."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#exploratory-histogram",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#exploratory-histogram",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Exploratory Histogram",
+    "text": "Exploratory Histogram\nCreate histogram of raster values for a single time step.\nBasic plotting method is OK, but check if it can be done with ggplotso we can use a uniform palette across all modules.\n\nExtreme values or other items of note might require additional visualization or other data exploration."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#multi-panel-time-series",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#multi-panel-time-series",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Multi-Panel Time Series",
+    "text": "Multi-Panel Time Series\nCreate a multipanel time series of 12 month integration CONUSA; similar to what we used to identify our case studies. Each panel will represent 1 year.\nLoad in a CONUSA geojson from geoBoundaries. Copy methods from previous vignette.\n\nStart with the basic plotting commands–create the time series with slice or other method used in previous vignette.\n\nThe palette will not exist and be difficult to use.\nTry a built in palette for stars (not sure if possible?).\nIntroduce the official WSIM palette. This may only be helpful within a ggplot function.\n# numbers are return period values for a composite surplus (blues) and deficit (reds) dataset\nleg_colors&lt;-c(\n    '#9B0039',\n    # -50 to -40\n    '#D44135',\n    # -40 to -20\n    '#FF8D43',\n    # -20 to -10\n    '#FFC754',\n    # -10 to -5\n    '#FFEDA3',\n    # -5 to -3\n    '#FFFFFF',\n    # -3 to 3\n    '#CEFFAD',\n    # 3 to 5\n    '#00F3B5',\n    # 5 to 10\n    '#00CFCE',\n    # 10 to 20\n    '#009ADE',\n    # 20 to 40\n    '#0045B5')\nOnce hot spots are easily identified pick a region of interest to zoom in on using the 1 month integration dataset.\nLoad in the 1 month integration dataset and subset/index the dataset to the region of interest (copy code from previous vignette). Use dplyr::slice or other method to pull out just the 12 months from the year of interest. Code demonstrating these techniques in previous vignette.\n\nCreate a multi-panel figure with each panel representing 1 month to identify the most intense months of drought or flooding. Starting with this one maybe use ggplot and a nice palette, legend, and panel headings. Will probably have to use some sort of faceting to make individual panels (might not be possible)."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#use-case-background",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#use-case-background",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Use Case Background",
+    "text": "Use Case Background\nNow that we’ve keyed in on a particular event, bring in the backup information we’ve collected to discuss what actually happened."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#point-location-time-series",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#point-location-time-series",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Point Location Time Series",
+    "text": "Point Location Time Series\nVisualize an individual cell with particular extreme or maybe volatile values. Use Google Maps to identify the latitude/longitude of a place of interest. Maybe an urban center or other important location in the region that suffered from the extreme event.\nCreate a vector with the point location.\n\nUse stars::extract to extract raster values in the stack at the point location.\n\nThe resulting data frame of time series values should be inspected. It may also need to be converted from wide format to long format so it may be plotted in ggplot. Use either pivot wider/longer from dplyr or cast/melt from data.table.\n\nOnce in the proper format, plot using ggplot."
+  },
+  {
+    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#population-exposure-plot",
+    "href": "content/wsim-gldas/wsim-gldas-vis.html#population-exposure-plot",
+    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
+    "section": "Population Exposure Plot",
+    "text": "Population Exposure Plot\nUse Gridded Population of the World and exactextractr to determine the number of people exposed to a given anomaly for each month of the year.\nBackground info on GPW would be appropriate. Same with exactextractr and zonal statistics.\nLoad in GPW data and the exactextractr package\n\nPerform the time series zonal summary.\nThis might be a bit tricky; been a while for me. Have to look up the proper code. Dan has good examples on the exactextractr package website.\nResulting data.frame will probably need to be transformed to long (just like before), so it can be plotted.\n\nNow plot the data in ggplot. I have some existing code I can pull to help with the plotting–or at least make it fancy."
+  },
+  {
+    "objectID": "dev-team.html",
+    "href": "dev-team.html",
+    "title": "SCHOOL Development Team",
+    "section": "",
+    "text": "SCHOOL Yearbook\n\n\n\nOpen Science Team Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNavin Aade\n\n\nMykola Dydych\n\n\nHazem Mahmoud\n\n\nAkshay Arvind Mestry\n\n\nDhruvil Prajapati\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlexandr Smagin\n\n\nHieu Tran\n\n\n\n\n\n\nConsultation Team, Subject Matter Experts (SMEs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShristi Adhikari\n\n\nYoonjung Ahn\n\n\nDeborah Balk\n\n\nAnne-Lise Boyer\n\n\nRobert Chen\n\n\n\n\nMaster’s Student in Environmental Studies at the Kentucky State University\n\n\nAssistant professor in the Department of Geography & Atmospheric Science at the University of Kansas\n\n\nDirector at the CUNY Institute for Demographic Research and professor at Baruch College\n\n\nPostdoctoral Research Associate at The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture\n\n\nDirector Emeritus, CIESIN, Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center (SEDAC)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNancy Degnan\n\n\nElizabeth Dzwonczyk\n\n\nMaggi Glasscoe\n\n\nQian Huang\n\n\nDave Jones\n\n\n\n\nSenior Advisor for Education at Columbia Water Center\n\n\nPhD Candidate in Geography at the University of Colorado Denver\n\n\nResearch Associate at the University of Alabama–Huntsville and Disasters Coordinator for NASA’s Applied Sciences Disasters Program\n\n\nResearch Assistant Professor at East Tennessee State University College of Public Health, Center for Rural Health Research\n\n\nFounder and CEO at StormCenter Communications, Inc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaureline Josset\n\n\nRyan Meade\n\n\nAlamin Molla\n\n\nFaezeh Najafzadeh\n\n\nJacob Orser\n\n\n\n\nAssociate Research Scientist at Columbia Water Center\n\n\nCoordinator of Academic Support Services for the Educational Oportunity Program at SUNY Binghamton\n\n\nPh.D. GIScience Student, School of Geographical Sciences and Urban Planning; Arizona State University Graduate Researcher, Urban Climate Research Center\n\n\nPhD Candidate in Geography and Environmental Sustainability at the Univeristy of Oklahoma\n\n\nProgram Support Specialist at NASA Acres\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThomas Parris\n\n\nAntonio Tovar\n\n\nMasha Vernik\n\n\n\n\nPresident at iSciences\n\n\nAssistant Professor of Computer Science and Information Systems at National Louis University\n\n\nMaster’s Student at the Univeristy of Washington School of Environmental and Forest Sciences\n\n\n\n\n\n\nDevelopment Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeborah Balk\n\n\nJosh Brinks\n\n\nIris Cano\n\n\nChristina Alexia Deodatis\n\n\nHasim Engin\n\n\n\n\nDirector at the CUNY Institute for Demographic Research and professor at Baruch College\n\n\nResearch Scientist at iSciences\n\n\nResearch Associate at CUNY\n\n\nResearch Staff Assistant at CIESIN, Columbia Climate School\n\n\nGeographic Information Specialist at CIESIN, Columbia Climate School\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElaine Famutimi\n\n\nCamilla Green\n\n\nKytt MacManus\n\n\nJuan Fernando Martinez\n\n\nThomas Parris\n\n\n\n\nResearch Associate at CUNY\n\n\nResearch Staff Assistant at CIESIN, Columbia Climate School\n\n\nAssistant Systems Engineer at NASA Socioeconomic Data and Applications Center \\((\\)SEDAC\\()\\) and GIS Developer at CIESIN, Columbia Climate School\n\n\nSenior Research Staff Assistant at CIESIN, Columbia Climate School\n\n\nPresident at iSciences\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinda Pistolesi\n\n\nSri Vinay\n\n\nGreg Yetman\n\n\n\n\nSenior Geographic Information Specialist at CIESIN, Columbia Climate School\n\n\nDeputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center \\((\\)SEDAC\\()\\) and Associate Director for IT at CIESIN, Columbia Climate School\n\n\nAssociate Director for Geospatial Applications at CIESIN, Columbia Climate School\n\n\n\n\n\n\nAlumni\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDenisse Fierro Arcos\n\n\nEmanuel Agú\n\n\nAhanaf Aziz\n\n\nRosana Aguilera Becker\n\n\nTricia Boucher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJinyi Cai\n\n\nKaren E. Cowen\n\n\nNikolas Fisher\n\n\nIker Gomez\n\n\nJenny Hewson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeer Herholz\n\n\nDavid Lee\n\n\nJorge Lopez\n\n\nRobyn Marowitz\n\n\nJosie Morkin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArina Moroz\n\n\nAmerica Munoz\n\n\nLara Pistolesi\n\n\nAnnajiat Alim Rasel\n\n\nLuana Sales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlber Sanchez\n\n\nJonathan Sanchez\n\n\nAneese Williams\n\n\nXuan Zhou"
+  },
+  {
+    "objectID": "modules.html",
+    "href": "modules.html",
+    "title": "SCHOOL MODULES",
+    "section": "",
+    "text": "Module 1: Water\nThe Water module explores data on historial water return periods, satellite data of near-real time flood zones, and local lead in water tests.\nModule 1: Water\n\n\nModule 2: Air Quality\nThe Air Quality module explores air quality data at different levels of analysis, including student-led community monitoring, using the Social Vulnerability Index (SVI) to highlight areas at greater risk for adverse health outcomes due to environmental hazards, to exploring the Environmental Protection Agency’s EJScreen data visualization tool, to tracking air quality for international policy.\nModule 2: Air Quality\n\n\nModule 3: Disasters\nThe Disasters module explores different types of natural and anthropogenic disasters, such as observing coastal hazards including hurricanes and sea level rise, monitoring wildfires using a multidata approach, learning how to develop a hazard assessment, and considering multihazards on vulnerable populations.\nModule 3: Disasters\n\n\nModule 4: Climate and Agriculture\nThe Climate and Agriculture module explores how climate change and the changing ecosystems impact global food systems, particularly agricultural processes.\nModule 4: Climate and Agriculture"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management."
+  },
+  {
+    "objectID": "about.html#school",
+    "href": "about.html#school",
+    "title": "About",
+    "section": "",
+    "text": "The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management."
+  },
+  {
+    "objectID": "about.html#topstschool-module-structure",
+    "href": "about.html#topstschool-module-structure",
+    "title": "About",
+    "section": "TOPSTSCHOOL Module Structure",
+    "text": "TOPSTSCHOOL Module Structure\nEach 2.5 hour thematic module, broken down into five 30-minute lessons, will demonstrate the data science life cycle and connect those processes with open science principles.\n\n\n\n\n\n\n\n\nModule Component\nData Science Life Cycle/Open Science Integration\nExample Activity\n\n\n\n\nLesson 1\nGeneration and collection\nIdentify and obtain data sources. Generation could include spatializing tabular data.\n\n\nLesson 2\nProcessing and storage\nData integration tasks are completed. Local and cloud storage options are demonstrated.\n\n\nLesson 3\nManagement and analysis\nCreation of metadata to inform uses and structure. Statistical techniques applied.\n\n\nLesson 4\nVisualization and interpretation\nCreation of charts and maps. Interpretation thought questions and examples from other work.\n\n\nLesson 5\nOpen Science and Community Engagement\nHow to share these results openly. Practice of engaging with existing and emerging community networks."
+  },
+  {
+    "objectID": "about.html#project-timeline",
+    "href": "about.html#project-timeline",
+    "title": "About",
+    "section": "Project Timeline",
+    "text": "Project Timeline\nThe project will commence on July 1, 2023 and end on June 30, 2025. Learning modules will be developed using the SAFe methodology which allows for the regular incremental release of thematic content as it becomes available."
+  },
+  {
+    "objectID": "about.html#learn-more",
+    "href": "about.html#learn-more",
+    "title": "About",
+    "section": "Learn More",
+    "text": "Learn More\nFind all of the relevant material for modules and events on the TOPSTSCHOOL Zenodo here.\nWatch our most recent SCHOOL video from Disasters and Wildfires Module 3 Development:"
+  },
+  {
+    "objectID": "get-involved.html",
+    "href": "get-involved.html",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "",
+    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+  },
+  {
+    "objectID": "get-involved.html#subject-matter-experts",
+    "href": "get-involved.html#subject-matter-experts",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "",
+    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+  },
+  {
+    "objectID": "get-involved.html#open-science-team",
+    "href": "get-involved.html#open-science-team",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "Open Science Team",
+    "text": "Open Science Team\nWe are looking for participants to join the Open Science Team to give input on the development of learning modules. Participants will engage in workshops and short sprints in a hybrid, open-meeting format. Our workshop focuses on FAIR and CARE principles in learning, making us particularly interested in team members with a passion for inclusive pedagogy. Following the launch workshop, participants will be asked for feedback during two 1-hour remote participation meetings. To join the Open Science Team or learn more, please fill out the Participant Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
+  },
+  {
+    "objectID": "get-involved.html#events",
+    "href": "get-involved.html#events",
+    "title": "Join the NASA TOPSTSCHOOL Team",
+    "section": "Events",
+    "text": "Events\n\nSummer 2024:\n\nCurso Corto AmeriGEO\nLa sesión comenzará con una guía de inundaciones repentinas de la OMM. Esta sesión de formación interactiva profundiza en conceptos de evaluación de vulnerabilidad espacial. Esta sesión aprovechará el entorno del portátil JupyterHub para proporcionar una demostración interactiva utilizando métodos y herramientas estadísticas para evaluar riesgos y vulnerabilidades asociados con desastres naturales y factores socioeconómicos. Los participantes obtendrán experiencia práctica en la selección y análisis de una variedad de vulnerabilidades y aprenderán a aplicar estos conocimientos a escenarios del mundo real. Acceda a los materiales del evento aquí.\nThe session will begin with a WMO Flash Flood Guide. This interactive training session delves deeper into spatial vulnerability assessment concepts. This session will leverage the JupyterHub notebook environment to provide an interactive demonstration using statistical methods and tools to assess risks and vulnerabilities associated with natural disasters and socioeconomic factors. Participants will gain hands-on experience in selecting and analyzing a variety of vulnerabilities and learn how to apply this knowledge to real-world scenarios. Access the materials from the event here.\n\n\nESIP 2024 Interactive Session\nInteractive session at the Earth Science Information Partners (ESIP) July 2024 meeting, discussing SCHOOL Module 3: Disaster and Wildfires. Access the presentation materials on Zenodo here. Watch the video from this session on youtube here. \n\n\n\nSpring 2024:\n\nAAG 2024 Panel Session\nPanel session at the Association of American Geographers (AAG) annual meeting, discussing the development of SCHOOL Module 2: Health, Air Quality, and Environmental Justice. \n\n\nSEDAC Open Science Workshop.\nTuesday, January 9 2024. 10 am - 4 pm Eastern Time. Comer Building Seminar Room, Lamont Campus, Columbia University, 61 Route 9W, Palisades NY 10964 workshop on Open Science hosted by the NASA Socioeconomic Data and Applications Center (SEDAC). This event is designed to provide valuable insights, practical knowledge, and collaborative opportunities for researchers who are passionate about open science and the world of data processing for research and applications at the interface of human and environmental systems.\n\n\n\nFall 2023\n\nAGU 2023\nMentors give workshops at AGU. December 11 - 15, NASA Openscapes Mentors will attend the AGU annual meeting and deliver workshops. High-level planning happens in the 2023-planning-agu GitHub repo.\n\n\nSCHOOL Water Module, Open Science Team Meeting 1\nThe first meeting for the SCHOOL Open Science Team Members was held where Open Science concepts and the Transform to Open Science (TOPS) initiative was introduced.\nWorkshop Documents\nYouTube Video (subtitulos en Español)\n\n\nWater Resources SCHOOL Workshop - I-GUIDE Forum 2023\nOctober 4-5, TOPSTSCHOOL Development Team hosted a workshop at the I-GUIDE Fourm 2023. ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL): Water Resources Module Development.\nWorkshop Documents\nYouTube Video (subtitulos en Español)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TOPSTSCHOOL",
+    "section": "",
+    "text": "The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management.\n\n\nFind the learning modules here: LEARNING MODULES\nLearn about our recent work: Blog Posts • Presentations • SEDAC • CIESIN • iSciences • Baruch College\nPlease connect with us at TOPSTSCHOOL@ciesin.columbia.edu"
+  },
+  {
     "objectID": "content/wsim-gldas/wsim-gldas-acquisition.html",
     "href": "content/wsim-gldas/wsim-gldas-acquisition.html",
     "title": "Acquiring and Pre-Processing the WSIM-GLDAS Dataset",
@@ -75,194 +264,5 @@
     "title": "",
     "section": "Case Study of Municipalities in Cauca, Colombia",
     "text": "Case Study of Municipalities in Cauca, Colombia\nIn this lesson, we will develop a hotspot vulnerability index (HVI) for each of the municipalities in Cauca, Colombia to measure four components, three environmental and one socioeconomic, to determine which municipalities are the most vulnerable. We identified four components of wellbeing that we want to measure: multidimensional poverty, heat, water, and air. - Multidimensonal Poverty: Measured by the DANE Multidimensional Poverty Index (IPM). - Heat: Measured by Land Surface Temperature daytime maximum in Celcius (LST). - Water: Measured by trends in terrestrial water availability (Water). - Air Quality: Measured by ground-level fine particulate matter of 2.5 micrometers or smaller in micrograms per cubic meter (PM2.5).\n\nData Sources:\nColombia Municipal Boundaries (Shapefile)\nValle del Cauca Multidimensional Poverty Index (Table)\nValle del Cauca Global Summer Land Surface Temperature (LST) Grids, v1 (2013) (Raster)\nTrends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE), v1 (2002 – 2016) (Raster)\nValle del Cauca Global (GL) Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), v4.03 (2019) (Raster)\n\nImportar archivos –shapefile, tabla, y tres geoTiffs.\nZonas utilizadas para delimitar zonas. Los valores de zona deben ser números enteros: #### Import files –shapefile, table, and three geoTiffs. Zones used to delineate zones. Zone Values should be integers:\n\n\nCode\n#assing shapefile to zones\nzones = gpd.read_file(\"/vsicurl/https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/Col_CAUCA_municip.shp\")\n#vista previa de las primeras cinco filas\n#preview first five rows\nzones.head()\n\n\n\n\nCode\n#Importar tabla índice de pobreza multidimensional (IPM)\n#Import multidimensional poverty index table (IPM)\nIPM = pd.read_csv(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/cauca_IPM.csv\", index_col=False, decimal=\",\")\nIPM.head()\n\n\n\n\nCode\n#lista de columnas\n#column list\nIPM.columns\n\n\n\n\nCode\n#Ver los variables unicos en la columna 'clase'\n#View the unique variables in column 'clase' (class)\nIPM[\"clase\"].unique()\n\n\n\n\nCode\n#tabla de subconjuntos para incluir solo filas con 'Total' en la columna 'clase'\n#subset table to include only rows with 'Total' in the 'class' column\nIPM  = IPM[IPM[\"clase\"] == \"Total\"]\nIPM.head()\n\n\n\n\nCode\n#seleccione solo las columnas de código municipal, nombre e IPM\n#select only the columns for municipal code, name and IPM\nIPM = IPM[[\"cod_municipio\", \"municipio\", \"ipm\"]]\n\n#cambiar el nombre de la columna del código municipal a 'MID'\n#rename municipal code column to 'MID'\nIPM = IPM.rename(columns={\"cod_municipio\": \"MID\"})\nIPM.head()\n\n\n\n\nCode\n#archivos de datos utilizados para realizar estadísticas zonales\n#files of data used to perform zonal statistics\n\n#Temperatura de la superficie terrestre (LST)\n#Land Surface Temperature (LST)\nLST = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/summer_LST.tif\")\n#disponibilidad de agua dulce (agua)\n#freshwater availability (water)\nwater = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/freshwater.tif\")\n#partículas de ozono 2.5 (PM25)\n#ozone particulate matter 2.5 (PM25)\nPM25 = rasterio.open(\"https://github.com/ciesin-geospatial/hotspot_training/raw/e9e2492f7c682422fe72c4328afe4dc36ba4871f/data/PM25.tif\")\n\n#leer banda 1 del ráster LST\n#read LST raster band 1\nLST_data = LST.read(1, masked=True)\n\n#leer banda 1 del ráster water\n#read water raster band 1\nwater_data = water.read(1, masked=True)\n\n#leer banda 1 del ráster PM25\n#read PM25 raster band 1\nPM25_data = PM25.read(1, masked=True)\n\n\n\n\n\nCode\n#crea una gráfica con 1 fila y 4 columnas limitando el tamaño a 20 por 5\n#create a plot with 1 row and 4 columns limiting size to 20 by 5\nfig, ax = plt.subplots(1,4, figsize = (20,5))\n\n\n#traza el archivo de forma de zonas en la primera columna llamada ax[0]\n#plot the zones shapefile in the first column named ax[0]\nzones.plot(cmap = 'rainbow', ax=ax[0])\n\n#trazar rásteres en el resto de las columnas\n#plot rasters in the rest of the columns\nim1 = ax[1].imshow(LST_data, cmap='plasma')\nim2 = ax[2].imshow(water_data, cmap='GnBu')\nim3 = ax[3].imshow(PM25_data, cmap='viridis')\n\n#establecer títulos para gráficos\n#set titles for graphs\nax[0].set_title('Cauca - Municipalidades', wrap=True)\nax[1].set_title('Cauca - Temperatura de la\\nsuperficie terrestre de verano', wrap=True);\nax[2].set_title('Cauca - Disponibilidad de\\nagua dulce', wrap=True);\nax[3].set_title('Cauca - Material particulado 2.5\\n(PM2.5)', wrap=True);\n\n#barra de colores para rásteres\n#color bar for rasters\nfig.colorbar(im1, ax=ax[1])\nfig.colorbar(im2, ax=ax[2])\nfig.colorbar(im3, ax=ax[3])\n\nplt.show()\n\n\n\nEjemplo de una municipalidad:\n\n\nExample of one Municipality:\n\n\nCode\n#recorra IDs de zona (MID)\n#loop through zone IDs (MID)\nfor i in zones['MID'][:1]:\n    #Printear MID\n    #Print MID\n    print(\"MID:\", i)\n\n    #obtener forma única de shapefile\n    #get single shape from shapefile\n    roi = zones[zones.MID == i]\n\n\n    #enmáscarar los rásteres y establezca nodata en -9999\n    #mask rasters and set nodata to -9999\n    LST_arr, LSTbound = mask.mask(LST, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    water_arr, waterbound = mask.mask(water, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    PM25_arr, PM25bound = mask.mask(PM25, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n\n    #establezca nodata (-9999) a None\n    #Set nodata value (-9999) to None\n    LST_arr[LST_arr ==-9999] = None\n    water_arr[water_arr ==-9999] = None\n    PM25_arr[PM25_arr ==-9999] = None\n\n#trazar el gráfico\n#plot the arrays\nshow(LST_arr)\nshow(water_arr)\nshow(PM25_arr)\n\n\n\n\n\nRecorra todos los municipios:\n\n\nLoop through all municipalities:\n\n\nCode\n#Crear marco de datos en blanco para almacenar estadísticas zonales\n#Create blank dataframe to store zonal statistics\ndf = pd.DataFrame(columns =['MID','LST','water','PM25'])\n\n#recorra IDs de zona (MID)\n#loop through zone IDs (MID)\nfor i in zones['MID']:\n\n    #obtener fila de municipio único de shapefile\n    #get single municipality row from shapefile\n    roi = zones[zones.MID == i]\n\n    #enmáscarar los rásteres y establezca nodata en -9999\n    #Mask rasters with single municipality geometry and set nodata to -9999\n    LST_arr, LSTbound = mask.mask(LST, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    water_arr, waterbound = mask.mask(water, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n    PM25_arr, PM25bound = mask.mask(PM25, roi[\"geometry\"], crop=True, all_touched=True, nodata=-9999)\n\n    #establezca nodata (-9999) a None\n    #Set nodata value (-9999) to None\n    LST_arr[LST_arr ==-9999] = None\n    water_arr[water_arr ==-9999] = None\n    PM25_arr[PM25_arr ==-9999] = None\n\n    #crear fila para agregar datos de fila al marco de datos\n    #create row to append row data to dataframe\n    row_to_append = pd.DataFrame([{'MID':i, 'LST': np.nanmean(LST_arr),\n                                   'water':np.nanmean(water_arr),\n                                   'PM25': np.nanmean(PM25_arr)}])\n    #agregar datos de fila al marco de datos\n    #append row data and dataframe\n    df = pd.concat([df,row_to_append])\ndf.head()\n\n\n\n\n\nCode\n#combinar table IPM con table df\n#comine IPM and df tables\ndf = pd.merge(IPM,df, on=\"MID\", how=\"left\")\ndf.head()\n\n\n\n\nCode\n#histogramas\n#histograms\ndf.hist()\n\n\n\n\nCode\n#prueba transformaciones\n#test out transformations\ntest = np.power(df['water'], 1.25)\n\n\n# test = boxcox(df['PM25'], lmbda=None)[0]\n# test = pd.DataFrame(list(test))\ntest.hist()\n\n\n\n\nCode\n#transformar columnas\n#transform columns\ndf[\"water\"]= np.power(df['water'], 1.25)\ndf[\"PM25\"]= boxcox(df['PM25'], lmbda=None)[0]\ndf.hist()"
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html",
-    "href": "content/SCHOOL_module1_water.html",
-    "title": "Module 1: Water",
-    "section": "",
-    "text": "Module 1: Water is part of the Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL),a part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative."
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html#subtitle",
-    "href": "content/SCHOOL_module1_water.html#subtitle",
-    "title": "Module 1: Water",
-    "section": "Subtitle",
-    "text": "Subtitle\nregular text bold text ### Sub Sub title regular text"
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html#datasets-1",
-    "href": "content/SCHOOL_module1_water.html#datasets-1",
-    "title": "Module 1: Water",
-    "section": "Datasets",
-    "text": "Datasets"
-  },
-  {
-    "objectID": "content/SCHOOL_module1_water.html#photos",
-    "href": "content/SCHOOL_module1_water.html#photos",
-    "title": "Module 1: Water",
-    "section": "Photos",
-    "text": "Photos\nModule 1 Banner Photo by Jacob Kelvin.J"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "TOPSTSCHOOL",
-    "section": "",
-    "text": "The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management.\n\n\nFind the learning modules here: LEARNING MODULES\nLearn about our recent work: Blog Posts • Presentations • SEDAC • CIESIN • iSciences • Baruch College\nPlease connect with us at TOPSTSCHOOL@ciesin.columbia.edu"
-  },
-  {
-    "objectID": "get-involved.html",
-    "href": "get-involved.html",
-    "title": "Join the NASA TOPSTSCHOOL Team",
-    "section": "",
-    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
-  },
-  {
-    "objectID": "get-involved.html#subject-matter-experts",
-    "href": "get-involved.html#subject-matter-experts",
-    "title": "Join the NASA TOPSTSCHOOL Team",
-    "section": "",
-    "text": "We are looking for researchers to join as Subject Matter Experts (SMEs) on our SCHOOL project advisory committee for one module. Your expertise is vital in developing learning modules applying Open Science principles to the module topics. Researchers will engage in workshops and short sprints in a hybrid, open-meeting format.\nThe SCHOOL Project aims to empower students to apply Open Science principles to thematic areas, including Water, Health and Air Quality, Environmental Justice, Disasters, Wildfires, Agriculture, and Climate. We’re particularly interested in team members passionate about inclusive pedagogy. To join as a Subject Matter Expert or learn more, please fill out the SME Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
-  },
-  {
-    "objectID": "get-involved.html#open-science-team",
-    "href": "get-involved.html#open-science-team",
-    "title": "Join the NASA TOPSTSCHOOL Team",
-    "section": "Open Science Team",
-    "text": "Open Science Team\nWe are looking for participants to join the Open Science Team to give input on the development of learning modules. Participants will engage in workshops and short sprints in a hybrid, open-meeting format. Our workshop focuses on FAIR and CARE principles in learning, making us particularly interested in team members with a passion for inclusive pedagogy. Following the launch workshop, participants will be asked for feedback during two 1-hour remote participation meetings. To join the Open Science Team or learn more, please fill out the Participant Google Form or contact us at TOPSTSCHOOL@ciesin.columbia.edu."
-  },
-  {
-    "objectID": "get-involved.html#events",
-    "href": "get-involved.html#events",
-    "title": "Join the NASA TOPSTSCHOOL Team",
-    "section": "Events",
-    "text": "Events\n\nSummer 2024:\n\nCurso Corto AmeriGEO\nLa sesión comenzará con una guía de inundaciones repentinas de la OMM. Esta sesión de formación interactiva profundiza en conceptos de evaluación de vulnerabilidad espacial. Esta sesión aprovechará el entorno del portátil JupyterHub para proporcionar una demostración interactiva utilizando métodos y herramientas estadísticas para evaluar riesgos y vulnerabilidades asociados con desastres naturales y factores socioeconómicos. Los participantes obtendrán experiencia práctica en la selección y análisis de una variedad de vulnerabilidades y aprenderán a aplicar estos conocimientos a escenarios del mundo real. Acceda a los materiales del evento aquí.\nThe session will begin with a WMO Flash Flood Guide. This interactive training session delves deeper into spatial vulnerability assessment concepts. This session will leverage the JupyterHub notebook environment to provide an interactive demonstration using statistical methods and tools to assess risks and vulnerabilities associated with natural disasters and socioeconomic factors. Participants will gain hands-on experience in selecting and analyzing a variety of vulnerabilities and learn how to apply this knowledge to real-world scenarios. Access the materials from the event here.\n\n\nESIP 2024 Interactive Session\nInteractive session at the Earth Science Information Partners (ESIP) July 2024 meeting, discussing SCHOOL Module 3: Disaster and Wildfires. Access the presentation materials on Zenodo here. Watch the video from this session on youtube here. \n\n\n\nSpring 2024:\n\nAAG 2024 Panel Session\nPanel session at the Association of American Geographers (AAG) annual meeting, discussing the development of SCHOOL Module 2: Health, Air Quality, and Environmental Justice. \n\n\nSEDAC Open Science Workshop.\nTuesday, January 9 2024. 10 am - 4 pm Eastern Time. Comer Building Seminar Room, Lamont Campus, Columbia University, 61 Route 9W, Palisades NY 10964 workshop on Open Science hosted by the NASA Socioeconomic Data and Applications Center (SEDAC). This event is designed to provide valuable insights, practical knowledge, and collaborative opportunities for researchers who are passionate about open science and the world of data processing for research and applications at the interface of human and environmental systems.\n\n\n\nFall 2023\n\nAGU 2023\nMentors give workshops at AGU. December 11 - 15, NASA Openscapes Mentors will attend the AGU annual meeting and deliver workshops. High-level planning happens in the 2023-planning-agu GitHub repo.\n\n\nSCHOOL Water Module, Open Science Team Meeting 1\nThe first meeting for the SCHOOL Open Science Team Members was held where Open Science concepts and the Transform to Open Science (TOPS) initiative was introduced.\nWorkshop Documents\nYouTube Video (subtitulos en Español)\n\n\nWater Resources SCHOOL Workshop - I-GUIDE Forum 2023\nOctober 4-5, TOPSTSCHOOL Development Team hosted a workshop at the I-GUIDE Fourm 2023. ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL): Water Resources Module Development.\nWorkshop Documents\nYouTube Video (subtitulos en Español)"
-  },
-  {
-    "objectID": "dev-team.html",
-    "href": "dev-team.html",
-    "title": "SCHOOL Development Team",
-    "section": "",
-    "text": "SCHOOL Yearbook\n\n\n\nOpen Science Team Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNavin Aade\n\n\nMykola Dydych\n\n\nHazem Mahmoud\n\n\nAkshay Arvind Mestry\n\n\nDhruvil Prajapati\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlexandr Smagin\n\n\nHieu Tran\n\n\n\n\n\n\nConsultation Team, Subject Matter Experts (SMEs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShristi Adhikari\n\n\nYoonjung Ahn\n\n\nDeborah Balk\n\n\nAnne-Lise Boyer\n\n\nRobert Chen\n\n\n\n\nMaster’s Student in Environmental Studies at the Kentucky State University\n\n\nAssistant professor in the Department of Geography & Atmospheric Science at the University of Kansas\n\n\nDirector at the CUNY Institute for Demographic Research and professor at Baruch College\n\n\nPostdoctoral Research Associate at The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture\n\n\nDirector Emeritus, CIESIN, Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center (SEDAC)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNancy Degnan\n\n\nElizabeth Dzwonczyk\n\n\nMaggi Glasscoe\n\n\nQian Huang\n\n\nDave Jones\n\n\n\n\nSenior Advisor for Education at Columbia Water Center\n\n\nPhD Candidate in Geography at the University of Colorado Denver\n\n\nResearch Associate at the University of Alabama–Huntsville and Disasters Coordinator for NASA’s Applied Sciences Disasters Program\n\n\nResearch Assistant Professor at East Tennessee State University College of Public Health, Center for Rural Health Research\n\n\nFounder and CEO at StormCenter Communications, Inc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaureline Josset\n\n\nRyan Meade\n\n\nAlamin Molla\n\n\nFaezeh Najafzadeh\n\n\nJacob Orser\n\n\n\n\nAssociate Research Scientist at Columbia Water Center\n\n\nCoordinator of Academic Support Services for the Educational Oportunity Program at SUNY Binghamton\n\n\nPhD Candidate in Geographic Information Science at the University of Arizona School of Geographical Sciences and Urban Planning\n\n\nPhD Candidate in Geography and Environmental Sustainability at the Univeristy of Oklahoma\n\n\nProgram Support Specialist at NASA Acres\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThomas Parris\n\n\nAntonio Tovar\n\n\nMasha Vernik\n\n\n\n\nPresident at iSciences\n\n\nAssistant Professor of Computer Science and Information Systems at National Louis University\n\n\nMaster’s Student at the Univeristy of Washington School of Environmental and Forest Sciences\n\n\n\n\n\n\nDevelopment Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeborah Balk\n\n\nJosh Brinks\n\n\nIris Cano\n\n\nChristina Alexia Deodatis\n\n\nHasim Engin\n\n\n\n\nDirector at the CUNY Institute for Demographic Research and professor at Baruch College\n\n\nResearch Scientist at iSciences\n\n\nResearch Associate at CUNY\n\n\nResearch Staff Assistant at CIESIN, Columbia Climate School\n\n\nGeographic Information Specialist at CIESIN, Columbia Climate School\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElaine Famutimi\n\n\nCamilla Green\n\n\nKytt MacManus\n\n\nJuan Fernando Martinez\n\n\nThomas Parris\n\n\n\n\nResearch Associate at CUNY\n\n\nResearch Staff Assistant at CIESIN, Columbia Climate School\n\n\nAssistant Systems Engineer at NASA Socioeconomic Data and Applications Center \\((\\)SEDAC\\()\\) and GIS Developer at CIESIN, Columbia Climate School\n\n\nSenior Research Staff Assistant at CIESIN, Columbia Climate School\n\n\nPresident at iSciences\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinda Pistolesi\n\n\nSri Vinay\n\n\nGreg Yetman\n\n\n\n\nSenior Geographic Information Specialist at CIESIN, Columbia Climate School\n\n\nDeputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center \\((\\)SEDAC\\()\\) and Associate Director for IT at CIESIN, Columbia Climate School\n\n\nAssociate Director for Geospatial Applications at CIESIN, Columbia Climate School\n\n\n\n\n\n\nAlumni\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDenisse Fierro Arcos\n\n\nEmanuel Agú\n\n\nAhanaf Aziz\n\n\nRosana Aguilera Becker\n\n\nTricia Boucher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJinyi Cai\n\n\nKaren E. Cowen\n\n\nNikolas Fisher\n\n\nIker Gomez\n\n\nJenny Hewson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeer Herholz\n\n\nDavid Lee\n\n\nJorge Lopez\n\n\nRobyn Marowitz\n\n\nJosie Morkin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArina Moroz\n\n\nAmerica Munoz\n\n\nLara Pistolesi\n\n\nAnnajiat Alim Rasel\n\n\nLuana Sales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlber Sanchez\n\n\nJonathan Sanchez\n\n\nAneese Williams\n\n\nXuan Zhou"
-  },
-  {
-    "objectID": "modules.html",
-    "href": "modules.html",
-    "title": "SCHOOL MODULES",
-    "section": "",
-    "text": "Module 1: Water\nThe Water module explores data on historial water return periods, satellite data of near-real time flood zones, and local lead in water tests.\nModule 1: Water\n\n\nModule 2: Air Quality\nThe Air Quality module explores air quality data at different levels of analysis, including student-led community monitoring, using the Social Vulnerability Index (SVI) to highlight areas at greater risk for adverse health outcomes due to environmental hazards, to exploring the Environmental Protection Agency’s EJScreen data visualization tool, to tracking air quality for international policy.\nModule 2: Air Quality\n\n\nModule 3: Disasters\nThe Disasters module explores different types of natural and anthropogenic disasters, such as observing coastal hazards including hurricanes and sea level rise, monitoring wildfires using a multidata approach, learning how to develop a hazard assessment, and considering multihazards on vulnerable populations.\nModule 3: Disasters\n\n\nModule 4: Climate and Agriculture\nThe Climate and Agriculture module explores how climate change and the changing ecosystems impact global food systems, particularly agricultural processes.\nModule 4: Climate and Agriculture"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management."
-  },
-  {
-    "objectID": "about.html#school",
-    "href": "about.html#school",
-    "title": "About",
-    "section": "",
-    "text": "The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management."
-  },
-  {
-    "objectID": "about.html#topstschool-module-structure",
-    "href": "about.html#topstschool-module-structure",
-    "title": "About",
-    "section": "TOPSTSCHOOL Module Structure",
-    "text": "TOPSTSCHOOL Module Structure\nEach 2.5 hour thematic module, broken down into five 30-minute lessons, will demonstrate the data science life cycle and connect those processes with open science principles.\n\n\n\n\n\n\n\n\nModule Component\nData Science Life Cycle/Open Science Integration\nExample Activity\n\n\n\n\nLesson 1\nGeneration and collection\nIdentify and obtain data sources. Generation could include spatializing tabular data.\n\n\nLesson 2\nProcessing and storage\nData integration tasks are completed. Local and cloud storage options are demonstrated.\n\n\nLesson 3\nManagement and analysis\nCreation of metadata to inform uses and structure. Statistical techniques applied.\n\n\nLesson 4\nVisualization and interpretation\nCreation of charts and maps. Interpretation thought questions and examples from other work.\n\n\nLesson 5\nOpen Science and Community Engagement\nHow to share these results openly. Practice of engaging with existing and emerging community networks."
-  },
-  {
-    "objectID": "about.html#project-timeline",
-    "href": "about.html#project-timeline",
-    "title": "About",
-    "section": "Project Timeline",
-    "text": "Project Timeline\nThe project will commence on July 1, 2023 and end on June 30, 2025. Learning modules will be developed using the SAFe methodology which allows for the regular incremental release of thematic content as it becomes available."
-  },
-  {
-    "objectID": "about.html#learn-more",
-    "href": "about.html#learn-more",
-    "title": "About",
-    "section": "Learn More",
-    "text": "Learn More\nFind all of the relevant material for modules and events on the TOPSTSCHOOL Zenodo here.\nWatch our most recent SCHOOL video from Disasters and Wildfires Module 3 Development:"
-  },
-  {
-    "objectID": "content/module1-water.html",
-    "href": "content/module1-water.html",
-    "title": "Module 1: Water",
-    "section": "",
-    "text": "Code of Conduct\n\nReview other codes\nCarpentries\nNASA TOPS - If possible this is the default, perhaps with some edits, since we are a NASA TOPS project: https://nasa.github.io/Transform-to-Open-Science-Book/About/CODE_OF_CONDUCT.html\nNASA OpenScapes.\n\n\n\nModule 1 objectives\n\nStudents will gain an understanding of the water cycle\nStudents will learn the role humans play in the water cycle.\nStudent will learn about water surpluses and deficits (anomalies)\nStudents will learn how to access GLDAS data from the NASA SEDAC website (https://www.dante-project.org/sedacr)\nStudents will learn how to access MODIS NRT flood data\nStudents will learn how to store data locally\nStudents will learn how to subset a global data set to a predefined area of interest (AOI). (GeoBoundaries?)\nStudents will learn how to summarize the data set using an area of interest\nStudents will learn how to visualize results as maps and graphs using R(?)\nStudents will learn how to estimate impacts on populations at risk (PES, POPGRID, perhaps also infrastructure with OSM)\nStudents will learn how to share their results to the cloud (using Binder?)\n\n\n\nDatasets\n\n\nCredits\nM1 Banner Photo by Jacob Kelvin.J"
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "",
-    "text": "Write the actual code and narrative.\nDetermine the region and time period of focus to draw in our use cases/human focused stories.\nDetermine the method of exploration.\n\nMimic our process?\n\n12 month integration panels of the CON USA from 2000-2014 to identify areas of interest.\nZoom in to locations of interest and switch to 1-month integration for the years identified in the previous step."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#to-do",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#to-do",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "",
-    "text": "Write the actual code and narrative.\nDetermine the region and time period of focus to draw in our use cases/human focused stories.\nDetermine the method of exploration.\n\nMimic our process?\n\n12 month integration panels of the CON USA from 2000-2014 to identify areas of interest.\nZoom in to locations of interest and switch to 1-month integration for the years identified in the previous step."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#introduction",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#introduction",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Introduction",
-    "text": "Introduction\n\nRaster/vector visualization background?\n\nGeneral\nWater resource specific\n\nPackage background\n\nBasic plotting with stars/sf\nmore advanced plotting with ggplot/ggmap"
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#setup",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#setup",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Setup",
-    "text": "Setup\nlibrary(stars) # raster manipulation\nlibrary(sf) # vector manipulation\nlibrary(ggplot2) # advanced plotting\nlibrary(lubridate) # date/time manipulation\nlibrary(exactextractr) # zonal statistics"
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#load-data",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#load-data",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Load Data",
-    "text": "Load Data\nLoad in data from previous vignette.\nI think the previous vignette should end with a 2000-2014 12-month integration CONUS dataset.\n\nVerify data structure with print or summary."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#exploratory-histogram",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#exploratory-histogram",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Exploratory Histogram",
-    "text": "Exploratory Histogram\nCreate histogram of raster values for a single time step.\nBasic plotting method is OK, but check if it can be done with ggplotso we can use a uniform palette across all modules.\n\nExtreme values or other items of note might require additional visualization or other data exploration."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#multi-panel-time-series",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#multi-panel-time-series",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Multi-Panel Time Series",
-    "text": "Multi-Panel Time Series\nCreate a multipanel time series of 12 month integration CONUSA; similar to what we used to identify our case studies. Each panel will represent 1 year.\nLoad in a CONUSA geojson from geoBoundaries. Copy methods from previous vignette.\n\nStart with the basic plotting commands–create the time series with slice or other method used in previous vignette.\n\nThe palette will not exist and be difficult to use.\nTry a built in palette for stars (not sure if possible?).\nIntroduce the official WSIM palette. This may only be helpful within a ggplot function.\n# numbers are return period values for a composite surplus (blues) and deficit (reds) dataset\nleg_colors&lt;-c(\n    '#9B0039',\n    # -50 to -40\n    '#D44135',\n    # -40 to -20\n    '#FF8D43',\n    # -20 to -10\n    '#FFC754',\n    # -10 to -5\n    '#FFEDA3',\n    # -5 to -3\n    '#FFFFFF',\n    # -3 to 3\n    '#CEFFAD',\n    # 3 to 5\n    '#00F3B5',\n    # 5 to 10\n    '#00CFCE',\n    # 10 to 20\n    '#009ADE',\n    # 20 to 40\n    '#0045B5')\nOnce hot spots are easily identified pick a region of interest to zoom in on using the 1 month integration dataset.\nLoad in the 1 month integration dataset and subset/index the dataset to the region of interest (copy code from previous vignette). Use dplyr::slice or other method to pull out just the 12 months from the year of interest. Code demonstrating these techniques in previous vignette.\n\nCreate a multi-panel figure with each panel representing 1 month to identify the most intense months of drought or flooding. Starting with this one maybe use ggplot and a nice palette, legend, and panel headings. Will probably have to use some sort of faceting to make individual panels (might not be possible)."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#use-case-background",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#use-case-background",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Use Case Background",
-    "text": "Use Case Background\nNow that we’ve keyed in on a particular event, bring in the backup information we’ve collected to discuss what actually happened."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#point-location-time-series",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#point-location-time-series",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Point Location Time Series",
-    "text": "Point Location Time Series\nVisualize an individual cell with particular extreme or maybe volatile values. Use Google Maps to identify the latitude/longitude of a place of interest. Maybe an urban center or other important location in the region that suffered from the extreme event.\nCreate a vector with the point location.\n\nUse stars::extract to extract raster values in the stack at the point location.\n\nThe resulting data frame of time series values should be inspected. It may also need to be converted from wide format to long format so it may be plotted in ggplot. Use either pivot wider/longer from dplyr or cast/melt from data.table.\n\nOnce in the proper format, plot using ggplot."
-  },
-  {
-    "objectID": "content/wsim-gldas/wsim-gldas-vis.html#population-exposure-plot",
-    "href": "content/wsim-gldas/wsim-gldas-vis.html#population-exposure-plot",
-    "title": "WSIM-GLDAS Dataset Exploration and Visualizations",
-    "section": "Population Exposure Plot",
-    "text": "Population Exposure Plot\nUse Gridded Population of the World and exactextractr to determine the number of people exposed to a given anomaly for each month of the year.\nBackground info on GPW would be appropriate. Same with exactextractr and zonal statistics.\nLoad in GPW data and the exactextractr package\n\nPerform the time series zonal summary.\nThis might be a bit tricky; been a while for me. Have to look up the proper code. Dan has good examples on the exactextractr package website.\nResulting data.frame will probably need to be transformed to long (just like before), so it can be plotted.\n\nNow plot the data in ggplot. I have some existing code I can pull to help with the plotting–or at least make it fancy."
   }
 ]
