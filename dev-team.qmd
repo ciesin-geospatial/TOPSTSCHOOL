@@ -125,7 +125,7 @@ img {
 <tr>
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
-    <td>PhD Candidate in Geographic Information Science at the [University of Arizona School of Geographical Sciences and Urban Planning](https://sgsup.asu.edu/)</td>
+    <td>Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, Urban Climate Research Center</td>
     <td>PhD Candidate in Geography and Environmental Sustainability at the [Univeristy of Oklahoma](https://www.ou.edu/ags/geography)</td>
     <td>Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)</td>
   </tr>
