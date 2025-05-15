@@ -276,7 +276,6 @@ img {
     <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
     <td>**Arina Moroz**</td>   
