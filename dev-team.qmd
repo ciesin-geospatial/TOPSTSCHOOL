@@ -38,23 +38,27 @@ img {
     <th><img src="./images/OST/dydych.png" alt="Mykola Dydych" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
     <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/poornima_vaidya.png" alt="Poornima Vaidya" class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
     <td>**Mykola Dydych**</td>
     <td>**Hazem Mahmoud**</td>
     <td>**Akshay Arvind Mestry**</td>
-    <td>**Dhruvil Prajapati**</td>
+    <td>**Poornima Vaidya**</td>
   </tr>
 </table>
 <table>
   <tr>  
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
+    <th><img src="./images/OST/raphael_sutiono.png" alt="Raphael Sutiono" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Dhruvil Prajapati**</td>
     <td style="width:180px">**Alexandr Smagin**</td>
+    <td style="width:180px">**Raphael Sutiono**</td>
     <td style="width:180px">**Hieu Tran**</td>
   </tr>
 </table>
@@ -125,7 +129,7 @@ img {
 <tr>
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
-    <td>Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, Urban Climate Research Center</td>
+    <td>Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, [Urban Climate Research Center](https://ucrc.asu.edu/)</td>
     <td>PhD Candidate in Geography and Environmental Sustainability at the [Univeristy of Oklahoma](https://www.ou.edu/ags/geography)</td>
     <td>Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)</td>
   </tr>
@@ -268,6 +272,7 @@ img {
 <table>
   <tr> 
     <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>  
+    <th><img src="./images/OST/robinson_muiru.jpg" alt="Robinson Muiru" class="cover"/></th>  
     <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
@@ -275,20 +280,22 @@ img {
   </tr>
 <tr>
     <td>**Arina Moroz**</td>   
+    <td>**Robinson Muiru**</td>
     <td>**America Munoz**</td>
     <td>**Lara Pistolesi**</td>
     <td>**Annajiat Alim Rasel**</td>
-    <td>**Luana Sales**</td>
 </tr>
 </table>
 <table>
   <tr> 
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/alber_sanchez.jpg" alt="Alber Sanchez" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/Aneese_Williams.jpeg" alt="Aneese Williams" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Luana Sales**</td>    
     <td style="width:180px">**Alber Sanchez**</td>
     <td style="width:180px">**Jonathan Sanchez**</td>
     <td style="width:180px">**Aneese Williams**</td>
