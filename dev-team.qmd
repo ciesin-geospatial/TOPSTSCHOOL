@@ -36,26 +36,28 @@ img {
   <tr> 
     <th><img src="./images/OST/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
     <th><img src="./images/OST/dydych.png" alt="Mykola Dydych" class="cover"/></th>
+    <th><img src="./images/OST/Eldar_Imanbekov.jpeg" alt="Eldar Imanbekov" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
     <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
-    <th><img src="./images/OST/poornima_vaidya.png" alt="Poornima Vaidya" class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
     <td>**Mykola Dydych**</td>
+    <td>**Eldar Imanbekov**</td>
     <td>**Hazem Mahmoud**</td>
     <td>**Akshay Arvind Mestry**</td>
-    <td>**Poornima Vaidya**</td>
   </tr>
 </table>
 <table>
-  <tr>  
+  <tr> 
+    <th><img src="./images/OST/poornima_vaidya.png" alt="Poornima Vaidya" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
     <th><img src="./images/OST/raphael_sutiono.png" alt="Raphael Sutiono" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
   </tr>
 <tr>
+    <td style="width:180px">**Poornima Vaidya**</td>
     <td style="width:180px">**Dhruvil Prajapati**</td>
     <td style="width:180px">**Alexandr Smagin**</td>
     <td style="width:180px">**Raphael Sutiono**</td>
