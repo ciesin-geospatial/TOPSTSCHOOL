@@ -1,8 +1,8 @@
-# NASA-Openscapes.github.io
+# TOPSTSCHOOL.GITHUB.IO
 
-Landing page for NASA-Openscapes  
+Landing page for SCHOOL Project Page
 
-The Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) is part of the NASA Transform to Open Science (TOPS) Training (TOPST) initiative. TOPSTSCHOOL consists of five 2.5-hour open, interactive, and interdisciplinary learning modules covering various lessons across the thematic areas of water, health and air quality, environmental justice, natural disasters, climate, agriculture, and wildfires, integrating within each module themes of population and infrastructure. Within the modules, lessons in Earth Science Applications use cases demonstrate how to access and analyze data sources in open data science lifecycle workflows focusing on FAIR principles for scientific data management.
+The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons in Earth Science demonstrate how to access and analyze open data using the open science data life cycle, focusing on FAIR principles for scientific data management.
 
 **Module 1: Water**
 [Module 1: Water](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/)
@@ -11,3 +11,9 @@ The Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) is pa
 **Module 2: Air Quality**
 [Module 2: Air Quality](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/)
 
+
+**Module 3: Disasters**
+[Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/)
+
+
+The modules can be downloaded in full from in their respective Github repositories, named "TOPSTSCHOOL-thematic-area". For example, the Air Quality module can be found at [https://github.com/ciesin-geospatial/TOPSTSCHOOL-air-quality](https://github.com/ciesin-geospatial/TOPSTSCHOOL-air-quality)
