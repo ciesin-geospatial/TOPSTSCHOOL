@@ -53,3 +53,8 @@ $code-block-bg: $light-gray !default;
 .column-margin.column-container.p {
     margin-bottom: 1rem;
 }
+
+img, .figure {
+  max-width: 100%;
+  height: auto;
+}
