@@ -54,7 +54,8 @@ $code-block-bg: $light-gray !default;
     margin-bottom: 1rem;
 }
 
-img, .figure {
-  max-width: 100%;
+
+.cell-output.cell-output-display > div {
+  width: --webkit-fill-available;        /* or any fixed value like 400px */
   height: auto;
 }
