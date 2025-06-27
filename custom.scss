@@ -55,7 +55,7 @@ $code-block-bg: $light-gray !default;
 }
 
 
-.cell-output.cell-output-display > div {
-  width: --webkit-fill-available;        /* or any fixed value like 400px */
+.figure-img{
+  max-width: 100%;
   height: auto;
 }
