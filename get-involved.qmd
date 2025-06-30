@@ -16,6 +16,20 @@ We are looking for **participants** to join the **Open Science Team** to give in
 
 ## Events
 
+### Spring 2025: 
+
+#### AAG 2025 SCHOOL Climate and Agriculture Panel Sesion
+This session's objective is to hear from Subject Matter Experts (SMEs) in the areas of Climate and Agriculture in order to inform the development of SCHOOL use cases, which will be considered for the online learning modules.
+
+#### NSF Open Science Workshop 
+SCHOOL team members presented the project’s open curriculum and training strategy, highlighting interdisciplinary module development and user engagement in the NASA TOPS ecosystem.
+
+### Fall 2024:
+
+#### SACNAS NDiSTEM 2024
+Event: [Unleashing the Power of AI in Open Science: Empowering the Next Generation of STEM Innovators](https://s6.goeshow.com/sachn/ndsc/2024/agenda.cfm?session_key=C57D9655-4E74-EF11-8102-B95C44E1822F&session_date=Thursday,%20Oct%2031,%202024)
+Juan Martinez presented SCHOOL’s work on inclusive curriculum development and open science training for underrepresented groups. This panel session aims to engage this vibrant community in a dynamic discussion about the transformative potential of AI within the realm of open science. By exploring the synergies between AI and open science, we can uncover new ways to promote inclusivity, enhance research outcomes, and foster collaboration.   NASA's Chief Science Data Officer, Kevin Murphy, will open with a keynote addressing how NASA is using large language models to advance open science. Panelists will present lightening talks on AI in Open Science - Opportunities and Challenges, Promoting Diversity and Inclusion through Open Science, and Empowering STEM Education: Open Science, AI, and the SCHOOL Initiative. Live Q&A to follow presentations.
+ 
 ### Summer 2024:
 
 #### Curso Corto AmeriGEO
