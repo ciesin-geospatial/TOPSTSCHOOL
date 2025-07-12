@@ -56,6 +56,6 @@ $code-block-bg: $light-gray !default;
 
 
 .figure-img{
-  max-width: 100%;
+  width: -webkit-fill-available;
   height: auto;
 }
