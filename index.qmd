@@ -1,9 +1,12 @@
 <center><a><img src="images/TOPSTSCHOOL-updated-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center>
 
-#### The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons demonstrate how to access, store, process, analyze, and communicate open data following the data science life cycle, and focusing on FAIR principles for scientific data management.
+#### The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from NASA ROSES
+22-TOPST22-0024. The SCHOOL curriculum consists of interactive interdisciplinary learning modules spanning NASA Earth Science 
+Division thematic areas including water, health and air quality, disasters and wildfires, and climate and agriculture. 
+Each module also integrates overaching themes on population and infrastructure and lessons demonstrate how to access, store, 
+process, analyze, and communicate open data following the data science life cycle, and focusing on Open Sciences principles for 
+scientific data management.
 
 #### **Find the learning modules here: [LEARNING MODULES](https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html)**
-
-Learn about our recent work: [Blog Posts](/about.qmd#blog) • [Presentations](/about.qmd#slides) • [SEDAC](https://sedac.ciesin.columbia.edu/) • [CIESIN](https://www.ciesin.columbia.edu/index.html) • [iSciences](https://www.isciences.com/) • [Baruch College](https://www.baruch.cuny.edu/)
 
 Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@ciesin.columbia.edu)
