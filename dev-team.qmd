@@ -83,15 +83,15 @@ img {
     <th><img src="./images/DT/Linda Pistolesi.jpg" alt="Linda Pistolesi" class="cover"/></th>
     <th><img src="./images/DT/Sri Vinay.jpg" alt="Sri Vinay" class="cover"/></th>
     <th><img src="./images/DT/Greg Yetman.jpg" alt="Greg Yetman" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Eulalia Santin" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Tracy Wen" class="cover"/></th>
+    <th><img src="./images/DT/Eulalia Santin.jpg" alt="Eulalia Santin" class="cover"/></th>
+    <th><img src="./images/DT/Lixiang Wen.jpg" alt="Tracy Wen" class="cover"/></th>
   </tr>
 <tr>
-    <td style="width:180px">**Linda Pistolesi**</td>
-    <td style="width:180px">**Sri Vinay**</td>
-    <td style="width:180px">**Greg Yetman**</td>
-    <td style="width:180px">**Eulalia Santin**</td>
-    <td style="width:180px">**Lixiang Tracy Wen**</td>
+    <td>**Linda Pistolesi**</td>
+    <td>**Sri Vinay**</td>
+    <td>**Greg Yetman**</td>
+    <td>**Eulalia Santin**</td>
+    <td>**Lixiang Tracy Wen**</td>
   </tr>
    <tr>
     <td>Senior Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
@@ -101,7 +101,7 @@ img {
     <td>Senior Finance Manager at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
   </tr>  
   </table>
-  
+
 <hr>
 
 ### Consultation Team, Subject Matter Experts (SMEs)
@@ -109,22 +109,22 @@ img {
   <tr>
     <th><img src="./images/SME/shristi_adhikari.jpg" alt="Shristi Adhikari" class="cover"/></th>
     <th><img src="./images/SME/Yoonjung_Ahn.png" alt="Yoonjung Ahn" class="cover"/></th>
-    <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
+    <th><img src="./images/SME/Tovar_headshot.jpg" alt="Antonio Tovar" class="cover"/></th>
      <th><img src="./images/SME/boyer_headshot.jpg" alt="Anne-Lise Boyer" class="cover"/></th>
     <th><img src="./images/SME/Chen_headshot.jpg" alt="Robert Chen" class="cover"/></th>
   </tr>
 <tr>
     <td>**Shristi Adhikari**</td>
     <td>**Yoonjung Ahn**</td>
-    <td>**Deborah Balk**</td>
+    <td>**Antonio Tovar**</td>
     <td>**Anne-Lise Boyer**</td>
     <td>**Robert Chen**</td>
   </tr>
    <tr>
     <td>Master's Student in Environmental Studies at the [Kentucky State University](https://www.kysu.edu/)</td>
     <td>Assistant professor in the Department of Geography & Atmospheric Science at the [University of Kansas](https://geog.ku.edu/)</td>
-    <td>Director at the [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)</td>
-    <td>Postdoctoral Research Associate at [The Univeristy of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)</td>
+    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
+    <td>Postdoctoral Research Associate at [The University of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)</td>
     <td>Director Emeritus, [CIESIN](https://www.ciesin.columbia.edu/), Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center [(SEDAC)](https://sedac.ciesin.columbia.edu/)</td>
   </tr>
 </table>
@@ -157,7 +157,7 @@ img {
     <th><img src="./images/SME/Meade_headshot3.png" alt="Ryan Mead" class="cover"/></th>
     <th><img src="./images/SME/alamin_molla.png" alt="Alamin Molla" class="cover"/></th>
     <th><img src="./images/SME/faezeh_najafzadeh.png" alt="Faezeh Najafzadeh" class="cover"/></th>
-     <th><img src="./images/SME/jacob_orser.jpg" alt="Jacob Orser" class="cover"/></th>
+    <th><img src="./images/SME/jacob_orser.jpg" alt="Jacob Orser" class="cover"/></th>
 
   </tr>
 <tr>
@@ -171,25 +171,25 @@ img {
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
     <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
     <td>Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, [Urban Climate Research Center](https://ucrc.asu.edu/)</td>
-    <td>PhD Candidate in Geography and Environmental Sustainability at the [Univeristy of Oklahoma](https://www.ou.edu/ags/geography)</td>
+    <td>PhD Candidate in Geography and Environmental Sustainability at the [University of Oklahoma](https://www.ou.edu/ags/geography)</td>
     <td>Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)</td>
   </tr>
 </table>
 <table>
-  <tr>
-    <th><img src="./images/SME/Parris_headshot3.png" alt="Thomas Parris" class="cover"/></th>
-    <th><img src="./images/SME/Tovar_headshot.jpg" alt="Antonio Tovar" class="cover"/></th>
+  <tr>  
     <th><img src="./images/SME/masha_vernik.jpg" alt="Masha Vernik" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
+    <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
   </tr>
 <tr>
-    <td>**Thomas Parris**</td>
-    <td>**Antonio Tovar**</td>
     <td>**Masha Vernik**</td>
+    <td>**Dhruvil Prajapati**</td>
+    <td>**Akshay Arvind Mestry**</td>
   </tr>
    <tr>
-    <td>President at [iSciences](https://www.isciences.com/)</td>
-    <td>Assistant Professor of Computer Science and Information Systems at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
-    <td>Master's Student at the [Univeristy of Washington School of Environmental and Forest Sciences](https://sefs.uw.edu/)</td>  
+    <td>Master's Student at the [University of Washington School of Environmental and Forest Sciences](https://sefs.uw.edu/)</td>  
+    <td>Math & Computer Science Support Specialist at [National Louis University](https://nl.edu/learning-support/meet-the-learning-support-team/)</td>
+    <td>Computer Science Adjunct at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
   </tr>
 </table>
 
@@ -202,46 +202,46 @@ img {
     <th><img src="./images/OST/dydych.png" alt="Mykola Dydych" class="cover"/></th>
     <th><img src="./images/OST/Eldar_Imanbekov.jpeg" alt="Eldar Imanbekov" class="cover"/></th>
     <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
-    <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
+    <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
     <td>**Mykola Dydych**</td>
     <td>**Eldar Imanbekov**</td>
     <td>**Hazem Mahmoud**</td>
-    <td>**Akshay Arvind Mestry**</td>
+    <td>**Hieu Tran**</td>
   </tr>
 </table>
 <table>
   <tr> 
     <th><img src="./images/OST/poornima_vaidya.png" alt="Poornima Vaidya" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
     <th><img src="./images/OST/raphael_sutiono.png" alt="Raphael Sutiono" class="cover"/></th>
-    <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
+    <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
+    <th><img src="./images/OST/Ahanaf_Aziz.jpeg" alt="Ahanaf Aziz" class="cover"/></th>
   </tr>
 <tr>
-    <td style="width:180px">**Poornima Vaidya**</td>
-    <td style="width:180px">**Dhruvil Prajapati**</td>
-    <td style="width:180px">**Alexandr Smagin**</td>
-    <td style="width:180px">**Raphael Sutiono**</td>
-    <td style="width:180px">**Hieu Tran**</td>
+    <td>**Poornima Vaidya**</td>
+    <td>**Alexandr Smagin**</td>
+    <td>**Raphael Sutiono**</td>
+    <td>**Emanuel Agú**</td>
+    <td>**Ahanaf Aziz**</td>
   </tr>
   <tr> 
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
-    <th><img src="./images/OST/Ahanaf_Aziz.jpeg" alt="Ahanaf Aziz" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th> 
+    <th><img src="./images/DT/blankpicture.png" alt="Shemontee Chowdhury" class="cover"/></th>
+    <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
   </tr>
 <tr>
     <td>**Denisse Fierro Arcos**</td>
-    <td>**Emanuel Agú**</td>
-    <td>**Ahanaf Aziz**</td>
     <td>**Rosana Aguilera Becker**</td>
     <td>**Tricia Boucher**</td> 
-
+    <td>**Shemontee Chowdhury**</td>
+    <td>**America Munoz**</td>
   </tr>
+
 </table>
 <table>
   <tr> 
@@ -280,14 +280,14 @@ img {
   <tr> 
     <th><img src="./images/OST/Arina_Moroz.jpg" alt="Arina Moroz" class="cover"/></th>  
     <th><img src="./images/OST/robinson_muiru.jpg" alt="Robinson Muiru" class="cover"/></th>  
-    <th><img src="./images/OST/america_munoz.png" alt="America Munoz" class="cover"/></th>
+    <th><img src="./images/DT/blankpicture.png" alt="Ulugbek Medetov" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
     <td>**Arina Moroz**</td>   
     <td>**Robinson Muiru**</td>
-    <td>**America Munoz**</td>
+    <td>**Ulugbek Medetov**</td>
     <td>**Lara Pistolesi**</td>
     <td>**Annajiat Alim Rasel**</td>
 </tr>
@@ -301,11 +301,11 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
-    <td style="width:180px">**Luana Sales**</td>    
-    <td style="width:180px">**Alber Sanchez**</td>
-    <td style="width:180px">**Jonathan Sanchez**</td>
-    <td style="width:180px">**Aneese Williams**</td>
-    <td style="width:180px">**Xuan Zhou**</td>
+    <td>**Luana Sales**</td>    
+    <td>**Alber Sanchez**</td>
+    <td>**Jonathan Sanchez**</td>
+    <td>**Aneese Williams**</td>
+    <td>**Xuan Zhou**</td>
 </tr>
 </table>
 <table>
@@ -348,22 +348,11 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Miguel Dominguez" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Stevaughn Borders" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Steven Sanchez" class="cover"/></th>
-    <th><img src="./images/DT/blankpicture.png" alt="Ulugbek Medetov" class="cover"/></th>
   </tr>
 <tr>
     <td>**Khateeja Khatoon**</td>
     <td>**Miguel Dominguez**</td>
     <td>**Stevaughn Borders**</td>
     <td>**Steven Sanchez**</td>
-    <td>**Ulugbek Medetov**</td>
-  </tr>
-</table>
-
-<table>
-  <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Shemontee Chowdhury" class="cover"/></th>
-  </tr>
-<tr>
-    <td>**Shemontee Chowdhury**</td>
   </tr>
 </table>
