@@ -180,16 +180,19 @@ img {
     <th><img src="./images/SME/masha_vernik.jpg" alt="Masha Vernik" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/OST/akshay_mestry.jpeg" alt="Akshay Arvind Mestry" class="cover"/></th>
+    <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
   </tr>
 <tr>
     <td>**Masha Vernik**</td>
     <td>**Dhruvil Prajapati**</td>
     <td>**Akshay Arvind Mestry**</td>
+    <td>**Hazem Mahmoud**</td>
   </tr>
    <tr>
     <td>Master's Student at the [University of Washington School of Environmental and Forest Sciences](https://sefs.uw.edu/)</td>  
     <td>Math & Computer Science Support Specialist at [National Louis University](https://nl.edu/learning-support/meet-the-learning-support-team/)</td>
     <td>Computer Science Adjunct at [National Louis University](https://nl.edu/undergraduate-college/ug-faculty-and-staff/)</td>
+    <td>Science Lead at the [NASA Atmospheric Science Data Center (ASDC)](https://science.larc.nasa.gov/people/hazem-mahmoud/)</td>
   </tr>
 </table>
 
@@ -201,28 +204,28 @@ img {
     <th><img src="./images/OST/Navin Aade2.jpg" alt="Navin Aade" class="cover"/></th>
     <th><img src="./images/OST/dydych.png" alt="Mykola Dydych" class="cover"/></th>
     <th><img src="./images/OST/Eldar_Imanbekov.jpeg" alt="Eldar Imanbekov" class="cover"/></th>
-    <th><img src="./images/OST/Hazem_Mahmoud.jpg" alt="Hazem Mahmoud" class="cover"/></th>
+    <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
     <th><img src="./images/OST/hieu_tran.jpg" alt="Hieu Tran"class="cover"/></th>
   </tr>
 <tr>
     <td>**Navin Aade**</td>
     <td>**Mykola Dydych**</td>
     <td>**Eldar Imanbekov**</td>
-    <td>**Hazem Mahmoud**</td>
+    <td>**Alexandr Smagin**</td>
     <td>**Hieu Tran**</td>
   </tr>
 </table>
 <table>
   <tr> 
     <th><img src="./images/OST/poornima_vaidya.png" alt="Poornima Vaidya" class="cover"/></th>
-    <th><img src="./images/OST/alex_smagin.jpg" alt="Alex Smagin" class="cover"/></th>
+    <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
     <th><img src="./images/OST/raphael_sutiono.png" alt="Raphael Sutiono" class="cover"/></th>
     <th><img src="./images/OST/Emanuel_Agu.jpeg" alt="Emanuel Agu" class="cover"/></th>
     <th><img src="./images/OST/Ahanaf_Aziz.jpeg" alt="Ahanaf Aziz" class="cover"/></th>
   </tr>
 <tr>
     <td>**Poornima Vaidya**</td>
-    <td>**Alexandr Smagin**</td>
+    <td>**Jinyi Cai**</td>
     <td>**Raphael Sutiono**</td>
     <td>**Emanuel Agú**</td>
     <td>**Ahanaf Aziz**</td>
@@ -245,19 +248,19 @@ img {
 </table>
 <table>
   <tr> 
-    <th><img src="./images/OST/jinyi_cai.jpg" alt="Jinyi Cai" class="cover"/></th>
+    <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
   </tr>
 <tr>
-    <td>**Jinyi Cai**</td>
+    
     <td>**Karen E. Cowen**</td>
     <td>**Nikolas Fisher**</td>
     <td>**Iker Gomez**</td>
     <td>**Jenny Hewson**</td>
-
+    <td>**Josie Morkin**</td>
     </tr>
 </table>
 <table>
@@ -266,14 +269,14 @@ img {
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Blank" class="cover"/></th>
-    <th><img src="./images/OST/Josie Morkin.jpeg" alt="Josie Morkin" class="cover"/></th> 
+    <th><img src="./images/DT/blankpicture.png" alt="Khateeja Khatoon" class="cover"/></th>
   </tr>
 <tr>
     <td>**Peer Herholz**</td>
     <td>**David Lee**</td>
     <td>**Jorge Lopez**</td>
     <td>**Robyn Marowitz**</td>
-    <td>**Josie Morkin**</td>
+    <td>**Khateeja Khatoon**</td>
 </tr>
 </table>
 <table>
@@ -344,13 +347,11 @@ img {
 
 <table>
   <tr> 
-    <th><img src="./images/DT/blankpicture.png" alt="Khateeja Khatoon" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Miguel Dominguez" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Stevaughn Borders" class="cover"/></th>
     <th><img src="./images/DT/blankpicture.png" alt="Steven Sanchez" class="cover"/></th>
   </tr>
 <tr>
-    <td>**Khateeja Khatoon**</td>
     <td>**Miguel Dominguez**</td>
     <td>**Stevaughn Borders**</td>
     <td>**Steven Sanchez**</td>
