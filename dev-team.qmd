@@ -196,7 +196,7 @@ img {
    <tr>
     <td>Research Associate at [CUNY](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)</td>
     <td>Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
-    <td>Assistant Systems Engineer at NASA Socioeconomic Data and Applications Center $($[SEDAC](https://sedac.ciesin.columbia.edu/)$)$ and GIS Developer at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
+    <td>Applied Science Lead at the Environmental Flow Physics Lab (EFPL), Columbia University School of Engineering and Applied Science (<a href="https://efpl.engineering.columbia.edu/">efpl.engineering.columbia.edu</a>)</td>
     <td>Senior Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)</td>
     <td>President at [iSciences](https://www.isciences.com/)</td>
   </tr>
