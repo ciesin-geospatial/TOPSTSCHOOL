@@ -2,7 +2,7 @@
 <style>
 /* Bottom logo row styling */
 .logo-row { margin-top: 1.5rem; align-items: center; }
-.logo-row .logo { max-height: 80px; width: auto; display: block; margin: 0 auto; }
+.logo-row img { max-height: 80px; width: auto; display: block; margin: 0 auto; }
 </style>
 ```
 
