@@ -89,7 +89,7 @@ Interactive session at the Earth Science Information Partners (ESIP) July 2024 m
 - [Presentation materials on Zenodo](https://zenodo.org/records/13134698)
 - [Watch the video on YouTube](https://www.youtube.com/watch?v=GdPvP7Yhx2I)
 
-![ESIP](../images/ESIP_flyer.jpg){width=720 height=720}
+![ESIP](./images/ESIP_flyer.jpg){width=720 height=720}
 
 ### Spring 2024
 
@@ -97,7 +97,7 @@ Interactive session at the Earth Science Information Partners (ESIP) July 2024 m
 
 Panel session at the Association of American Geographers (AAG) annual meeting, discussing the development of SCHOOL Module 2: Health, Air Quality, and Environmental Justice.
 
-![AAG](../images/AAG_final_flyer.jpg){width=510 height=660}
+![AAG](./images/AAG_final_flyer.jpg){width=510 height=660}
 
 #### SEDAC Open Science Workshop
 
