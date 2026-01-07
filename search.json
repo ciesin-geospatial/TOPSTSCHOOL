@@ -249,6 +249,34 @@
     "href": "modules.html",
     "title": "SCHOOL MODULES",
     "section": "",
-    "text": "Module 1: Water\nThe Water module explores data on historial water return periods, satellite data of near-real time flood zones, and local lead in water tests.\nModule 1: Water\n\n\nModule 2: Air Quality\nThe Air Quality module explores air quality data at different levels of analysis, including student-led community monitoring, using the Social Vulnerability Index (SVI) to highlight areas at greater risk for adverse health outcomes due to environmental hazards, to exploring the Environmental Protection Agency’s EJScreen data visualization tool, to tracking air quality for international policy.\nModule 2: Air Quality\n\n\nModule 3: Disasters\nThe Disasters module explores different types of natural and anthropogenic disasters, such as observing coastal hazards including hurricanes and sea level rise, monitoring wildfires using a multidata approach, learning how to develop a hazard assessment, and considering multihazards on vulnerable populations.\nModule 3: Disasters\n\n\nModule 4: Climate and Agriculture\nThe Climate and Agriculture module explores how climate change and the changing ecosystems impact global food systems, particularly agricultural processes.\nModule 4: Climate and Agriculture"
+    "text": "The Water module explores data on historial water return periods, satellite data of near-real time flood zones, and local lead in water tests.\nModule 1: Water"
+  },
+  {
+    "objectID": "modules.html#module-1-lessons-direct-links",
+    "href": "modules.html#module-1-lessons-direct-links",
+    "title": "SCHOOL MODULES",
+    "section": "Module 1 lessons (direct links)",
+    "text": "Module 1 lessons (direct links)\n\nLesson 0: Prerequisites and Glossary\nWSIM-GLDAS: Acquisition, Exploration, and Integration\nMODIS NRT Global Flood Product\nInteractive NYC School Lead Data Explorer"
+  },
+  {
+    "objectID": "modules.html#module-2-lessons-direct-links",
+    "href": "modules.html#module-2-lessons-direct-links",
+    "title": "SCHOOL MODULES",
+    "section": "Module 2 lessons (direct links)",
+    "text": "Module 2 lessons (direct links)\n\nIntroduction to Air Quality: Primer\nComparing Air Quality Measures in New York City: Sensors on the Ground and from Space\nExploring Air Quality, Social Vulnerability, and Health Outcomes in Metro Detroit\nEJScreen: Environmental Justice Screening and Mapping Tool\nParticulate Matter Across Socioeconomic Strata of Countries"
+  },
+  {
+    "objectID": "modules.html#module-3-lessons-direct-links",
+    "href": "modules.html#module-3-lessons-direct-links",
+    "title": "SCHOOL MODULES",
+    "section": "Module 3 lessons (direct links)",
+    "text": "Module 3 lessons (direct links)\n\nWho is Exposed to Coastal Hazards in Puerto Rico?\nGeospatial Analysis of Canadian Wildfire Impacts: A Multi-sensor Approach\nFlood Watch Report – Maui Heavy Rainfall Analysis"
+  },
+  {
+    "objectID": "modules.html#module-4-lessons-direct-links",
+    "href": "modules.html#module-4-lessons-direct-links",
+    "title": "SCHOOL MODULES",
+    "section": "Module 4 lessons (direct links)",
+    "text": "Module 4 lessons (direct links)\n\nClimate and Agriculture: Prerequisites\nUnderstanding Human Exposure to Heat\nLong Term Climatologies Featuring nClimGrid-Daily Data\nThe 2022 Southern Plains Flash Drought: A Multi-Indicator Exploration"
   }
 ]
