@@ -4,7 +4,7 @@
 .logo-row { margin-top: 1.5rem; align-items: center; }
 .logo-row .logo { max-height: 80px; width: auto; display: block; margin: 0 auto; }
 </style>
-
+```
 
 <center><a><img src="images/TOPSTSCHOOL-updated-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center>
 
@@ -13,16 +13,14 @@
 #### **Find the learning modules here: [LEARNING MODULES](https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html)**
 
 Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@ciesin.columbia.edu)
-
-```markdown
 ::: {.columns .logo-row}
-::: {.column width="30%"}
-![](./images/ciesin.jpg){fig-alt="CIESIN logo" class="logo"}
+::: {.column width="33.33%"}
+![](images/ciesin.jpg){fig-alt="CIESIN logo" class="logo"}
 :::
-::: {.column width="30%"}
-![](./images/cidr.jpg){fig-alt="CIDR logo" class="logo"}
+::: {.column width="33.33%"}
+![](images/cidr.jpg){fig-alt="CIDR logo" class="logo"}
 :::
-::: {.column width="40%"}
-![](./images/isciences.png){fig-alt="ISCIENCES logo" class="logo"}
+::: {.column width="33.33%"}
+![](images/isciences.png){fig-alt="iSciences logo" class="logo"}
 :::
 :::
