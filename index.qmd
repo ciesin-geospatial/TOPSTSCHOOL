@@ -2,7 +2,8 @@
 <style>
 /* Bottom logo row styling */
 .logo-row { margin-top: 1.5rem; align-items: center; }
-.logo-row img { max-height: 80px; width: auto; display: block; margin: 0 auto; }
+.logo-row a { display: inline-block; }
+.logo-row img { max-height: 80px !important; width: auto !important; display: block; margin: 0 auto; }
 </style>
 ```
 
@@ -17,18 +18,19 @@ Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@
 ::: {.columns .logo-row}
 ::: {.column width="33.33%"}
 <a href="https://ciesin.columbia.edu/" target="_blank" rel="noopener noreferrer">
-<img src="images/ciesin.jpg" alt="CIESIN logo">
+  <img src="images/ciesin.jpg" alt="CIESIN logo">
 </a>
-:::
-::: {.column width="33.33%"}
-<a href="https://marxe.baruch.cuny.edu/homepage/research/centers-and-institutes/cuny-institute-for-demographic-research-cidr/" target="_blank" rel="noopener noreferrer">
-<img src="images/cidr.jpg" alt="CIDR logo">
-</a>
-:::
-::: {.column width="33.33%"}
-<a href="https://www.isciences.com/" target="_blank" rel="noopener noreferrer">
-<img src="images/isciences.png" alt="iSciences logo">
-</a>
-:::
 :::
 
+::: {.column width="33.33%"}
+<a href="https://marxe.baruch.cuny.edu/homepage/research/centers-and-institutes/cuny-institute-for-demographic-research-cidr/" target="_blank" rel="noopener noreferrer">
+  <img src="images/cidr.jpg" alt="CIDR logo">
+</a>
+:::
+
+::: {.column width="33.33%"}
+<a href="https://www.isciences.com/" target="_blank" rel="noopener noreferrer">
+  <img src="images/isciences.png" alt="iSciences logo">
+</a>
+:::
+:::
