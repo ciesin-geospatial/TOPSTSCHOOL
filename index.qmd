@@ -13,6 +13,7 @@
 #### **Find the learning modules here: [LEARNING MODULES](https://ciesin-geospatial.github.io/TOPSTSCHOOL/modules.html)**
 
 Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@ciesin.columbia.edu)
+
 ::: {.columns .logo-row}
 ::: {.column width="33.33%"}
 ![](images/ciesin.jpg){fig-alt="CIESIN logo" class="logo"}
@@ -24,3 +25,4 @@ Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@
 ![](images/isciences.png){fig-alt="iSciences logo" class="logo"}
 :::
 :::
+
