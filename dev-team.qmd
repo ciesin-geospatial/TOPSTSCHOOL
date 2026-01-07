@@ -1,10 +1,10 @@
 ---
-title: "SCHOOL Yearbook"
+title: "SCHOOL Development Team"
 description: |
   The Science Core Heuristics for Open Science Outcomes in Learning (SCHOOL) project is made up of a core team of developers, scientists, and educators working with a consultation team of subject matter experts (SMEs) and with the input and review of a diverse Open Science Team to develop online learning modules demonstrating the data science lifecycle across a variety of NASA Earth Science Applied Sciences Program Areas.
 ---
 
-# Contributors
+# SCHOOL Yearbook
 ```{=html}
 <style>
   table {
@@ -31,7 +31,7 @@ img {
 ```
 <hr>
 
-### Development Team 
+### Core Team 
 <table>
   <tr> 
     <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
