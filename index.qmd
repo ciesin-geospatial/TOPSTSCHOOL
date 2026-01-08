@@ -18,7 +18,7 @@ Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@
 ::: {.columns .logo-row}
 ::: {.column width="33.33%"}
 <a href="https://ciesin.columbia.edu/" target="_blank" rel="noopener noreferrer">
-  <img src="images/ciesin.jpg" alt="CIESIN logo">
+  <img src="images/ciesin2.jpg" alt="CIESIN logo">
 </a>
 :::
 
