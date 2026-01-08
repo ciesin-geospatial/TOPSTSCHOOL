@@ -16,13 +16,13 @@
 Please connect with us at [TOPSTSCHOOL\@ciesin.columbia.edu](mailto:TOPSTSCHOOL@ciesin.columbia.edu)
 
 ::: {.columns .logo-row}
-::: {.column width="33.33%"}
+::: {.column width="40.33%"}
 <a href="https://ciesin.columbia.edu/" target="_blank" rel="noopener noreferrer">
   <img src="images/ciesin2.jpg" alt="CIESIN logo">
 </a>
 :::
 
-::: {.column width="33.33%"}
+::: {.column width="26.33%"}
 <a href="https://marxe.baruch.cuny.edu/homepage/research/centers-and-institutes/cuny-institute-for-demographic-research-cidr/" target="_blank" rel="noopener noreferrer">
   <img src="images/cidr.jpg" alt="CIDR logo">
 </a>
