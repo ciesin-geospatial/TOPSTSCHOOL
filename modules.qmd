@@ -96,7 +96,7 @@ This module’s lessons include:
 
 ---
 
-# Deliverable 5: Community modules and documentation
+# Community modules and documentation
 
 In addition to the four core thematic modules, the SCHOOL project includes a community-generated set of lessons and a community-driven Sphinx documentation implementation. These deliverables support broader participation in developing and sharing SCHOOL learning resources.
 
