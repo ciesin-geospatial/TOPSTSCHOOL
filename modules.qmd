@@ -84,6 +84,8 @@ This module’s lessons include:
 - **Human exposure to heat** in a “bite-size” workflow
 - **Long-term climatologies** using nClimGrid-Daily data
 - A multi-indicator exploration of the **2022 Southern Plains flash drought**
+- An exploration of the **impacts of climate change on agriculture** using public access data.
+- An analysis of **temperature and precipitation anomalies** in Washington State and their impacts on agriculture and people
 
 [Module 4: Climate and Agriculture](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/){.btn .btn-primary .btn role="button"}
 
@@ -92,7 +94,9 @@ This module’s lessons include:
 - [Climate and Agriculture: Prerequisites](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m0-prereq.html)
 - [Understanding Human Exposure to Heat](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m401-human-exposure-heat.html)
 - [Long Term Climatologies Featuring nClimGrid-Daily Data](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m402-nclimgrid.html)
-- [The 2022 Southern Plains Flash Drought: A Multi-Indicator Exploration](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m403-flash-drought-ag.html)
+- [Flash Drought A Multi-Indicator Analysis](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m403-flash-drought-ag.html)
+- [NASA ACRES Climate Resilience Network](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m404-nasa-acres-climate-resilience-network.html)
+- [Weird Weather In Washington State](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m405-weird-weather.html)
 
 ---
 
