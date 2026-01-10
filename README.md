@@ -4,16 +4,104 @@ Landing page for SCHOOL Project Page
 
 The ScienceCore Heuristics for Open Science Outcomes in Learning (SCHOOL) Project was started with funding from a NASA ROSES Grant under the Transform to Open Science - Training mission. The SCHOOL curriculum consists of several 2.5-hour open, interactive, and interdisciplinary learning modules covering thematic areas including water, health and air quality, natural disasters, climate, agriculture, and wildfires, while integrating themes of population and infrastructure across the modules. Within each module, lessons in Earth Science demonstrate how to access and analyze open data using the open science data life cycle, focusing on FAIR principles for scientific data management.
 
-**Module 1: Water**
-[Module 1: Water](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/)
+# Module 1: Water
 
+The Water module introduces open, reproducible workflows for working with hydrology- and water-safety–related datasets. Learners practice finding and accessing open data, working through acquisition and exploration steps, and producing interpretable outputs (e.g., maps/visuals) that support communication and community-facing understanding.
 
-**Module 2: Air Quality**
-[Module 2: Air Quality](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/)
+This module’s lessons include:
 
+- **Prerequisites and glossary** (accounts, tools, and key terms used across the module)
+- **WSIM-GLDAS** workflows for acquiring and working with a historical water anomalies dataset
+- **MODIS NRT Global Flood** data acquisition and exploration
+- **Interactive lead exposure (schools) analysis** focusing on water quality and data interpretation
 
-**Module 3: Disasters**
-[Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/)
+[Module 1: Water](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/){.btn .btn-primary .btn role="button"}
 
+## Module 1 lessons (direct links)
 
-The modules can be downloaded in full from in their respective Github repositories, named "TOPSTSCHOOL-thematic-area". For example, the Air Quality module can be found at [https://github.com/ciesin-geospatial/TOPSTSCHOOL-air-quality](https://github.com/ciesin-geospatial/TOPSTSCHOOL-air-quality)
+- [Lesson 0: Prerequisites and Glossary](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/m0-prereq-glossary.html)
+- [WSIM-GLDAS: Acquisition, Exploration, and Integration](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/m101-wsim-gldas.html)
+- [MODIS NRT Global Flood Product](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/m102-lance-modis-nrt-global-flood.html)
+- [Interactive NYC School Lead Data Explorer](https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/exposure_to_lead_in_schools_nys.html)
+
+---
+
+# Module 2: Air Quality
+
+The Air Quality module focuses on how air pollution intersects with public health, place-based vulnerability, and environmental justice. Across the lessons, learners explore foundational air quality concepts, compare different measurement approaches, and work with public datasets/tools used in air quality and EJ analyses.
+
+This module’s lessons include:
+
+- An **air quality primer** introducing key concepts and context
+- A comparative lesson on **ground and satellite** perspectives during a **wildfire smoke** episode affecting New York City
+- A multi-dataset lesson exploring **air quality, social vulnerability, and health outcomes** in Metro Detroit
+- **EJScreen** as an environmental justice screening and mapping tool
+- A lesson on **PM2.5** patterns across socioeconomic strata
+
+[Module 2: Air Quality](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/){.btn .btn-primary .btn role="button"}
+
+## Module 2 lessons (direct links)
+
+- [Introduction to Air Quality: Primer](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/m200-air-quality-primer.html)
+- [Comparing Air Quality Measures in New York City: Sensors on the Ground and from Space](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/m201-air-quality-measures-nyc.html)
+- [Exploring Air Quality, Social Vulnerability, and Health Outcomes in Metro Detroit](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/m202-svi-tri-icis-places.html)
+- [EJScreen: Environmental Justice Screening and Mapping Tool](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/m203-ejscreen.html)
+- [Particulate Matter Across Socioeconomic Strata of Countries](https://ciesin-geospatial.github.io/TOPSTSCHOOL-air-quality/m204-grdiv1-pm25.html)
+
+---
+
+# Module 3: Disasters
+
+The Disasters module introduces learners to applied workflows for understanding hazards and impacts using real-world disaster-related datasets. Lessons emphasize hands-on analysis and interpretation, connecting geospatial data work to exposure, vulnerability, and event-driven decision contexts.
+
+This module’s lessons include:
+
+- Coastal hazards exposure analysis in **Puerto Rico**
+- A multi-sensor workflow examining **Canadian wildfire impacts**
+- A “watch report” style analysis of **Maui heavy rainfall and flooding**
+
+[Module 3: Disasters](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/){.btn .btn-primary .btn role="button"}
+
+## Module 3 lessons (direct links)
+
+- [Who is Exposed to Coastal Hazards in Puerto Rico?](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/m301-coastal-hazards-PR.html)
+- [Geospatial Analysis of Canadian Wildfire Impacts: A Multi-sensor Approach](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/m302-wildfire-assessment.html)
+- [Flood Watch Report – Maui Heavy Rainfall Analysis](https://ciesin-geospatial.github.io/TOPSTSCHOOL-disasters/m303-maui-flood-analysis.html)
+
+---
+
+# Module 4: Climate and Agriculture
+
+The Climate and Agriculture module examines how climate variability and change shape human exposure and agricultural conditions through applied analysis workflows. Lessons focus on developing interpretive skill with climate datasets, including patterns over time and event-focused analyses.
+
+This module’s lessons include:
+
+- **Human exposure to heat** in a “bite-size” workflow
+- **Long-term climatologies** using nClimGrid-Daily data
+- A multi-indicator exploration of the **2022 Southern Plains flash drought**
+- An exploration of the **impacts of climate change on agriculture** using public access data.
+- An analysis of **temperature and precipitation anomalies** in Washington State and their impacts on agriculture and people
+
+[Module 4: Climate and Agriculture](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/){.btn .btn-primary .btn role="button"}
+
+## Module 4 lessons (direct links)
+
+- [Climate and Agriculture: Prerequisites](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m0-prereq.html)
+- [Understanding Human Exposure to Heat](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m401-human-exposure-heat.html)
+- [Long Term Climatologies Featuring nClimGrid-Daily Data](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m402-nclimgrid.html)
+- [Flash Drought A Multi-Indicator Analysis](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m403-flash-drought-ag.html)
+- [NASA ACRES Climate Resilience Network](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m404-nasa-acres-climate-resilience-network.html)
+- [Weird Weather In Washington State](https://ciesin-geospatial.github.io/TOPSTSCHOOL-climate-agriculture/m405-weird-weather.html)
+
+---
+
+# Community modules and documentation
+
+In addition to the four core thematic modules, the SCHOOL project includes a community-generated set of lessons and a community-driven Sphinx documentation implementation. These deliverables support broader participation in developing and sharing SCHOOL learning resources.
+
+**Community lessons** Wildfire burned area mapping (including Python workflows), Arctic climate impacts, California wildfires analysis, and snow storms (1990).
+
+**Community Sphinx implementation** provides an additional documentation build and navigation experience for SCHOOL materials.
+
+[Community Modules](https://ciesin-geospatial.github.io/TOPSTSCHOOL-community/){.btn .btn-primary .btn role="button"}
+[Community Sphinx Documentation](https://ciesin-geospatial.github.io/TOPSTSCHOOL-SPHINX/){.btn .btn-primary .btn role="button"}
