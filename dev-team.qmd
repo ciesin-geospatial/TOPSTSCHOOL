@@ -7,31 +7,58 @@ description: |
 # SCHOOL Yearbook
 ```{=html}
 <style>
-  table {
-    width: 180px;
-    border-collapse: collapse;
-  }
-
-  td {
-    padding: 10px;
-    border: 1px solid #dddddd; /* Optional: Add border for better visualization */
-  }
-img {
-    width: 180px;
-    height: 180px;
-}
-.contain {
-  object-fit: contain;
-}
-.cover {
-  object-fit: cover;
+/* Yearbook grid built on Quarto columns */
+.yearbook-row{
+  align-items: start;
+  margin: 0.75rem 0 1.25rem;
+  gap: 1rem;
 }
 
+/* card look */
+.yearbook-card{
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* images */
+.yearbook-card img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;     /* change to contain if you prefer */
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 0.6rem;
+}
+
+/* text */
+.yearbook-name{
+  font-weight: 700;
+  margin: 0.25rem 0 0.4rem;
+}
+.yearbook-role{
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+/* Responsive stacking: override Quarto column widths on small screens */
+@media (max-width: 992px){
+  .yearbook-row > .column{ flex: 0 0 calc(33.333% - 1rem) !important; max-width: calc(33.333% - 1rem) !important; }
+}
+@media (max-width: 700px){
+  .yearbook-row > .column{ flex: 0 0 calc(50% - 1rem) !important; max-width: calc(50% - 1rem) !important; }
+}
+@media (max-width: 420px){
+  .yearbook-row > .column{ flex: 0 0 100% !important; max-width: 100% !important; }
+}
 </style>
+ 
 ```
 <hr>
 
-### Core Team 
+<!-- ### Core Team 
 <table>
   <tr> 
     <th><img src="./images/SME/Balk_headshot3.png" alt="Deborah Balk" class="cover"/></th>
@@ -356,4 +383,877 @@ img {
     <td>**Stevaughn Borders**</td>
     <td>**Steven Sanchez**</td>
   </tr>
-</table>
+</table> -->
+
+
+
+### Core Team
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Deborah Balk"}
+::: {.yearbook-name}Deborah Balk:::
+::: {.yearbook-role}
+Director at the CUNY Institute for Demographic Research
+ and professor at Baruch College
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Josh Brinks.jpg){alt="Josh Brinks"}
+::: {.yearbook-name}Josh Brinks:::
+::: {.yearbook-role}
+Research Scientist at iSciences
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Iris Cano.jpg){alt="Iris Cano"}
+::: {.yearbook-name}Iris Cano:::
+::: {.yearbook-role}
+Research Associate at CUNY
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Christina Deodatis.jpg){alt="Christina Alexia Deodatis"}
+::: {.yearbook-name}Christina Alexia Deodatis:::
+::: {.yearbook-role}
+Research Staff Assistant at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Hasim Engin.jpg){alt="Hasim Engin"}
+::: {.yearbook-name}Hasim Engin:::
+::: {.yearbook-role}
+Geographic Information Specialist at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Elaine Famutimi.jpeg){alt="Elaine Famutimi"}
+::: {.yearbook-name}Elaine Famutimi:::
+::: {.yearbook-role}
+Research Associate at CUNY
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Camilla Green.jpeg){alt="Camilla Green"}
+::: {.yearbook-name}Camilla Green:::
+::: {.yearbook-role}
+Research Staff Assistant at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Kytt MacManus2.JPG){alt="Kytt MacManus"}
+::: {.yearbook-name}Kytt MacManus:::
+::: {.yearbook-role}
+Applied Science Lead at the Environmental Flow Physics Lab (EFPL), Columbia SEAS
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Juan Martinez.jpg){alt="Juan Fernando Martinez"}
+::: {.yearbook-name}Juan Fernando Martinez:::
+::: {.yearbook-role}
+Senior Research Staff Assistant at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Thomas Parris"}
+::: {.yearbook-name}Thomas Parris:::
+::: {.yearbook-role}
+President at iSciences
+
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Linda Pistolesi.jpg){alt="Linda Pistolesi"}
+::: {.yearbook-name}Linda Pistolesi:::
+::: {.yearbook-role}
+Senior Geographic Information Specialist at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Sri Vinay.jpg){alt="Sri Vinay"}
+::: {.yearbook-name}Sri Vinay:::
+::: {.yearbook-role}
+Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center (SEDAC
+) and Associate Director for IT at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Greg Yetman.jpg){alt="Greg Yetman"}
+::: {.yearbook-name}Greg Yetman:::
+::: {.yearbook-role}
+Associate Director for Geospatial Applications at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Eulalia Santin.jpg){alt="Eulalia Santin"}
+::: {.yearbook-name}Eulalia Santin:::
+::: {.yearbook-role}
+Associate Director of Finance & Administration at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/DT/Lixiang Wen.jpg){alt="Lixiang Tracy Wen"}
+::: {.yearbook-name}Lixiang Tracy Wen:::
+::: {.yearbook-role}
+Senior Finance Manager at CIESIN, Columbia Climate School
+
+:::
+:::
+:::
+:::
+
+### Consultation Team, Subject Matter Experts (SMEs)
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Shristi Adhikari"}
+::: {.yearbook-name}Shristi Adhikari:::
+::: {.yearbook-role}
+Master's Student in Environmental Studies at the Kentucky State University
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Yoonjung Ahn"}
+::: {.yearbook-name}Yoonjung Ahn:::
+::: {.yearbook-role}
+Assistant professor in the Department of Geography & Atmospheric Science at the University of Kansas
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Antonio Tovar"}
+::: {.yearbook-name}Antonio Tovar:::
+::: {.yearbook-role}
+Assistant Professor of Computer Science and Information Systems at National Louis University
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Anne-Lise Boyer"}
+::: {.yearbook-name}Anne-Lise Boyer:::
+::: {.yearbook-role}
+Postdoctoral Research Associate at The University of Arizona College of Architecture, Planning & Landscape Architecture
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Robert Chen"}
+::: {.yearbook-name}Robert Chen:::
+::: {.yearbook-role}
+Director Emeritus, CIESIN
+, Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center (SEDAC
+)
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Nancy Degnan"}
+::: {.yearbook-name}Nancy Degnan:::
+::: {.yearbook-role}
+Senior Advisor for Education at Columbia Water Center
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Elizabeth Dzwonczyk"}
+::: {.yearbook-name}Elizabeth Dzwonczyk:::
+::: {.yearbook-role}
+PhD Candidate in Geography at the University of Colorado Denver
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Maggi Glasscoe"}
+::: {.yearbook-name}Maggi Glasscoe:::
+::: {.yearbook-role}
+Research Associate at the University of Alabama–Huntsville
+ and Disasters Coordinator for NASA’s Applied Sciences Disasters Program
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Qian Huang"}
+::: {.yearbook-name}Qian Huang:::
+::: {.yearbook-role}
+Research Assistant Professor at East Tennessee State University College of Public Health, Center for Rural Health Research
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Dave Jones"}
+::: {.yearbook-name}Dave Jones:::
+::: {.yearbook-role}
+Founder and CEO at StormCenter Communications, Inc.
+
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Laureline Josset"}
+::: {.yearbook-name}Laureline Josset:::
+::: {.yearbook-role}
+Associate Research Scientist at Columbia Water Center
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Ryan Mead"}
+::: {.yearbook-name}Ryan Mead:::
+::: {.yearbook-role}
+Coordinator of Academic Support Services for the Educational Oportunity Program at SUNY Binghamton
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Alamin Molla"}
+::: {.yearbook-name}Alamin Molla:::
+::: {.yearbook-role}
+Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; Arizona State University
+ Graduate Researcher, Urban Climate Research Center
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Faezeh Najafzadeh"}
+::: {.yearbook-name}Faezeh Najafzadeh:::
+::: {.yearbook-role}
+PhD Candidate in Geography and Environmental Sustainability at the University of Oklahoma
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Jacob Orser"}
+::: {.yearbook-name}Jacob Orser:::
+::: {.yearbook-role}
+Program Support Specialist at NASA Acres
+
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="25%"}
+::: {.yearbook-card}
+
+{alt="Masha Vernik"}
+::: {.yearbook-name}Masha Vernik:::
+::: {.yearbook-role}
+Master's Student at the University of Washington School of Environmental and Forest Sciences
+
+:::
+:::
+:::
+
+::: {.column width="25%"}
+::: {.yearbook-card}
+
+{alt="Dhruvil Prajapati"}
+::: {.yearbook-name}Dhruvil Prajapati:::
+::: {.yearbook-role}
+Math & Computer Science Support Specialist at National Louis University
+
+:::
+:::
+:::
+
+::: {.column width="25%"}
+::: {.yearbook-card}
+
+{alt="Akshay Arvind Mestry"}
+::: {.yearbook-name}Akshay Arvind Mestry:::
+::: {.yearbook-role}
+Computer Science Adjunct at National Louis University
+
+:::
+:::
+:::
+
+::: {.column width="25%"}
+::: {.yearbook-card}
+
+{alt="Hazem Mahmoud"}
+::: {.yearbook-name}Hazem Mahmoud:::
+::: {.yearbook-role}
+Science Lead at the NASA Atmospheric Science Data Center (ASDC)
+
+:::
+:::
+:::
+:::
+
+
+### Open Science Team Members
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/OST/Navin Aade2.jpg){alt="Navin Aade"}
+::: {.yearbook-name}Navin Aade:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Mykola Dydych"}
+::: {.yearbook-name}Mykola Dydych:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Eldar Imanbekov"}
+::: {.yearbook-name}Eldar Imanbekov:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Alexandr Smagin"}
+::: {.yearbook-name}Alexandr Smagin:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Hieu Tran"}
+::: {.yearbook-name}Hieu Tran:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Poornima Vaidya"}
+::: {.yearbook-name}Poornima Vaidya:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Jinyi Cai"}
+::: {.yearbook-name}Jinyi Cai:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Raphael Sutiono"}
+::: {.yearbook-name}Raphael Sutiono:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Emanuel Agú"}
+::: {.yearbook-name}Emanuel Agú:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Ahanaf Aziz"}
+::: {.yearbook-name}Ahanaf Aziz:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Denisse Fierro Arcos"}
+::: {.yearbook-name}Denisse Fierro Arcos:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Rosana Aguilera Becker"}
+::: {.yearbook-name}Rosana Aguilera Becker:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Tricia Boucher"}
+::: {.yearbook-name}Tricia Boucher:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Shemontee Chowdhury"}
+::: {.yearbook-name}Shemontee Chowdhury:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="America Munoz"}
+::: {.yearbook-name}America Munoz:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+![](./images/OST/Josie Morkin.jpeg){alt="Josie Morkin"}
+::: {.yearbook-name}Josie Morkin:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Karen E. Cowen"}
+::: {.yearbook-name}Karen E. Cowen:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Nikolas Fisher"}
+::: {.yearbook-name}Nikolas Fisher:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Iker Gomez"}
+::: {.yearbook-name}Iker Gomez:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Jenny Hewson"}
+::: {.yearbook-name}Jenny Hewson:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Peer Herholz"}
+::: {.yearbook-name}Peer Herholz:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="David Lee"}
+::: {.yearbook-name}David Lee:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Jorge Lopez"}
+::: {.yearbook-name}Jorge Lopez:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Robyn Marowitz"}
+::: {.yearbook-name}Robyn Marowitz:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Khateeja Khatoon"}
+::: {.yearbook-name}Khateeja Khatoon:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Arina Moroz"}
+::: {.yearbook-name}Arina Moroz:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Robinson Muiru"}
+::: {.yearbook-name}Robinson Muiru:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Ulugbek Medetov"}
+::: {.yearbook-name}Ulugbek Medetov:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Lara Pistolesi"}
+::: {.yearbook-name}Lara Pistolesi:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Annajiat Alim Rasel"}
+::: {.yearbook-name}Annajiat Alim Rasel:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Luana Sales"}
+::: {.yearbook-name}Luana Sales:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Alber Sanchez"}
+::: {.yearbook-name}Alber Sanchez:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Jonathan Sanchez"}
+::: {.yearbook-name}Jonathan Sanchez:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Aneese Williams"}
+::: {.yearbook-name}Aneese Williams:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Xuan Zhou"}
+::: {.yearbook-name}Xuan Zhou:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Brandon Ortiz"}
+::: {.yearbook-name}Brandon Ortiz:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Muhammad Kamboh"}
+::: {.yearbook-name}Muhammad Kamboh:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Buzeinep Ysmanalieva"}
+::: {.yearbook-name}Buzeinep Ysmanalieva:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Crystal Villa"}
+::: {.yearbook-name}Crystal Villa:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Daisy Guzman"}
+::: {.yearbook-name}Daisy Guzman:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="David Fonseca"}
+::: {.yearbook-name}David Fonseca:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Diego Lozano"}
+::: {.yearbook-name}Diego Lozano:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Enxhi Merkaj"}
+::: {.yearbook-name}Enxhi Merkaj:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Francisco Sanchez"}
+::: {.yearbook-name}Francisco Sanchez:::
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+{alt="Gianna Dubinksi"}
+::: {.yearbook-name}Gianna Dubinksi:::
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="33.33%"}
+::: {.yearbook-card}
+
+{alt="Miguel Dominguez"}
+::: {.yearbook-name}Miguel Dominguez:::
+:::
+:::
+:::
+
+::: {.column width="33.33%"}
+::: {.yearbook-card}
+
+{alt="Stevaughn Borders"}
+::: {.yearbook-name}Stevaughn Borders:::
+:::
+:::
+:::
+
+::: {.column width="33.33%"}
+::: {.yearbook-card}
+
+{alt="Steven Sanchez"}
+::: {.yearbook-name}Steven Sanchez:::
+:::
+:::
+:::
+:::
