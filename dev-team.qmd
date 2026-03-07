@@ -198,8 +198,8 @@ description: |
   </tr>
 <tr>
     <td>Associate Research Scientist at [Columbia Water Center](https://water.columbia.edu/)</td>
-    <td>Coordinator of Academic Support Services for the Educational Oportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
-    <td>Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, [Urban Climate Research Center](https://ucrc.asu.edu/)</td>
+    <td>Coordinator of Academic Support Services for the Educational Opportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)</td>
+    <td>Ph.D. GIS science Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, [Urban Climate Research Center](https://ucrc.asu.edu/)</td>
     <td>PhD Candidate in Geography and Environmental Sustainability at the [University of Oklahoma](https://www.ou.edu/ags/geography)</td>
     <td>Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)</td>
   </tr>
@@ -392,58 +392,105 @@ description: |
 ### Core Team
 
 ::: {.columns .yearbook-row}
+
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
 
-{alt="Deborah Balk"}
-::: {.yearbook-name}Deborah Balk:::
+![images/SME/Balk_headshot3.png]
+
+::: {.yearbook-name}
+
+Deborah Balk
+
+:::
+
 ::: {.yearbook-role}
-Director at the CUNY Institute for Demographic Research
- and professor at Baruch College
+
+Director at the [CUNY Institute for Demographic Research (CIDR)](https://www.cuny.edu/about/centers-and-institutes/demographic-research/) and professor at [Baruch College](https://www.baruch.cuny.edu/)
 
 :::
+
 :::
+
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
-![](./images/DT/Josh Brinks.jpg){alt="Josh Brinks"}
-::: {.yearbook-name}Josh Brinks:::
+
+![](./images/DT/Josh Brinks.jpg)
+
+::: {.yearbook-name}
+
+Josh Brinks
+
+:::
 ::: {.yearbook-role}
-Research Scientist at iSciences
+
+Research Scientist at [iSciences](https://www.isciences.com/)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
 ![](./images/DT/Iris Cano.jpg){alt="Iris Cano"}
-::: {.yearbook-name}Iris Cano:::
+
+::: {.yearbook-name}
+
+Iris Cano
+
+:::
+
 ::: {.yearbook-role}
-Research Associate at CUNY
+
+Research Associate at [CUNY CIDR](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
 ![](./images/DT/Christina Deodatis.jpg){alt="Christina Alexia Deodatis"}
-::: {.yearbook-name}Christina Alexia Deodatis:::
+
+::: {.yearbook-name}
+
+Christina Alexia Deodatis
+
+:::
+
+
 ::: {.yearbook-role}
-Research Staff Assistant at CIESIN, Columbia Climate School
+
+Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
 ![](./images/DT/Hasim Engin.jpg){alt="Hasim Engin"}
-::: {.yearbook-name}Hasim Engin:::
+
+::: {.yearbook-name}
+
+Hasim Engin
+
+:::
+
+
 ::: {.yearbook-role}
-Geographic Information Specialist at CIESIN, Columbia Climate School
+
+Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
@@ -453,32 +500,57 @@ Geographic Information Specialist at CIESIN, Columbia Climate School
 ::: {.columns .yearbook-row}
 ::: {.column width="20%"}
 ::: {.yearbook-card}
+
 ![](./images/DT/Elaine Famutimi.jpeg){alt="Elaine Famutimi"}
-::: {.yearbook-name}Elaine Famutimi:::
+
+::: {.yearbook-name}
+
+Elaine Famutimi
+
+:::
 ::: {.yearbook-role}
-Research Associate at CUNY
+
+Research Associate at [CUNY CIDR](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
 ![](./images/DT/Camilla Green.jpeg){alt="Camilla Green"}
-::: {.yearbook-name}Camilla Green:::
+
+::: {.yearbook-name}
+
+Camilla Green
+
+:::
+
 ::: {.yearbook-role}
-Research Staff Assistant at CIESIN, Columbia Climate School
+
+Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
 ![](./images/DT/Kytt MacManus2.JPG){alt="Kytt MacManus"}
-::: {.yearbook-name}Kytt MacManus:::
+
+::: {.yearbook-name}
+
+Kytt MacManus
+
+:::
+
 ::: {.yearbook-role}
-Applied Science Lead at the Environmental Flow Physics Lab (EFPL), Columbia SEAS
+
+Applied Science Lead at the Environmental Flow Physics Lab [(EFPL), Columbia SEAS](https://efpl.engineering.columbia.edu/)
 
 :::
 :::
@@ -486,10 +558,17 @@ Applied Science Lead at the Environmental Flow Physics Lab (EFPL), Columbia SEAS
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
+
 ![](./images/DT/Juan Martinez.jpg){alt="Juan Fernando Martinez"}
-::: {.yearbook-name}Juan Fernando Martinez:::
+
+::: {.yearbook-name}
+
+Juan Fernando Martinez
+
+':::
 ::: {.yearbook-role}
-Senior Research Staff Assistant at CIESIN, Columbia Climate School
+
+Senior Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
@@ -498,9 +577,17 @@ Senior Research Staff Assistant at CIESIN, Columbia Climate School
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Thomas Parris"}
-::: {.yearbook-name}Thomas Parris:::
+![](images/SME/Parris_headshot3.png){alt="Thomas Parris"}
+
+
+::: {.yearbook-name}
+
+Thomas Parris
+
+:::
+
 ::: {.yearbook-role}
+
 President at iSciences
 
 :::
@@ -509,57 +596,111 @@ President at iSciences
 :::
 
 ::: {.columns .yearbook-row}
+
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
+
 ![](./images/DT/Linda Pistolesi.jpg){alt="Linda Pistolesi"}
-::: {.yearbook-name}Linda Pistolesi:::
+
+
+::: {.yearbook-name}
+
+
+Linda Pistolesi
+
+:::
 ::: {.yearbook-role}
-Senior Geographic Information Specialist at CIESIN, Columbia Climate School
+
+Senior Geographic Information Specialist at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
 ![](./images/DT/Sri Vinay.jpg){alt="Sri Vinay"}
-::: {.yearbook-name}Sri Vinay:::
+
+::: {.yearbook-name}
+
+Sri Vinay
+
+:::
+
+
 ::: {.yearbook-role}
+
+
 Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Center (SEDAC
-) and Associate Director for IT at CIESIN, Columbia Climate School
+) and Associate Director for IT at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
-![](./images/DT/Greg Yetman.jpg){alt="Greg Yetman"}
-::: {.yearbook-name}Greg Yetman:::
+
+![](./images/DT/Greg%20Yetman.jpg.jpg){alt="Greg Yetman"}
+
+::: {.yearbook-name}
+
+Greg Yetman
+
+:::
+
 ::: {.yearbook-role}
-Associate Director for Geospatial Applications at CIESIN, Columbia Climate School
+
+Associate Director for Geospatial Applications at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
+
 ::: {.yearbook-card}
-![](./images/DT/Eulalia Santin.jpg){alt="Eulalia Santin"}
-::: {.yearbook-name}Eulalia Santin:::
+
+
+![](./images/DT/Eulalia%20Santin.jpg){alt="Eulalia Santin"}
+
+
+
+::: {.yearbook-name}
+
+Eulalia Santin
+
+:::
+
 ::: {.yearbook-role}
-Associate Director of Finance & Administration at CIESIN, Columbia Climate School
+
+Associate Director of Finance & Administration at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
-![](./images/DT/Lixiang Wen.jpg){alt="Lixiang Tracy Wen"}
-::: {.yearbook-name}Lixiang Tracy Wen:::
+
+![](./images/DT/Lixiang%20Wen.jpg){alt="Lixiang Tracy Wen"}
+
+::: {.yearbook-name}
+
+Lixiang Tracy Wen
+
+:::
+
 ::: {.yearbook-role}
-Senior Finance Manager at CIESIN, Columbia Climate School
+
+Senior Finance Manager at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
 
 :::
 :::
@@ -572,10 +713,16 @@ Senior Finance Manager at CIESIN, Columbia Climate School
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Shristi Adhikari"}
-::: {.yearbook-name}Shristi Adhikari:::
+![](./images/SME/shristi_adhikari.jpg){alt="Shristi Adhikari"}
+::: {.yearbook-name}
+
+Shristi Adhikari
+
+:::
 ::: {.yearbook-role}
-Master's Student in Environmental Studies at the Kentucky State University
+
+
+Master's Student in Environmental Studies at the [Kentucky State University](https://www.kysu.edu/)
 
 :::
 :::
@@ -584,10 +731,17 @@ Master's Student in Environmental Studies at the Kentucky State University
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Yoonjung Ahn"}
-::: {.yearbook-name}Yoonjung Ahn:::
+![](./images/SME/Yoonjung_Ahn.png){alt="Yoonjung Ahn"}
+
+::: {.yearbook-name}
+
+Yoonjung Ahn
+
+:::
 ::: {.yearbook-role}
-Assistant professor in the Department of Geography & Atmospheric Science at the University of Kansas
+
+
+Assistant professor in the Department of Geography & Atmospheric Science at the [University of Kansas](https://geog.ku.edu/)
 
 :::
 :::
@@ -596,10 +750,15 @@ Assistant professor in the Department of Geography & Atmospheric Science at the 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Antonio Tovar"}
-::: {.yearbook-name}Antonio Tovar:::
+![](./images/SME/Tovar_headshot.jpg){alt="Antonio Tovar"}
+::: {.yearbook-name}
+
+Antonio Tovar
+
+:::
 ::: {.yearbook-role}
-Assistant Professor of Computer Science and Information Systems at National Louis University
+
+Assistant Professor of Computer Science and Information Systems at [National Louis University](https://www.nlu.edu/)
 
 :::
 :::
@@ -608,10 +767,16 @@ Assistant Professor of Computer Science and Information Systems at National Loui
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Anne-Lise Boyer"}
-::: {.yearbook-name}Anne-Lise Boyer:::
+![](./images/SME/boyer_headshot.jpg){alt="Anne-Lise Boyer"}
+
+::: {.yearbook-name}
+
+Anne-Lise Boyer
+
+:::
 ::: {.yearbook-role}
-Postdoctoral Research Associate at The University of Arizona College of Architecture, Planning & Landscape Architecture
+
+Postdoctoral Research Associate at [The University of Arizona College of Architecture, Planning & Landscape Architecture](https://capla.arizona.edu/)
 
 :::
 :::
@@ -620,74 +785,18 @@ Postdoctoral Research Associate at The University of Arizona College of Architec
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Robert Chen"}
-::: {.yearbook-name}Robert Chen:::
+
+![](./images/SME/Chen_headshot.jpg.jpg){alt="Robert Chen"}
+
+::: {.yearbook-name}
+
+Robert Chen
+
+
+:::
 ::: {.yearbook-role}
-Director Emeritus, CIESIN
-, Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center (SEDAC
-)
-:::
-:::
-:::
-:::
 
-::: {.columns .yearbook-row}
-::: {.column width="20%"}
-::: {.yearbook-card}
-
-{alt="Nancy Degnan"}
-::: {.yearbook-name}Nancy Degnan:::
-::: {.yearbook-role}
-Senior Advisor for Education at Columbia Water Center
-
-:::
-:::
-:::
-
-::: {.column width="20%"}
-::: {.yearbook-card}
-
-{alt="Elizabeth Dzwonczyk"}
-::: {.yearbook-name}Elizabeth Dzwonczyk:::
-::: {.yearbook-role}
-PhD Candidate in Geography at the University of Colorado Denver
-
-:::
-:::
-:::
-
-::: {.column width="20%"}
-::: {.yearbook-card}
-
-{alt="Maggi Glasscoe"}
-::: {.yearbook-name}Maggi Glasscoe:::
-::: {.yearbook-role}
-Research Associate at the University of Alabama–Huntsville
- and Disasters Coordinator for NASA’s Applied Sciences Disasters Program
-
-:::
-:::
-:::
-
-::: {.column width="20%"}
-::: {.yearbook-card}
-
-{alt="Qian Huang"}
-::: {.yearbook-name}Qian Huang:::
-::: {.yearbook-role}
-Research Assistant Professor at East Tennessee State University College of Public Health, Center for Rural Health Research
-
-:::
-:::
-:::
-
-::: {.column width="20%"}
-::: {.yearbook-card}
-
-{alt="Dave Jones"}
-::: {.yearbook-name}Dave Jones:::
-::: {.yearbook-role}
-Founder and CEO at StormCenter Communications, Inc.
+Director Emeritus, [CIESIN](https://www.ciesin.columbia.edu/), Columbia Climate School, Columbia University and Manager Emeritus, NASA Socioeconomic Data and Applications Center (SEDAC)
 
 :::
 :::
@@ -698,10 +807,15 @@ Founder and CEO at StormCenter Communications, Inc.
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Laureline Josset"}
-::: {.yearbook-name}Laureline Josset:::
+![](./images/SME/Degman_headshot2.png){alt="Nancy Degnan"}
+
+::: {.yearbook-name}
+
+Nancy Degnan
+
+:::
 ::: {.yearbook-role}
-Associate Research Scientist at Columbia Water Center
+Senior Advisor for Education at [Columbia Water Center](https://www.columbia.edu/cu/cwc/)
 
 :::
 :::
@@ -710,10 +824,14 @@ Associate Research Scientist at Columbia Water Center
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Ryan Mead"}
-::: {.yearbook-name}Ryan Mead:::
+![](./images/SME/elizabeth_dzwonczyk.jpg){alt="Elizabeth Dzwonczyk"}
+
+::: {.yearbook-name}
+
+Elizabeth Dzwonczyk
+:::
 ::: {.yearbook-role}
-Coordinator of Academic Support Services for the Educational Oportunity Program at SUNY Binghamton
+PhD Candidate in Geography at [the University of Colorado Denver](https://www.cudenver.edu/)
 
 :::
 :::
@@ -722,11 +840,111 @@ Coordinator of Academic Support Services for the Educational Oportunity Program 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Alamin Molla"}
-::: {.yearbook-name}Alamin Molla:::
+![](./images/SME/Glasscoe_headshot.jpg){alt="Maggi Glasscoe"}
+::: {.yearbook-name}
+
+Maggi Glasscoe
+
+:::
 ::: {.yearbook-role}
-Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; Arizona State University
- Graduate Researcher, Urban Climate Research Center
+
+Research Associate at the [University of Alabama–Huntsville](https://www.uah.edu/) and Disasters Coordinator for [NASA’s Applied Sciences Disasters Program](https://appliedsciences.nasa.gov/what-we-do/disasters)
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+![](./images/SME/Huang_headshot.jpeg){alt="Qian Huang"}
+
+::: {.yearbook-name}
+
+Qian Huang
+
+:::
+::: {.yearbook-role}
+
+Research Assistant Professor at the [East Tennessee State University College of Public Health, [Center for Rural Health Research](https://www.etsu.edu/cph/rural-health-research/)
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+![](./images/SME/Jones_headshot.jpg){alt="Dave Jones"}
+
+::: {.yearbook-name}
+
+Dave Jones
+
+:::
+::: {.yearbook-role}
+
+Founder and CEO at [StormCenter Communications, Inc.](https://geocollaborate.com/)
+
+:::
+:::
+:::
+:::
+
+::: {.columns .yearbook-row}
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+![](./images/SME/Josset_headshot3.png){alt="Laureline Josset"}
+::: {.yearbook-name}
+
+Laureline Josset
+
+:::
+
+::: {.yearbook-role}
+
+
+Associate Research Scientist at the [Columbia Water Center](https://www.columbia.edu/cu/cwc/)
+
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+![](./images/SME/Meade_headshot3.png){alt="Ryan Mead"}
+::: {.yearbook-name}
+
+Ryan Mead
+
+:::
+::: {.yearbook-role}
+
+
+oordinator of Academic Support Services for the Educational Opportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)
+
+:::
+:::
+:::
+
+::: {.column width="20%"}
+::: {.yearbook-card}
+
+
+![](./images/SME/alamin_molla.png){alt="Alamin Molla"}
+
+::: {.yearbook-name}
+
+Alamin Molla
+
+:::
+::: {.yearbook-role}
+
+
+Ph.D. GIS science Student, School of Geographical Sciences and Urban Planning; [Arizona State University](https://sgsup.asu.edu/) Graduate Researcher, [Urban Climate Research Center](https://ucrc.asu.edu/)
 
 :::
 :::
@@ -736,9 +954,14 @@ Ph.D. GIScience Student, School of Geographical Sciences and Urban Planning; Ari
 ::: {.yearbook-card}
 
 {alt="Faezeh Najafzadeh"}
-::: {.yearbook-name}Faezeh Najafzadeh:::
+::: {.yearbook-name}
+
+Faezeh Najafzadeh
+
+:::
 ::: {.yearbook-role}
-PhD Candidate in Geography and Environmental Sustainability at the University of Oklahoma
+
+PhD Candidate in Geography and Environmental Sustainability at the [University of Oklahoma](https://www.ou.edu/ags/geography)
 
 :::
 :::
@@ -747,10 +970,18 @@ PhD Candidate in Geography and Environmental Sustainability at the University of
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Jacob Orser"}
-::: {.yearbook-name}Jacob Orser:::
+![](./images/SME/jacob_orser.jpg){alt="Jacob Orser"}
+
+::: {.yearbook-name}
+
+Jacob Orser
+
+:::
+
 ::: {.yearbook-role}
-Program Support Specialist at NASA Acres
+
+
+Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)
 
 :::
 :::
@@ -761,10 +992,17 @@ Program Support Specialist at NASA Acres
 ::: {.column width="25%"}
 ::: {.yearbook-card}
 
-{alt="Masha Vernik"}
-::: {.yearbook-name}Masha Vernik:::
+![](./images/SME/masha_vernik.jpg){alt="Masha Vernik"}
+
+
+::: {.yearbook-name}
+
+Masha Vernik
+
+:::
 ::: {.yearbook-role}
-Master's Student at the University of Washington School of Environmental and Forest Sciences
+
+Master's Student at the [University of Washington School of Environmental and Forest Sciences](https://sefs.uw.edu/)
 
 :::
 :::
@@ -773,10 +1011,15 @@ Master's Student at the University of Washington School of Environmental and For
 ::: {.column width="25%"}
 ::: {.yearbook-card}
 
-{alt="Dhruvil Prajapati"}
-::: {.yearbook-name}Dhruvil Prajapati:::
+![](./images/DT/blankpicture.png){alt="Dhruvil Prajapati"}
+::: {.yearbook-name}
+
+Dhruvil Prajapati
+
+:::
 ::: {.yearbook-role}
-Math & Computer Science Support Specialist at National Louis University
+
+Math & Computer Science Support Specialist at [National Louis University](https://nl.edu/learning-support/meet-the-learning-support-team/)
 
 :::
 :::
@@ -785,10 +1028,15 @@ Math & Computer Science Support Specialist at National Louis University
 ::: {.column width="25%"}
 ::: {.yearbook-card}
 
-{alt="Akshay Arvind Mestry"}
-::: {.yearbook-name}Akshay Arvind Mestry:::
+![](./images/OST/akshay_mestry.jpeg){alt="Akshay Arvind Mestry"}
+::: {.yearbook-name}
+
+Akshay Arvind Mestry
+
+:::
 ::: {.yearbook-role}
-Computer Science Adjunct at National Louis University
+
+Computer Science Adjunct at [National Louis University](https://nl.edu/learning-support/meet-the-learning-support-team/)
 
 :::
 :::
@@ -797,9 +1045,16 @@ Computer Science Adjunct at National Louis University
 ::: {.column width="25%"}
 ::: {.yearbook-card}
 
-{alt="Hazem Mahmoud"}
-::: {.yearbook-name}Hazem Mahmoud:::
+![](./images/OST/Hazem_Mahmoud.jpg){alt="Hazem Mahmoud"}
+
+::: {.yearbook-name}
+
+Hazem Mahmoud
+
+:::
+
 ::: {.yearbook-role}
+
 Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 
 :::
@@ -811,10 +1066,19 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ### Open Science Team Members
 
 ::: {.columns .yearbook-row}
+
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
+
+
+
 ![](./images/OST/Navin Aade2.jpg){alt="Navin Aade"}
-::: {.yearbook-name}Navin Aade:::
+::: {.yearbook-name}
+
+Navin Aade
+
+:::
 :::
 :::
 :::
@@ -823,7 +1087,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Mykola Dydych"}
-::: {.yearbook-name}Mykola Dydych:::
+::: {.yearbook-name}
+
+Mykola Dydych
+
+:::
 :::
 :::
 :::
@@ -832,16 +1100,28 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Eldar Imanbekov"}
-::: {.yearbook-name}Eldar Imanbekov:::
+
+
+::: {.yearbook-name}
+
+Eldar Imanbekov
+
+:::
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
 
 {alt="Alexandr Smagin"}
-::: {.yearbook-name}Alexandr Smagin:::
+::: {.yearbook-name}
+
+Alexandr Smagin
+
+
+:::
 :::
 :::
 :::
@@ -850,7 +1130,15 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Hieu Tran"}
-::: {.yearbook-name}Hieu Tran:::
+
+
+::: {.yearbook-name}
+
+
+Hieu Tran
+
+
+:::
 :::
 :::
 :::
@@ -861,16 +1149,29 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Poornima Vaidya"}
-::: {.yearbook-name}Poornima Vaidya:::
+
+
+::: {.yearbook-name}
+
+
+Poornima Vaidya:::
 :::
 :::
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
 
 {alt="Jinyi Cai"}
-::: {.yearbook-name}Jinyi Cai:::
+
+::: {.yearbook-name}
+
+
+Jinyi Cai
+
+
+:::
 :::
 :::
 :::
@@ -879,7 +1180,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Raphael Sutiono"}
-::: {.yearbook-name}Raphael Sutiono:::
+::: {.yearbook-name}
+
+Raphael Sutiono
+
+
+:::
 :::
 :::
 :::
@@ -888,7 +1194,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Emanuel Agú"}
-::: {.yearbook-name}Emanuel Agú:::
+::: {.yearbook-name}
+
+
+Emanuel Agú
+
+:::
 :::
 :::
 :::
@@ -897,7 +1208,14 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Ahanaf Aziz"}
-::: {.yearbook-name}Ahanaf Aziz:::
+::: {.yearbook-name}
+
+
+Ahanaf Aziz
+
+
+
+:::
 :::
 :::
 :::
@@ -908,7 +1226,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Denisse Fierro Arcos"}
-::: {.yearbook-name}Denisse Fierro Arcos:::
+::: {.yearbook-name}
+
+Denisse Fierro Arcos
+
+:::
 :::
 :::
 :::
@@ -917,7 +1239,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Rosana Aguilera Becker"}
-::: {.yearbook-name}Rosana Aguilera Becker:::
+::: {.yearbook-name}
+
+
+Rosana Aguilera Becke
+
+:::
 :::
 :::
 :::
@@ -926,7 +1253,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Tricia Boucher"}
-::: {.yearbook-name}Tricia Boucher:::
+
+::: {.yearbook-name}
+
+Tricia Boucher
+
+:::
 :::
 :::
 :::
@@ -935,7 +1267,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Shemontee Chowdhury"}
-::: {.yearbook-name}Shemontee Chowdhury:::
+
+
+::: {.yearbook-name}
+
+Shemontee Chowdhury
+
+:::
 :::
 :::
 :::
@@ -944,7 +1282,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="America Munoz"}
-::: {.yearbook-name}America Munoz:::
+::: {.yearbook-name}
+
+America Munoz
+
+:::
 :::
 :::
 :::
@@ -954,7 +1296,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 ![](./images/OST/Josie Morkin.jpeg){alt="Josie Morkin"}
-::: {.yearbook-name}Josie Morkin:::
+::: {.yearbook-name}
+
+Josie Morkin
+
+:::
 :::
 :::
 :::
@@ -963,7 +1309,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Karen E. Cowen"}
-::: {.yearbook-name}Karen E. Cowen:::
+::: {.yearbook-name}
+
+Karen E. Cowen
+
+:::
 :::
 :::
 :::
@@ -972,7 +1322,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Nikolas Fisher"}
-::: {.yearbook-name}Nikolas Fisher:::
+::: {.yearbook-name}
+
+Nikolas Fisher
+
+:::
 :::
 :::
 :::
@@ -981,7 +1335,14 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Iker Gomez"}
-::: {.yearbook-name}Iker Gomez:::
+
+
+::: {.yearbook-name}
+
+Iker Gomez
+
+
+:::
 :::
 :::
 :::
@@ -990,7 +1351,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Jenny Hewson"}
-::: {.yearbook-name}Jenny Hewson:::
+::: {.yearbook-name}
+
+Jenny Hewson
+
+
+:::
 :::
 :::
 :::
@@ -1001,7 +1367,14 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Peer Herholz"}
-::: {.yearbook-name}Peer Herholz:::
+
+
+::: {.yearbook-name}
+
+Peer Herholz
+
+
+:::
 :::
 :::
 :::
@@ -1010,7 +1383,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="David Lee"}
-::: {.yearbook-name}David Lee:::
+
+::: {.yearbook-name}
+
+
+David Lee:::
 :::
 :::
 :::
@@ -1019,7 +1396,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Jorge Lopez"}
-::: {.yearbook-name}Jorge Lopez:::
+::: {.yearbook-name}
+
+
+Jorge Lopez
+
+:::
 :::
 :::
 :::
@@ -1028,7 +1410,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Robyn Marowitz"}
-::: {.yearbook-name}Robyn Marowitz:::
+::: {.yearbook-name}
+
+Robyn Marowitz
+
+
+:::
 :::
 :::
 :::
@@ -1037,7 +1424,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Khateeja Khatoon"}
-::: {.yearbook-name}Khateeja Khatoon:::
+::: {.yearbook-name}
+
+Khateeja Khatoon
+
+
+
+:::
 :::
 :::
 :::
@@ -1048,7 +1441,10 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Arina Moroz"}
-::: {.yearbook-name}Arina Moroz:::
+::: {.yearbook-name}
+
+
+Arina Moroz:::
 :::
 :::
 :::
@@ -1057,7 +1453,14 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Robinson Muiru"}
-::: {.yearbook-name}Robinson Muiru:::
+::: {.yearbook-name}
+
+
+
+Robinson Muiru
+
+
+:::
 :::
 :::
 :::
@@ -1066,7 +1469,14 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Ulugbek Medetov"}
-::: {.yearbook-name}Ulugbek Medetov:::
+::: {.yearbook-name}
+
+
+Ulugbek Medetov
+
+
+
+:::
 :::
 :::
 :::
@@ -1075,7 +1485,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Lara Pistolesi"}
-::: {.yearbook-name}Lara Pistolesi:::
+::: {.yearbook-name}
+
+
+Lara Pistolesi
+
+
+:::
 :::
 :::
 :::
@@ -1084,7 +1500,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Annajiat Alim Rasel"}
-::: {.yearbook-name}Annajiat Alim Rasel:::
+::: {.yearbook-name}
+
+
+Annajiat Alim Rasel
+
+
+:::
 :::
 :::
 :::
@@ -1095,7 +1517,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Luana Sales"}
-::: {.yearbook-name}Luana Sales:::
+::: {.yearbook-name}
+
+
+Luana Sales
+
+
+:::
 :::
 :::
 :::
@@ -1104,7 +1532,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Alber Sanchez"}
-::: {.yearbook-name}Alber Sanchez:::
+::: {.yearbook-name}
+
+
+Alber Sanchez
+
+
+:::
 :::
 :::
 :::
@@ -1113,7 +1547,13 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Jonathan Sanchez"}
-::: {.yearbook-name}Jonathan Sanchez:::
+::: {.yearbook-name}
+
+
+Jonathan Sanchez
+
+
+:::
 :::
 :::
 :::
@@ -1122,7 +1562,14 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Aneese Williams"}
-::: {.yearbook-name}Aneese Williams:::
+
+::: {.yearbook-name}
+
+
+Aneese Williams
+
+
+:::
 :::
 :::
 :::
@@ -1131,7 +1578,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Xuan Zhou"}
-::: {.yearbook-name}Xuan Zhou:::
+::: {.yearbook-name}
+
+Xuan Zhou
+
+:::
 :::
 :::
 :::
@@ -1142,7 +1593,12 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Brandon Ortiz"}
-::: {.yearbook-name}Brandon Ortiz:::
+::: {.yearbook-name}
+
+
+Brandon Ortiz
+
+:::
 :::
 :::
 :::
@@ -1151,7 +1607,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Muhammad Kamboh"}
-::: {.yearbook-name}Muhammad Kamboh:::
+::: {.yearbook-name}
+
+Muhammad Kamboh
+
+:::
 :::
 :::
 :::
@@ -1160,7 +1620,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Buzeinep Ysmanalieva"}
-::: {.yearbook-name}Buzeinep Ysmanalieva:::
+::: {.yearbook-name}
+
+Buzeinep Ysmanalieva
+
+:::
 :::
 :::
 :::
@@ -1169,7 +1633,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Crystal Villa"}
-::: {.yearbook-name}Crystal Villa:::
+::: {.yearbook-name}
+
+Crystal Villa
+
+:::
 :::
 :::
 :::
@@ -1178,7 +1646,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Daisy Guzman"}
-::: {.yearbook-name}Daisy Guzman:::
+::: {.yearbook-name}
+
+Daisy Guzman
+
+:::
 :::
 :::
 :::
@@ -1189,7 +1661,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="David Fonseca"}
-::: {.yearbook-name}David Fonseca:::
+::: {.yearbook-name}
+
+David Fonseca
+
+:::
 :::
 :::
 :::
@@ -1198,7 +1674,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Diego Lozano"}
-::: {.yearbook-name}Diego Lozano:::
+::: {.yearbook-name}
+
+Diego Lozano
+
+:::
 :::
 :::
 :::
@@ -1207,7 +1687,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Enxhi Merkaj"}
-::: {.yearbook-name}Enxhi Merkaj:::
+::: {.yearbook-name}
+
+Enxhi Merkaj
+
+:::
 :::
 :::
 :::
@@ -1216,7 +1700,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Francisco Sanchez"}
-::: {.yearbook-name}Francisco Sanchez:::
+::: {.yearbook-name}
+
+Francisco Sanchez
+
+:::
 :::
 :::
 :::
@@ -1225,7 +1713,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Gianna Dubinksi"}
-::: {.yearbook-name}Gianna Dubinksi:::
+::: {.yearbook-name}
+
+Gianna Dubinksi
+
+:::
 :::
 :::
 :::
@@ -1236,7 +1728,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Miguel Dominguez"}
-::: {.yearbook-name}Miguel Dominguez:::
+::: {.yearbook-name}
+
+Miguel Dominguez
+
+:::
 :::
 :::
 :::
@@ -1245,7 +1741,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Stevaughn Borders"}
-::: {.yearbook-name}Stevaughn Borders:::
+::: {.yearbook-name}
+
+Stevaughn Borders
+
+:::
 :::
 :::
 :::
@@ -1254,7 +1754,11 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 ::: {.yearbook-card}
 
 {alt="Steven Sanchez"}
-::: {.yearbook-name}Steven Sanchez:::
+::: {.yearbook-name}
+
+Steven Sanchez
+
+:::
 :::
 :::
 :::
