@@ -7,7 +7,7 @@
 </style>
 ```
 
-[TOPSTSCHOOL LOGO](images/TOPSTSCHOOL-updated-logo03.png)
+![TOPSTSCHOOL LOGO](images/TOPSTSCHOOL-updated-logo03.png){width=90%}
 <!-- 
 <center><a><img src="images/TOPSTSCHOOL-updated-logo03.png" alt="TOPSTSCHOOL banner logo" width="600px"/></a></center> -->
 
