@@ -5,16 +5,17 @@ description: |
 ---
 
 # SCHOOL Yearbook
+
 ```{=html}
 <style>
-/* Yearbook grid built on Quarto columns */
+/* Responsive yearbook rows using Quarto columns */
 .yearbook-row{
   align-items: start;
   margin: 0.75rem 0 1.25rem;
   gap: 1rem;
 }
 
-/* card look */
+/* Card styling */
 .yearbook-card{
   border: 1px solid #dddddd;
   border-radius: 12px;
@@ -22,17 +23,17 @@ description: |
   text-align: center;
 }
 
-/* images */
+/* Images: responsive square crop */
 .yearbook-card img{
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;     /* change to contain if you prefer */
+  object-fit: cover;      /* change to contain if you prefer no cropping */
   border-radius: 10px;
   display: block;
   margin: 0 auto 0.6rem;
 }
 
-/* text */
+/* Text */
 .yearbook-name{
   font-weight: 700;
   margin: 0.25rem 0 0.4rem;
@@ -43,7 +44,7 @@ description: |
   line-height: 1.25;
 }
 
-/* Responsive stacking: override Quarto column widths on small screens */
+/* Responsive overrides: stack columns on smaller screens */
 @media (max-width: 992px){
   .yearbook-row > .column{ flex: 0 0 calc(33.333% - 1rem) !important; max-width: calc(33.333% - 1rem) !important; }
 }
@@ -56,6 +57,7 @@ description: |
 </style>
  
 ```
+
 <hr>
 
 <!-- ### Core Team 
