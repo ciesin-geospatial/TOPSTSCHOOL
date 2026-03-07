@@ -397,7 +397,7 @@ description: |
 
 ::: {.yearbook-card}
 
-![images/SME/Balk_headshot3.png]
+![](images/SME/Balk_headshot3.png){alt="Deborah Balk"}
 
 ::: {.yearbook-name}
 
@@ -565,7 +565,7 @@ Applied Science Lead at the Environmental Flow Physics Lab [(EFPL), Columbia SEA
 
 Juan Fernando Martinez
 
-':::
+:::
 ::: {.yearbook-role}
 
 Senior Research Staff Assistant at [CIESIN, Columbia Climate School](https://www.ciesin.columbia.edu/index.html)
@@ -646,7 +646,7 @@ Deputy Manager & System Engineer at NASA Socioeconomic Data and Applications Cen
 
 ::: {.yearbook-card}
 
-![](./images/DT/Greg%20Yetman.jpg.jpg){alt="Greg Yetman"}
+![](./images/DT/Greg%20Yetman.jpg){alt="Greg Yetman"}
 
 ::: {.yearbook-name}
 
@@ -714,6 +714,7 @@ Senior Finance Manager at [CIESIN, Columbia Climate School](https://www.ciesin.c
 ::: {.yearbook-card}
 
 ![](./images/SME/shristi_adhikari.jpg){alt="Shristi Adhikari"}
+
 ::: {.yearbook-name}
 
 Shristi Adhikari
@@ -751,9 +752,10 @@ Assistant professor in the Department of Geography & Atmospheric Science at the 
 ::: {.yearbook-card}
 
 ![](./images/SME/Tovar_headshot.jpg){alt="Antonio Tovar"}
+
 ::: {.yearbook-name}
 
-Antonio Tovar
+Antonio Tovar 
 
 :::
 ::: {.yearbook-role}
