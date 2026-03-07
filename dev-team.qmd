@@ -788,7 +788,7 @@ Postdoctoral Research Associate at [The University of Arizona College of Archite
 ::: {.yearbook-card}
 
 
-![](./images/SME/Chen_headshot.jpg.jpg){alt="Robert Chen"}
+![](./images/SME/Chen_headshot.jpg){alt="Robert Chen"}
 
 ::: {.yearbook-name}
 
@@ -840,19 +840,24 @@ PhD Candidate in Geography at [the University of Colorado Denver](https://www.cu
 :::
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
 
 ![](./images/SME/Glasscoe_headshot.jpg){alt="Maggi Glasscoe"}
+
 ::: {.yearbook-name}
 
 Maggi Glasscoe
 
+
 :::
+
 ::: {.yearbook-role}
 
 Research Associate at the [University of Alabama–Huntsville](https://www.uah.edu/) and Disasters Coordinator for [NASA’s Applied Sciences Disasters Program](https://appliedsciences.nasa.gov/what-we-do/disasters)
 
 :::
+
 :::
 :::
 
