@@ -903,6 +903,7 @@ Founder and CEO at [StormCenter Communications, Inc.](https://geocollaborate.com
 ::: {.yearbook-card}
 
 ![](./images/SME/Josset_headshot3.png){alt="Laureline Josset"}
+
 ::: {.yearbook-name}
 
 Laureline Josset
@@ -923,15 +924,17 @@ Associate Research Scientist at the [Columbia Water Center](https://www.columbia
 ::: {.yearbook-card}
 
 ![](./images/SME/Meade_headshot3.png){alt="Ryan Mead"}
+
 ::: {.yearbook-name}
 
 Ryan Mead
 
 :::
+
 ::: {.yearbook-role}
 
 
-oordinator of Academic Support Services for the Educational Opportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)
+Coordinator of Academic Support Services for the Educational Opportunity Program at [SUNY Binghamton](https://www.binghamton.edu/programs/eop/about/staff.html)
 
 :::
 :::
@@ -948,6 +951,7 @@ oordinator of Academic Support Services for the Educational Opportunity Program 
 Alamin Molla
 
 :::
+
 ::: {.yearbook-role}
 
 
@@ -960,7 +964,8 @@ Ph.D. GIS science Student, School of Geographical Sciences and Urban Planning; [
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Faezeh Najafzadeh"}
+![](./images/SME/faezeh_najafzadeh.png){alt="Faezeh Najafzadeh"}
+
 ::: {.yearbook-name}
 
 Faezeh Najafzadeh
@@ -992,11 +997,10 @@ Program Support Specialist at [NASA Acres](https://www.nasaacres.org/)
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.columns .yearbook-row}
-::: {.column width="25%"}
+::: {.column width="20%"}
 ::: {.yearbook-card}
 
 ![](./images/SME/masha_vernik.jpg){alt="Masha Vernik"}
@@ -1019,6 +1023,7 @@ Master's Student at the [University of Washington School of Environmental and Fo
 ::: {.yearbook-card}
 
 ![](./images/DT/blankpicture.png){alt="Dhruvil Prajapati"}
+
 ::: {.yearbook-name}
 
 Dhruvil Prajapati
@@ -1036,6 +1041,7 @@ Math & Computer Science Support Specialist at [National Louis University](https:
 ::: {.yearbook-card}
 
 ![](./images/OST/akshay_mestry.jpeg){alt="Akshay Arvind Mestry"}
+
 ::: {.yearbook-name}
 
 Akshay Arvind Mestry
@@ -1081,32 +1087,32 @@ Science Lead at the NASA Atmospheric Science Data Center (ASDC)
 
 
 ![](./images/OST/Navin Aade2.jpg){alt="Navin Aade"}
+
 ::: {.yearbook-name}
 
 Navin Aade
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Mykola Dydych"}
+![](./images/OST/dydych.png){alt="Mykola Dydych"}
+
 ::: {.yearbook-name}
 
 Mykola Dydych
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Eldar Imanbekov"}
+![](./images/OST/Eldar_Imanbekov.jpeg){alt="Eldar Imanbekov"}
 
 
 ::: {.yearbook-name}
@@ -1115,14 +1121,14 @@ Eldar Imanbekov
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 
 ::: {.yearbook-card}
 
-{alt="Alexandr Smagin"}
+![](./images/OST/alex_smagin.jpg){alt="Alexandr Smagin"}
+
 ::: {.yearbook-name}
 
 Alexandr Smagin
@@ -1130,13 +1136,13 @@ Alexandr Smagin
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
+
 ::: {.yearbook-card}
 
-{alt="Hieu Tran"}
+![](./images/OST/hieu_tran.jpg){alt="Hieu Tran"}
 
 
 ::: {.yearbook-name}
@@ -1144,33 +1150,33 @@ Alexandr Smagin
 
 Hieu Tran
 
-
-:::
-:::
-:::
-:::
 :::
 
-::: {.columns .yearbook-row}
+:::
+
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Poornima Vaidya"}
+::: {.yearbook-card} 
+
+![](./images/OST/poornima_vaidya.png){alt="Poornima Vaidya"}
 
 
 ::: {.yearbook-name}
 
 
-Poornima Vaidya:::
+Poornima Vaidya
+
 :::
 :::
-:::
+::: 
 
 ::: {.column width="20%"}
 
 ::: {.yearbook-card}
 
-{alt="Jinyi Cai"}
+![](./images/OST/jinyi_cai.jpg){alt="Jinyi Cai"}
 
 ::: {.yearbook-name}
 
@@ -1180,13 +1186,14 @@ Jinyi Cai
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Raphael Sutiono"}
+![](./images/OST/raphael_sutiono.png){alt="Raphael Sutiono"}
+
+
 ::: {.yearbook-name}
 
 Raphael Sutiono
@@ -1194,13 +1201,14 @@ Raphael Sutiono
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Emanuel Agú"}
+![](./images/OST/Emanuel_Agu.jpeg){alt="Emanuel Agú"}
+
+
 ::: {.yearbook-name}
 
 
@@ -1208,44 +1216,44 @@ Emanuel Agú
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Ahanaf Aziz"}
+![](./images/OST/Ahanaf_Aziz.jpeg){alt="Ahanaf Aziz"}
+
 ::: {.yearbook-name}
 
 
 Ahanaf Aziz
 
 
-
-:::
-:::
-:::
-:::
 :::
 
-::: {.columns .yearbook-row}
+:::
+
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Denisse Fierro Arcos"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="Denisse Fierro Arcos"}
+
 ::: {.yearbook-name}
 
 Denisse Fierro Arcos
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Rosana Aguilera Becker"}
+![](./images/DT/blankpicture.png){alt="Rosana Aguilera Becker"}
+
 ::: {.yearbook-name}
 
 
@@ -1253,13 +1261,12 @@ Rosana Aguilera Becke
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Tricia Boucher"}
+![](./images/DT/blankpicture.png){alt="Tricia Boucher"}
 
 ::: {.yearbook-name}
 
@@ -1267,13 +1274,12 @@ Tricia Boucher
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Shemontee Chowdhury"}
+![](./images/DT/blankpicture.png){alt="Shemontee Chowdhury"}
 
 
 ::: {.yearbook-name}
@@ -1282,66 +1288,66 @@ Shemontee Chowdhury
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="America Munoz"}
+![](./images/OST/america_munoz.png){alt="America Munoz"}
+
 ::: {.yearbook-name}
 
 America Munoz
 
 :::
-:::
-:::
-:::
+
 :::
 
-::: {.columns .yearbook-row}
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
+
+::: {.yearbook-card} 
+
 ![](./images/OST/Josie Morkin.jpeg){alt="Josie Morkin"}
+
 ::: {.yearbook-name}
 
 Josie Morkin
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Karen E. Cowen"}
+![](./images/DT/blankpicture.png){alt="Karen E. Cowen"}
+
 ::: {.yearbook-name}
 
 Karen E. Cowen
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Nikolas Fisher"}
+![](./images/DT/blankpicture.png){alt="Nikolas Fisher"}
+
 ::: {.yearbook-name}
 
 Nikolas Fisher
 
 :::
 :::
-:::
-:::
-
+::: 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Iker Gomez"}
+![](./images/DT/blankpicture.png){alt="Iker Gomez"}
 
 
 ::: {.yearbook-name}
@@ -1351,29 +1357,28 @@ Iker Gomez
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Jenny Hewson"}
+![](./images/DT/blankpicture.png){alt="Jenny Hewson"}
+
 ::: {.yearbook-name}
 
 Jenny Hewson
 
-
-:::
-:::
-:::
-:::
 :::
 
-::: {.columns .yearbook-row}
+:::
+
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Peer Herholz"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="Peer Herholz"}
 
 
 ::: {.yearbook-name}
@@ -1383,26 +1388,27 @@ Peer Herholz
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="David Lee"}
+![](./images/DT/blankpicture.png){alt="David Lee"}
 
 ::: {.yearbook-name}
 
 
-David Lee:::
+David Lee
+
 :::
 :::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Jorge Lopez"}
+![](./images/DT/blankpicture.png){alt="Jorge Lopez"}
+
 ::: {.yearbook-name}
 
 
@@ -1410,13 +1416,13 @@ Jorge Lopez
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Robyn Marowitz"}
+![](./images/DT/blankpicture.png){alt="Robyn Marowitz"}
+
 ::: {.yearbook-name}
 
 Robyn Marowitz
@@ -1424,42 +1430,43 @@ Robyn Marowitz
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Khateeja Khatoon"}
+![](./images/DT/blankpicture.png){alt="Khateeja Khatoon"}
+
 ::: {.yearbook-name}
 
 Khateeja Khatoon
 
-
-
-:::
-:::
-:::
-:::
 :::
 
-::: {.columns .yearbook-row}
+:::
+
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Arina Moroz"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="Arina Moroz"}
+
 ::: {.yearbook-name}
 
 
-Arina Moroz:::
+Arina Moroz
+
 :::
 :::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Robinson Muiru"}
+![](./images/DT/blankpicture.png){alt="Robinson Muiru"}
+
 ::: {.yearbook-name}
 
 
@@ -1469,29 +1476,31 @@ Robinson Muiru
 
 :::
 :::
-:::
-:::
+::: 
+
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Ulugbek Medetov"}
+![](./images/DT/blankpicture.png){alt="Ulugbek Medetov"}
+
 ::: {.yearbook-name}
 
 
 Ulugbek Medetov
 
+:::
 
+:::
 
-:::
-:::
-:::
 :::
 
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Lara Pistolesi"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="Lara Pistolesi"}
+
 ::: {.yearbook-name}
 
 
@@ -1500,30 +1509,30 @@ Lara Pistolesi
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Annajiat Alim Rasel"}
+![](./images/DT/blankpicture.png){alt="Annajiat Alim Rasel"}
+
 ::: {.yearbook-name}
 
 
 Annajiat Alim Rasel
 
-
-:::
-:::
-:::
-:::
 :::
 
-::: {.columns .yearbook-row}
+:::
+
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Luana Sales"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="Luana Sales"}
+
 ::: {.yearbook-name}
 
 
@@ -1532,13 +1541,13 @@ Luana Sales
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Alber Sanchez"}
+![](./images/OST/alber_sanchez.jpg){alt="Alber Sanchez"}
+
 ::: {.yearbook-name}
 
 
@@ -1547,13 +1556,13 @@ Alber Sanchez
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Jonathan Sanchez"}
+![](./images/DT/blankpicture.png){alt="Jonathan Sanchez"}
+
 ::: {.yearbook-name}
 
 
@@ -1562,13 +1571,12 @@ Jonathan Sanchez
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Aneese Williams"}
+![](./images/OST/Aneese_Williams.jpeg){alt="Aneese Williams"}
 
 ::: {.yearbook-name}
 
@@ -1578,28 +1586,28 @@ Aneese Williams
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Xuan Zhou"}
+![](./images/DT/blankpicture.png){alt="Xuan Zhou"}
+
 ::: {.yearbook-name}
 
 Xuan Zhou
-
-:::
-:::
-:::
-:::
 :::
 
-::: {.columns .yearbook-row}
+:::
+
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="Brandon Ortiz"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="Brandon Ortiz"}
+
 ::: {.yearbook-name}
 
 
@@ -1607,160 +1615,162 @@ Brandon Ortiz
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Muhammad Kamboh"}
+
+![](./images/DT/blankpicture.png){alt="Muhammad Kamboh"}
+
 ::: {.yearbook-name}
 
 Muhammad Kamboh
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Buzeinep Ysmanalieva"}
+![](./images/DT/blankpicture.png){alt="Buzeinep Ysmanalieva"}
+
 ::: {.yearbook-name}
 
 Buzeinep Ysmanalieva
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Crystal Villa"}
+![](./images/DT/blankpicture.png){alt="Crystal Villa"}
+
 ::: {.yearbook-name}
 
 Crystal Villa
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Daisy Guzman"}
+![](./images/DT/blankpicture.png){alt="Daisy Guzman"}
+
 ::: {.yearbook-name}
 
 Daisy Guzman
 
 :::
-:::
-:::
-:::
+
 :::
 
-::: {.columns .yearbook-row}
+:::
+
 ::: {.column width="20%"}
-::: {.yearbook-card}
 
-{alt="David Fonseca"}
+::: {.yearbook-card} 
+
+![](./images/DT/blankpicture.png){alt="David Fonseca"}
+
 ::: {.yearbook-name}
 
 David Fonseca
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Diego Lozano"}
+![](./images/DT/blankpicture.png){alt="Diego Lozano"}
+
 ::: {.yearbook-name}
 
 Diego Lozano
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Enxhi Merkaj"}
+![](./images/DT/blankpicture.png){alt="Enxhi Merkaj"}
+
 ::: {.yearbook-name}
 
 Enxhi Merkaj
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Francisco Sanchez"}
+![](./images/DT/blankpicture.png){alt="Francisco Sanchez"}
+
 ::: {.yearbook-name}
 
 Francisco Sanchez
 
 :::
 :::
-:::
-:::
-
+::: 
 ::: {.column width="20%"}
 ::: {.yearbook-card}
 
-{alt="Gianna Dubinksi"}
+![](./images/DT/blankpicture.png){alt="Gianna Dubinksi"}
+
 ::: {.yearbook-name}
 
 Gianna Dubinksi
 
 :::
-:::
-:::
-:::
+
 :::
 
-::: {.columns .yearbook-row}
-::: {.column width="33.33%"}
-::: {.yearbook-card}
+:::
 
-{alt="Miguel Dominguez"}
+::: {.column width="20%"}
+
+::: {.yearbook-card}  
+
+![](./images/DT/blankpicture.png){alt="Miguel Dominguez"}
+
 ::: {.yearbook-name}
 
 Miguel Dominguez
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="33.33%"}
 ::: {.yearbook-card}
 
-{alt="Stevaughn Borders"}
+![](./images/DT/blankpicture.png){alt="Stevaughn Borders"}
+
 ::: {.yearbook-name}
 
 Stevaughn Borders
 
 :::
 :::
-:::
-:::
+::: 
 
 ::: {.column width="33.33%"}
 ::: {.yearbook-card}
 
-{alt="Steven Sanchez"}
+![](./images/DT/blankpicture.png){alt="Steven Sanchez"}
+
 ::: {.yearbook-name}
 
 Steven Sanchez
@@ -1768,5 +1778,5 @@ Steven Sanchez
 :::
 :::
 :::
-:::
-:::
+::: 
+::: 
